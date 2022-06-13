@@ -1,0 +1,2132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A0BF508D-CC6D-480E-86EF-713A26C5309F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>EasyPOS</RootNamespace>
+    <AssemblyName>EasyPOS</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>D:\Projects\EasyPOS\Published\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>11</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>easypos1.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AForge, Version=2.2.5.0, Culture=neutral, PublicKeyToken=c1db6ff4eaa06aeb, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.2.2.5\lib\AForge.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Controls, Version=2.2.5.0, Culture=neutral, PublicKeyToken=a8ac264d1dc6b9d9, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.Controls.2.2.5\lib\AForge.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.DebuggerVisualizers %282010%29, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0646c9a9e79f6b03, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Downloads\AForge.NET Framework-2.2.5\Release\AForge.DebuggerVisualizers (2010).dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Fuzzy, Version=2.2.4.0, Culture=neutral, PublicKeyToken=cb12670d0eae17c9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Downloads\AForge.NET Framework-2.2.5\Release\AForge.Fuzzy.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Genetic, Version=2.2.4.0, Culture=neutral, PublicKeyToken=4336634eeb41b69b, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.Genetic.2.2.5\lib\AForge.Genetic.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Imaging, Version=2.2.5.0, Culture=neutral, PublicKeyToken=ba8ddea9676ca48b, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.Imaging.2.2.5\lib\AForge.Imaging.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Imaging.Formats, Version=2.2.4.0, Culture=neutral, PublicKeyToken=8065ed5a639199a0, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Downloads\AForge.NET Framework-2.2.5\Release\AForge.Imaging.Formats.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Imaging.IPPrototyper, Version=1.0.1.1, Culture=neutral, PublicKeyToken=c6e9a6d4c86d47e7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Downloads\AForge.NET Framework-2.2.5\Release\AForge.Imaging.IPPrototyper.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.MachineLearning, Version=2.2.4.0, Culture=neutral, PublicKeyToken=b3f1bdd78212f4e4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Downloads\AForge.NET Framework-2.2.5\Release\AForge.MachineLearning.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Math, Version=2.2.5.0, Culture=neutral, PublicKeyToken=abba2e25397ee8c9, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.Math.2.2.5\lib\AForge.Math.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Neuro, Version=2.2.5.0, Culture=neutral, PublicKeyToken=2094f4ea39731d4f, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.Neuro.2.2.5\lib\AForge.Neuro.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Robotics.Lego, Version=2.2.5.0, Culture=neutral, PublicKeyToken=5f361631ec856b74, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Downloads\AForge.NET Framework-2.2.5\Release\AForge.Robotics.Lego.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Robotics.Surveyor, Version=2.2.4.0, Culture=neutral, PublicKeyToken=7ed9f718a0f5b2f6, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Downloads\AForge.NET Framework-2.2.5\Release\AForge.Robotics.Surveyor.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Robotics.TeRK, Version=2.2.5.0, Culture=neutral, PublicKeyToken=5c0f140128226168, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Downloads\AForge.NET Framework-2.2.5\Release\AForge.Robotics.TeRK.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video, Version=2.2.5.0, Culture=neutral, PublicKeyToken=cbfb6e07d173c401, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.Video.2.2.5\lib\AForge.Video.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.DirectShow, Version=2.2.5.0, Culture=neutral, PublicKeyToken=61ea4348d43881b7, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.Video.DirectShow.2.2.5\lib\AForge.Video.DirectShow.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.FFMPEG, Version=2.2.5.0, Culture=neutral, PublicKeyToken=03563089b1be05dd, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Downloads\AForge.NET Framework-2.2.5\Release\AForge.Video.FFMPEG.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.Kinect, Version=2.2.4.0, Culture=neutral, PublicKeyToken=96a9a097745e71d9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Downloads\AForge.NET Framework-2.2.5\Release\AForge.Video.Kinect.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.VFW, Version=2.2.4.0, Culture=neutral, PublicKeyToken=a82f807c999637c8, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Downloads\AForge.NET Framework-2.2.5\Release\AForge.Video.VFW.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.Ximea, Version=2.2.4.0, Culture=neutral, PublicKeyToken=5cdcd64958730f99, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Downloads\AForge.NET Framework-2.2.5\Release\AForge.Video.Ximea.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Vision, Version=2.2.5.0, Culture=neutral, PublicKeyToken=b612fa915eefaa06, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Downloads\AForge.NET Framework-2.2.5\Release\AForge.Vision.dll</HintPath>
+    </Reference>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.9.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>..\packages\BouncyCastle.1.8.9\lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="CsvHelper, Version=27.0.0.0, Culture=neutral, PublicKeyToken=8c4959082be5c823, processorArchitecture=MSIL">
+      <HintPath>..\packages\CsvHelper.27.1.0\lib\net45\CsvHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="FluentFTP, Version=37.0.2.0, Culture=neutral, PublicKeyToken=f4af092b1d8df44f, processorArchitecture=MSIL">
+      <HintPath>..\packages\FluentFTP.37.0.2\lib\net45\FluentFTP.dll</HintPath>
+    </Reference>
+    <Reference Include="IPPrototyper, Version=1.0.1.1, Culture=neutral, PublicKeyToken=deedab63545c06c9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Downloads\AForge.NET Framework-2.2.5\Release\IPPrototyper.exe</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.2, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.13.2\lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenCvSharp, Version=2.0.4666.42387, Culture=neutral, PublicKeyToken=6adad1e807fea099, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpenCVSharp.2.4.0.1\lib\OpenCvSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenCvSharp.Blob, Version=1.0.0.0, Culture=neutral, PublicKeyToken=6adad1e807fea099, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpenCVSharp.2.4.0.1\lib\OpenCvSharp.Blob.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenCvSharp.CPlusPlus, Version=1.0.0.0, Culture=neutral, PublicKeyToken=6adad1e807fea099, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpenCVSharp.2.4.0.1\lib\OpenCvSharp.CPlusPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenCvSharp.DebuggerVisualizers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=6adad1e807fea099, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpenCVSharp.2.4.0.1\lib\OpenCvSharp.DebuggerVisualizers.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenCvSharp.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=6adad1e807fea099, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpenCVSharp.2.4.0.1\lib\OpenCvSharp.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenCvSharp.Gpu, Version=1.0.0.0, Culture=neutral, PublicKeyToken=6adad1e807fea099, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpenCVSharp.2.4.0.1\lib\OpenCvSharp.Gpu.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenCvSharp.MachineLearning, Version=1.0.0.0, Culture=neutral, PublicKeyToken=6adad1e807fea099, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpenCVSharp.2.4.0.1\lib\OpenCvSharp.MachineLearning.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenCvSharp.UserInterface, Version=1.0.0.0, Culture=neutral, PublicKeyToken=6adad1e807fea099, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpenCVSharp.2.4.0.1\lib\OpenCvSharp.UserInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="PagedList, Version=1.17.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.1.17.0.0\lib\net40\PagedList.dll</HintPath>
+    </Reference>
+    <Reference Include="RawPrint, Version=0.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\RawPrint.0.5.0\lib\net40\RawPrint.dll</HintPath>
+    </Reference>
+    <Reference Include="Renci.SshNet, Version=2020.0.1.0, Culture=neutral, PublicKeyToken=1cee9f8bde3db106, processorArchitecture=MSIL">
+      <HintPath>..\packages\SSH.NET.2020.0.1\lib\net40\Renci.SshNet.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\netstandard1.1\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.4\lib\netstandard1.1\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Printing" />
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.5.0.0\lib\net45\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\netstandard1.0\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Zen.Barcode.Core, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b5ae55aa76d2d9de, processorArchitecture=MSIL">
+      <HintPath>..\packages\Zen.Barcode.Rendering.Framework.3.1.10729.1\lib\Zen.Barcode.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controllers\MstAccountController.cs" />
+    <Compile Include="Controllers\MstCustomerController.cs" />
+    <Compile Include="Controllers\MstDiscountController.cs" />
+    <Compile Include="Controllers\MstItemComponentController.cs" />
+    <Compile Include="Controllers\MstItemController.cs" />
+    <Compile Include="Controllers\MstItemGroupController.cs" />
+    <Compile Include="Controllers\MstTableController.cs" />
+    <Compile Include="Controllers\MstItemPriceController.cs" />
+    <Compile Include="Controllers\MstPayTypeController.cs" />
+    <Compile Include="Controllers\MstPeriodController.cs" />
+    <Compile Include="Controllers\MstSupplierController.cs" />
+    <Compile Include="Controllers\MstTableGroupController.cs" />
+    <Compile Include="Controllers\MstTaxController.cs" />
+    <Compile Include="Controllers\MstTerminalController.cs" />
+    <Compile Include="Controllers\MstUnitController.cs" />
+    <Compile Include="Controllers\MstUserController.cs" />
+    <Compile Include="Controllers\MstItemGroupItemController.cs" />
+    <Compile Include="Controllers\MstUserFormController.cs" />
+    <Compile Include="Controllers\RepInventoryReportController.cs" />
+    <Compile Include="Controllers\RepMegaWorldController.cs" />
+    <Compile Include="Controllers\RepPOSReportController.cs" />
+    <Compile Include="Controllers\RepRemittanceReportController.cs" />
+    <Compile Include="Controllers\RepSalesReportController.cs" />
+    <Compile Include="Controllers\SysAuditTrailController.cs" />
+    <Compile Include="Controllers\SysKitchenPrinterController.cs" />
+    <Compile Include="Controllers\SysKitchenController.cs" />
+    <Compile Include="Controllers\SysLoginController.cs" />
+    <Compile Include="Controllers\IntCloudSettingsController.cs" />
+    <Compile Include="Controllers\SysCurrentController.cs" />
+    <Compile Include="Controllers\SysSoftwareController.cs" />
+    <Compile Include="Controllers\SysUtilitiesController.cs" />
+    <Compile Include="Controllers\TrnCollectionController.cs" />
+    <Compile Include="Controllers\TrnCollectionLineController.cs" />
+    <Compile Include="Controllers\TrnDisbursementController.cs" />
+    <Compile Include="Controllers\TrnPurchaseOrderController.cs" />
+    <Compile Include="Controllers\TrnPurchaseOrderLineController.cs" />
+    <Compile Include="Controllers\TrnSalesController.cs" />
+    <Compile Include="Controllers\TrnSalesLineController.cs" />
+    <Compile Include="Controllers\TrnStockCountController.cs" />
+    <Compile Include="Controllers\TrnStockCountLineController.cs" />
+    <Compile Include="Controllers\TrnStockInController.cs" />
+    <Compile Include="Controllers\TrnStockOutController.cs" />
+    <Compile Include="Controllers\TrnStockInLineController.cs" />
+    <Compile Include="Controllers\TrnStockOutLineController.cs" />
+    <Compile Include="Data\easyposdb.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>easyposdb.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="EasyFISIntegration\Controllers\EasyPOSMstCustomerController.cs" />
+    <Compile Include="EasyFISIntegration\Controllers\EasyPOSMstItemController.cs" />
+    <Compile Include="EasyFISIntegration\Controllers\EasyPOSMstSupplierController.cs" />
+    <Compile Include="EasyFISIntegration\Controllers\EasyPOSTrnSalesController.cs" />
+    <Compile Include="EasyFISIntegration\Controllers\EasyPOSTrnItemPriceController.cs" />
+    <Compile Include="EasyFISIntegration\Controllers\EasyPOSTrnReceivingReceiptController.cs" />
+    <Compile Include="EasyFISIntegration\Controllers\EasyPOSTrnSalesOrderController.cs" />
+    <Compile Include="EasyFISIntegration\Controllers\EasyPOSTrnSalesReturnController.cs" />
+    <Compile Include="EasyFISIntegration\Controllers\EasyPOSTrnStockInController.cs" />
+    <Compile Include="EasyFISIntegration\Controllers\EasyPOSTrnStockOutController.cs" />
+    <Compile Include="EasyFISIntegration\Controllers\EasyPOSTrnStockTransferInController.cs" />
+    <Compile Include="EasyFISIntegration\Controllers\EasyPOSTrnStockTransferOutController.cs" />
+    <Compile Include="EasyFISIntegration\Entities\EasyPOSMstCustomer.cs" />
+    <Compile Include="EasyFISIntegration\Entities\EasyPOSMstItem.cs" />
+    <Compile Include="EasyFISIntegration\Entities\EasyPOSMstItemPrice.cs" />
+    <Compile Include="EasyFISIntegration\Entities\EasyPOSMstSupplier.cs" />
+    <Compile Include="EasyFISIntegration\Entities\EasyPOSTrnArticlePrice.cs" />
+    <Compile Include="EasyFISIntegration\Entities\EasyPOSTrnSales.cs" />
+    <Compile Include="EasyFISIntegration\Entities\EasyPOSTrnSalesLines.cs" />
+    <Compile Include="EasyFISIntegration\Entities\EasyPOSTrnReceivingReceipt.cs" />
+    <Compile Include="EasyFISIntegration\Entities\EasyPOSTrnReceivingReceiptItem.cs" />
+    <Compile Include="EasyFISIntegration\Entities\EasyPOSTrnSalesOrder.cs" />
+    <Compile Include="EasyFISIntegration\Entities\EasyPOSTrnSalesOrderItem.cs" />
+    <Compile Include="EasyFISIntegration\Entities\EasyPOSTrnStockIn.cs" />
+    <Compile Include="EasyFISIntegration\Entities\EasyPOSTrnStockInItem.cs" />
+    <Compile Include="EasyFISIntegration\Entities\EasyPOSTrnStockOut.cs" />
+    <Compile Include="EasyFISIntegration\Entities\EasyPOSTrnStockOutItem.cs" />
+    <Compile Include="EasyFISIntegration\Entities\EasyPOSTrnStockTransfer.cs" />
+    <Compile Include="EasyFISIntegration\Entities\EasyPOSTrnStockTransferItem.cs" />
+    <Compile Include="Entities\DgvItemExpiryEntity.cs" />
+    <Compile Include="Entities\DgvMstDiscountingListEntity.cs" />
+    <Compile Include="Entities\DgvMstItemGroupItemListEntity.cs" />
+    <Compile Include="Entities\DgvMstItemGroupSearchItemListEntity.cs" />
+    <Compile Include="Entities\DgvMstTableListEntity.cs" />
+    <Compile Include="Entities\DGVRepHourlyTopSellingSalesReportEntities.cs" />
+    <Compile Include="Entities\DgvRepNetSalesSummaryReportDailyEntity.cs" />
+    <Compile Include="Entities\DgvRepNetSalesSummaryReportMonthlyEntity.cs" />
+    <Compile Include="Entities\DgvRepRemittanceReportCashInOutSummaryReportListEntity.cs" />
+    <Compile Include="Entities\DgvRepInventoryStockCardListEntity.cs" />
+    <Compile Include="Entities\DgvRepSalesCostOfSalesReportEntity.cs" />
+    <Compile Include="Entities\DgvRepSalesReportAccountsReceivableSummaryReportListEntity.cs" />
+    <Compile Include="Entities\DgvRepSalesReportSalesReturnDetailReportListEntity.cs" />
+    <Compile Include="Entities\DgvRepSalesReportTopSellingItemsReportListEntity.cs" />
+    <Compile Include="Entities\DgvMstTableGroupListEntity.cs" />
+    <Compile Include="Entities\DgvMstItemGroupListEntity.cs" />
+    <Compile Include="Entities\DgvMstItemComponentListEntity.cs" />
+    <Compile Include="Entities\DgvRepStatementOfAccountListEntity.cs" />
+    <Compile Include="Entities\DgvSalesSummaryRewardReportEntity.cs" />
+    <Compile Include="Entities\DgvSysDispatchStationSalesListEntity.cs" />
+    <Compile Include="Entities\DGVSysRLCAuditTrailListEntity.cs" />
+    <Compile Include="Entities\DgvSysSettingsKitchenEntity.cs" />
+    <Compile Include="Entities\DgvSysUtilitiesItemUpload.cs" />
+    <Compile Include="Entities\DgvTopHourlySellingSalesReport.cs" />
+    <Compile Include="Entities\DgvTrnCollectionLineListEntity.cs" />
+    <Compile Include="Entities\DgvTrnCollectionListEntity.cs" />
+    <Compile Include="Entities\DgvTrnPurchaseOrderLineListEntity.cs" />
+    <Compile Include="Entities\DgvTrnPurchaseOrderListEntity.cs" />
+    <Compile Include="Entities\DgvTrnPurchaseOrderSearchItemListEntity.cs" />
+    <Compile Include="Entities\DgvTrnSalesItemPriceListEntity.cs" />
+    <Compile Include="Entities\DgvRepSalesReportCollectionDetailReportListEntity.cs" />
+    <Compile Include="Entities\DgvRepSalesReportCollectionSummaryReportEntityList.cs" />
+    <Compile Include="Entities\DgvRepInventoryInventoryReportListEntity.cs" />
+    <Compile Include="Entities\DgvRepInventoryStockCountDetailReportListEntity.cs" />
+    <Compile Include="Entities\DgvRepInventoryStockInDetailReportListEntity.cs" />
+    <Compile Include="Entities\DgvRepInventoryStockOutDetailReportListEntity.cs" />
+    <Compile Include="Entities\DgvRepSalesReportCancelledSalesSummaryReportListEntity.cs" />
+    <Compile Include="Entities\DgvMstCustomerListEntity.cs" />
+    <Compile Include="Entities\DgvTrnDisbursementListEntity.cs" />
+    <Compile Include="Entities\DgvMstItemListEntity.cs" />
+    <Compile Include="Entities\DgvRepSalesReportSalesDetailReportListEntity.cs" />
+    <Compile Include="Entities\DgvTrnSalesItemSplitEntity.cs" />
+    <Compile Include="Entities\DgvTrnSalesLineListEntity.cs" />
+    <Compile Include="Entities\DgvTrnSalesMergeEntity.cs" />
+    <Compile Include="Entities\DgvTrnSalesReturnEntity.cs" />
+    <Compile Include="Entities\DgvTrnSalesSearchItemListEntity.cs" />
+    <Compile Include="Entities\DgvTrnSalesTenderPayTypeListEntity.cs" />
+    <Compile Include="Entities\DgvTrnSalesListEntity.cs" />
+    <Compile Include="Entities\DgvRepSalesReportSalesSummaryReportListEntity.cs" />
+    <Compile Include="Entities\DgvTrnStockCountLineListEntity.cs" />
+    <Compile Include="Entities\DgvTrnStockCountListEntity.cs" />
+    <Compile Include="Entities\DgvTrnStockCountSearchItemListEntity.cs" />
+    <Compile Include="Entities\DgvTrnStockInLineListEntity.cs" />
+    <Compile Include="Entities\DgvTrnStockInSearchItemListEntity.cs" />
+    <Compile Include="Entities\DgvTrnStockOutLineListEntity.cs" />
+    <Compile Include="Entities\DgvTrnStockOutListEntity.cs" />
+    <Compile Include="Entities\DgvTrnStockInListEntity.cs" />
+    <Compile Include="Entities\DgvTrnStockOutSearchItemListEntity.cs" />
+    <Compile Include="Entities\DgvMstSystemTablesAccountListEntity.cs" />
+    <Compile Include="Entities\DgvMstItemPriceListEntity.cs" />
+    <Compile Include="Entities\DgvMstSystemTablesPayTypeListEntity.cs" />
+    <Compile Include="Entities\DgvMstSystemTablesPeriodListEntity.cs" />
+    <Compile Include="Entities\DgvMstSystemTablesSupplierListEntity.cs" />
+    <Compile Include="Entities\DgvMstSystemTablesTaxListEntity.cs" />
+    <Compile Include="Entities\DgvMstSystemTablesTerminalListEntity.cs" />
+    <Compile Include="Entities\DgvMstSystemTablesUnitListEntity.cs" />
+    <Compile Include="Entities\DgvSysSysUtilitiesAuditTrailListEntity.cs" />
+    <Compile Include="Entities\DgvMstUserFormListEntity.cs" />
+    <Compile Include="Entities\DgvMstUserRightsListEntity.cs" />
+    <Compile Include="Entities\DgvMstUserListEntity.cs" />
+    <Compile Include="Entities\DgvSysUtilitiesBarcodePrintingItemList.cs" />
+    <Compile Include="Entities\DgvRepUnsoldItemEntity.cs" />
+    <Compile Include="Entities\EspCardDetailsEntity.cs" />
+    <Compile Include="Entities\EspTokenEntity.cs" />
+    <Compile Include="Entities\MobTrnSalesOrderEntity.cs" />
+    <Compile Include="Entities\MobTrnSalesOrderItemEntity.cs" />
+    <Compile Include="Entities\MstAccountEntity.cs" />
+    <Compile Include="Entities\MstCustomerEntity.cs" />
+    <Compile Include="Entities\IntCloudSettingsEntity.cs" />
+    <Compile Include="Entities\MstDiscountEntity.cs" />
+    <Compile Include="Entities\MstItemComponentEntity.cs" />
+    <Compile Include="Entities\MstItemEntity.cs" />
+    <Compile Include="Entities\MstItemGroupEntity.cs" />
+    <Compile Include="Entities\MstItemGroupItemEntity.cs" />
+    <Compile Include="Entities\MstItemInventoryEntity.cs" />
+    <Compile Include="Entities\MstItemPriceEntity.cs" />
+    <Compile Include="Entities\RepMegaWorldAccreditationEntity.cs" />
+    <Compile Include="Entities\RepNetSalesSummaryReportMonthlyEntity.cs" />
+    <Compile Include="Entities\RepNetSalesSummaryReportDailyEntity.cs" />
+    <Compile Include="Entities\RepRemitanceReportCashInOutSummaryReportEntity.cs" />
+    <Compile Include="Entities\RepRobinsonsAccreditationEntity.cs" />
+    <Compile Include="Entities\RepSalesReportCustomerListReportEntity.cs" />
+    <Compile Include="Entities\RepSalesReportSalesReturnDetailReportEntity.cs" />
+    <Compile Include="Entities\RepUnsoldItemEntity.cs" />
+    <Compile Include="Entities\SysKitchenEntity.cs" />
+    <Compile Include="Entities\MstPayTypeEntity.cs" />
+    <Compile Include="Entities\MstPeriodEntity.cs" />
+    <Compile Include="Entities\MstSupplierEntity.cs" />
+    <Compile Include="Entities\MstTableEntity.cs" />
+    <Compile Include="Entities\MstTableGroupEntity.cs" />
+    <Compile Include="Entities\MstTaxEntity.cs" />
+    <Compile Include="Entities\MstTermEntity.cs" />
+    <Compile Include="Entities\MstTerminalEntity.cs" />
+    <Compile Include="Entities\MstUnitEntity.cs" />
+    <Compile Include="Entities\MstUserEntity.cs" />
+    <Compile Include="Entities\RepInventoryReportStockCardEntity.cs" />
+    <Compile Include="Entities\RepSalesReportCollectionDetailReportEntity.cs" />
+    <Compile Include="Entities\RepInventoryReportEntity.cs" />
+    <Compile Include="Entities\RepInventoryReportStockCountDetailReportEntity.cs" />
+    <Compile Include="Entities\RepInventoryReportStockInDetailReportEntity.cs" />
+    <Compile Include="Entities\RepInventoryReportStockOutDetailEntity.cs" />
+    <Compile Include="Entities\RepInventoryReportUnionEntity.cs" />
+    <Compile Include="Entities\RepRemitanceReportEntity.cs" />
+    <Compile Include="Entities\RepSalesReportSalesDetailReportEntity.cs" />
+    <Compile Include="Entities\RepSalesReportTopSellingItemsReportEntity.cs" />
+    <Compile Include="Entities\RepSalesReportCollectionSummaryReportEntity.cs" />
+    <Compile Include="Entities\RepSalesReportSalesSummaryReportEntity.cs" />
+    <Compile Include="Entities\RepPOSReportXReadingReportEntity.cs" />
+    <Compile Include="Entities\RepPOSReportZReadingReportEntity.cs" />
+    <Compile Include="Entities\SysAuditTrailEntity.cs" />
+    <Compile Include="Entities\SysConnectionStringEntity.cs" />
+    <Compile Include="Entities\SysCurrentEntity.cs" />
+    <Compile Include="Entities\SysFormEntity.cs" />
+    <Compile Include="Entities\SysKitchenItemEntity.cs" />
+    <Compile Include="Entities\SysKitchenPrinterEntity.cs" />
+    <Compile Include="Entities\SysRLCAuditTrailEntity.cs" />
+    <Compile Include="Entities\SysUserRightsEntity.cs" />
+    <Compile Include="Entities\TrnCollectionEntity.cs" />
+    <Compile Include="Entities\TrnCollectionLineEntity.cs" />
+    <Compile Include="Entities\TrnDisbursementEntity.cs" />
+    <Compile Include="Entities\TrnPurchaseOrderEntity.cs" />
+    <Compile Include="Entities\TrnPurchaseOrderLineEntity.cs" />
+    <Compile Include="Entities\TrnSalesEntity.cs" />
+    <Compile Include="Entities\TrnSalesLineEntity.cs" />
+    <Compile Include="Entities\TrnStockCountEntity.cs" />
+    <Compile Include="Entities\TrnStockCountLineEntity.cs" />
+    <Compile Include="Entities\TrnStockInEntity.cs" />
+    <Compile Include="Entities\TrnStockInLineEntity.cs" />
+    <Compile Include="Entities\TrnStockOutEntity.cs" />
+    <Compile Include="Entities\TrnStockOutLineEntity.cs" />
+    <Compile Include="Entities\MstUserFormEntity.cs" />
+    <Compile Include="Forms\Account\SysLogin\SysLoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Account\SysLogin\SysLoginForm.Designer.cs">
+      <DependentUpon>SysLoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\License\SysLincense\SysLicenseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\License\SysLincense\SysLicenseForm.Designer.cs">
+      <DependentUpon>SysLicenseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\80mmReport\ItemSalesByCategory80mmReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\80mmReport\ItemSalesByCategory80mmReportForm.Designer.cs">
+      <DependentUpon>ItemSalesByCategory80mmReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\80mmReport\RepCollectionDetailReport80mmForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\80mmReport\RepCollectionDetailReport80mmForm.Designer.cs">
+      <DependentUpon>RepCollectionDetailReport80mmForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\80mmReport\RepSalesDetailReport80mmForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\80mmReport\RepSalesDetailReport80mmForm.Designer.cs">
+      <DependentUpon>RepSalesDetailReport80mmForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\80mmReport\RepSalesStatusReport80mmForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\80mmReport\RepSalesStatusReport80mmForm.Designer.cs">
+      <DependentUpon>RepSalesStatusReport80mmForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\80mmReport\RepSalesSummaryReport80mmForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\80mmReport\RepSalesSummaryReport80mmForm.Designer.cs">
+      <DependentUpon>RepSalesSummaryReport80mmForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\80mmReport\RepInventoryReport80mmForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\80mmReport\RepInventoryReport80mmForm.Designer.cs">
+      <DependentUpon>RepInventoryReport80mmForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\80mmReport\TopHourlySalesReport80mmForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\80mmReport\TopHourlySalesReport80mmForm.Designer.cs">
+      <DependentUpon>TopHourlySalesReport80mmForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\MstCustomer\MstCustomerDetailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\MstCustomer\MstCustomerDetailForm.Designer.cs">
+      <DependentUpon>MstCustomerDetailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\MstCustomer\MstCustomerListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\MstCustomer\MstCustomerListForm.Designer.cs">
+      <DependentUpon>MstCustomerListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\MstDiscounting\MstDiscountingListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\MstDiscounting\MstDiscountingListForm.Designer.cs">
+      <DependentUpon>MstDiscountingListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\MstDiscounting\MstDiscountingDetailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\MstDiscounting\MstDiscountingDetailForm.Designer.cs">
+      <DependentUpon>MstDiscountingDetailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\MstItemGroup\MstItemGroupDetailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\MstItemGroup\MstItemGroupDetailForm.Designer.cs">
+      <DependentUpon>MstItemGroupDetailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\MstItemGroup\MstItemGroupListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\MstItemGroup\MstItemGroupListForm.Designer.cs">
+      <DependentUpon>MstItemGroupListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\MstItemGroup\MstItemGroupSearchItemForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\MstItemGroup\MstItemGroupSearchItemForm.Designer.cs">
+      <DependentUpon>MstItemGroupSearchItemForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\MstItem\MstItemDetailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\MstItem\MstItemDetailForm.Designer.cs">
+      <DependentUpon>MstItemDetailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\MstItem\MstItemComponentDetailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\MstItem\MstItemComponentDetailForm.Designer.cs">
+      <DependentUpon>MstItemComponentDetailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\MstItem\MstItemPriceDetailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\MstItem\MstItemPriceDetailForm.Designer.cs">
+      <DependentUpon>MstItemPriceDetailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\MstItem\MstItemListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\MstItem\MstItemListForm.Designer.cs">
+      <DependentUpon>MstItemListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\MstTableGroup\MstTableGroupDetailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\MstTableGroup\MstTableGroupDetailForm.Designer.cs">
+      <DependentUpon>MstTableGroupDetailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\MstTableGroup\MstTableGroupListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\MstTableGroup\MstTableGroupListForm.Designer.cs">
+      <DependentUpon>MstTableGroupListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\MstTableGroup\MstTableDetailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\MstTableGroup\MstTableDetailForm.Designer.cs">
+      <DependentUpon>MstTableDetailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\MstUser\MstUserDetailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\MstUser\MstUserDetailForm.Designer.cs">
+      <DependentUpon>MstUserDetailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\MstUser\MstUserFormDetailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\MstUser\MstUserFormDetailForm.Designer.cs">
+      <DependentUpon>MstUserFormDetailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\MstUser\MstUserListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\MstUser\MstUserListForm.Designer.cs">
+      <DependentUpon>MstUserListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\MstUser\MstCopyUserRightsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\MstUser\MstCopyUserRightsForm.Designer.cs">
+      <DependentUpon>MstCopyUserRightsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\RepInventoryReport\RepInventoryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\RepInventoryReport\RepInventoryForm.Designer.cs">
+      <DependentUpon>RepInventoryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\RepInventoryReport\RepInventoryItemListReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\RepInventoryReport\RepInventoryItemListReportForm.Designer.cs">
+      <DependentUpon>RepInventoryItemListReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\RepInventoryReport\RepItemExpiryReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\RepInventoryReport\RepItemExpiryReportForm.Designer.cs">
+      <DependentUpon>RepItemExpiryReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\RepInventoryReport\RepInventoryReportPDFForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\RepInventoryReport\RepInventoryReportPDFForm.Designer.cs">
+      <DependentUpon>RepInventoryReportPDFForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\RepInventoryReport\RepStockCardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\RepInventoryReport\RepStockCardForm.Designer.cs">
+      <DependentUpon>RepStockCardForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\RepInventoryReport\RepInventoryReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\RepInventoryReport\RepInventoryReportForm.Designer.cs">
+      <DependentUpon>RepInventoryReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\RepInventoryReport\RepStockCountDetailReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\RepInventoryReport\RepStockCountDetailReportForm.Designer.cs">
+      <DependentUpon>RepStockCountDetailReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\RepInventoryReport\RepStockInDetailReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\RepInventoryReport\RepStockInDetailReportForm.Designer.cs">
+      <DependentUpon>RepStockInDetailReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\RepInventoryReport\RepStockOutDetailReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\RepInventoryReport\RepStockOutDetailReportForm.Designer.cs">
+      <DependentUpon>RepStockOutDetailReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\RepPOSReport\RepMegaWorldReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\RepPOSReport\RepMegaWorldReportForm.Designer.cs">
+      <DependentUpon>RepMegaWorldReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\RepPOSReport\RepPOSReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\RepPOSReport\RepPOSReportForm.Designer.cs">
+      <DependentUpon>RepPOSReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\RepPOSReport\RepRobinsonsReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\RepPOSReport\RepRobinsonsReportForm.Designer.cs">
+      <DependentUpon>RepRobinsonsReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\RepRemittanceReport\RepRemittanceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\RepRemittanceReport\RepRemittanceForm.Designer.cs">
+      <DependentUpon>RepRemittanceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\RepRemittanceReport\RepRemittanceReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\RepRemittanceReport\RepRemittanceReportForm.Designer.cs">
+      <DependentUpon>RepRemittanceReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\RepRemittanceReport\RepCashInOutSummaryReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\RepRemittanceReport\RepCashInOutSummaryReportForm.Designer.cs">
+      <DependentUpon>RepCashInOutSummaryReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\RepSalesReport\RepCollectionDetailReportPDFForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\RepSalesReport\RepCollectionDetailReportPDFForm.Designer.cs">
+      <DependentUpon>RepCollectionDetailReportPDFForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\RepSalesReport\RepCollectionSummaryReportPDFForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\RepSalesReport\RepCollectionSummaryReportPDFForm.Designer.cs">
+      <DependentUpon>RepCollectionSummaryReportPDFForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\RepSalesReport\RepNetSalesSummaryDailyPDFForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\RepSalesReport\RepNetSalesSummaryDailyPDFForm.Designer.cs">
+      <DependentUpon>RepNetSalesSummaryDailyPDFForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\RepSalesReport\RepNetSalesSummaryMonthlyPDFForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\RepSalesReport\RepNetSalesSummaryMonthlyPDFForm.Designer.cs">
+      <DependentUpon>RepNetSalesSummaryMonthlyPDFForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\RepSalesReport\RepSalesDetailReportPDFForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\RepSalesReport\RepSalesDetailReportPDFForm.Designer.cs">
+      <DependentUpon>RepSalesDetailReportPDFForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\RepSalesReport\RepSalesSummaryDetailReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\RepSalesReport\RepSalesSummaryDetailReportForm.Designer.cs">
+      <DependentUpon>RepSalesSummaryDetailReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\RepSalesReport\RepSalesSummaryDetailReportPDFForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\RepSalesReport\RepSalesSummaryDetailReportPDFForm.Designer.cs">
+      <DependentUpon>RepSalesSummaryDetailReportPDFForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\RepSalesReport\RepSalesSummaryReportPDFForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\RepSalesReport\RepSalesSummaryReportPDFForm.Designer.cs">
+      <DependentUpon>RepSalesSummaryReportPDFForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\RepSalesReport\RepCollectionDetailReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\RepSalesReport\RepCollectionDetailReportForm.Designer.cs">
+      <DependentUpon>RepCollectionDetailReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\RepSalesReport\RepCollectionSummaryReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\RepSalesReport\RepCollectionSummaryReport.Designer.cs">
+      <DependentUpon>RepCollectionSummaryReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\RepSalesReport\RepCostOfSaleReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\RepSalesReport\RepCostOfSaleReportForm.Designer.cs">
+      <DependentUpon>RepCostOfSaleReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\RepSalesReport\RepCustomerListReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\RepSalesReport\RepCustomerListReportForm.Designer.cs">
+      <DependentUpon>RepCustomerListReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\RepSalesReport\RepHourlyTopSellingSalesReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\RepSalesReport\RepHourlyTopSellingSalesReportForm.Designer.cs">
+      <DependentUpon>RepHourlyTopSellingSalesReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\RepSalesReport\RepNetSalesSummaryReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\RepSalesReport\RepNetSalesSummaryReportForm.Designer.cs">
+      <DependentUpon>RepNetSalesSummaryReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\RepSalesReport\RepNetSalesSummaryReportMonthlyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\RepSalesReport\RepNetSalesSummaryReportMonthlyForm.Designer.cs">
+      <DependentUpon>RepNetSalesSummaryReportMonthlyForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\RepSalesReport\RepSalesReturnDetailReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\RepSalesReport\RepSalesReturnDetailReportForm.Designer.cs">
+      <DependentUpon>RepSalesReturnDetailReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\RepSalesReport\RepSalesReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\RepSalesReport\RepSalesReportForm.Designer.cs">
+      <DependentUpon>RepSalesReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\RepSalesReport\RepAccountsReceivableReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\RepSalesReport\RepAccountsReceivableReportForm.Designer.cs">
+      <DependentUpon>RepAccountsReceivableReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\RepSalesReport\RepStatementOfAccountForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\RepSalesReport\RepStatementOfAccountForm.Designer.cs">
+      <DependentUpon>RepStatementOfAccountForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\RepSalesReport\RepStatementOfAccountPDFForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\RepSalesReport\RepStatementOfAccountPDFForm.Designer.cs">
+      <DependentUpon>RepStatementOfAccountPDFForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\RepSalesReport\RepTopSellingItemsReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\RepSalesReport\RepTopSellingItemsReportForm.Designer.cs">
+      <DependentUpon>RepTopSellingItemsReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\RepSalesReport\RepSalesDetailReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\RepSalesReport\RepSalesDetailReportForm.Designer.cs">
+      <DependentUpon>RepSalesDetailReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\RepSalesReport\RepSalesSummaryReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\RepSalesReport\RepSalesSummaryReportForm.Designer.cs">
+      <DependentUpon>RepSalesSummaryReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\RepSalesReport\RepCancelSalesSummaryReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\RepSalesReport\RepCancelSalesSummaryReportForm.Designer.cs">
+      <DependentUpon>RepCancelSalesSummaryReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\RepSalesReport\RepCollectionDetailFacepayReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\RepSalesReport\RepCollectionDetailFacepayReportForm.designer.cs">
+      <DependentUpon>RepCollectionDetailFacepayReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\RepSalesReport\RepUnsoldItemReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\RepSalesReport\RepUnsoldItemReportForm.Designer.cs">
+      <DependentUpon>RepUnsoldItemReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\RepSalesReport\RepSalesSummaryRewardReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\RepSalesReport\RepSalesSummaryRewardReportForm.Designer.cs">
+      <DependentUpon>RepSalesSummaryRewardReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\RepSalesReport\RepAccountsReceivableReportPDFForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\RepSalesReport\RepAccountsReceivableReportPDFForm.Designer.cs">
+      <DependentUpon>RepAccountsReceivableReportPDFForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\SysDispatchStation\SysDispatchStationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\SysDispatchStation\SysDispatchStationForm.Designer.cs">
+      <DependentUpon>SysDispatchStationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\SysKeyboard\SysKeyboardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\SysKeyboard\SysKeyboardForm.Designer.cs">
+      <DependentUpon>SysKeyboardForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\SysKeyboard\SysNumberForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\SysKeyboard\SysNumberForm.Designer.cs">
+      <DependentUpon>SysNumberForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\SysKitchenDisplay\SysKitchenDisplayForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\SysKitchenDisplay\SysKitchenDisplayForm.Designer.cs">
+      <DependentUpon>SysKitchenDisplayForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\SysSettings\SysKitchenPrinterDetailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\SysSettings\SysKitchenPrinterDetailForm.Designer.cs">
+      <DependentUpon>SysKitchenPrinterDetailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnCollection\TrnCollectionDetailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnCollection\TrnCollectionDetailForm.Designer.cs">
+      <DependentUpon>TrnCollectionDetailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnCollection\TrnCollectionDetailReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnCollection\TrnCollectionDetailReportForm.Designer.cs">
+      <DependentUpon>TrnCollectionDetailReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnCollection\TrnCollectionLineDetailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnCollection\TrnCollectionLineDetailForm.Designer.cs">
+      <DependentUpon>TrnCollectionLineDetailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnCollection\TrnCollectionListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnCollection\TrnCollectionListForm.Designer.cs">
+      <DependentUpon>TrnCollectionListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnDisbursement\TrnRefundForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnDisbursement\TrnRefundForm.Designer.cs">
+      <DependentUpon>TrnRefundForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSBillOutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSBillOutForm.Designer.cs">
+      <DependentUpon>TrnPOSBillOutForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSPartialBillForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSPartialBillForm.Designer.cs">
+      <DependentUpon>TrnPOSPartialBillForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSQuickServiceActivityForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSQuickServiceActivityForm.Designer.cs">
+      <DependentUpon>TrnPOSQuickServiceActivityForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSQuickServiceDetailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSQuickServiceDetailForm.Designer.cs">
+      <DependentUpon>TrnPOSQuickServiceDetailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSQuickServicieActivityDeliverForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSQuickServicieActivityDeliverForm.Designer.cs">
+      <DependentUpon>TrnPOSQuickServicieActivityDeliverForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSRefundForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSRefundForm.Designer.cs">
+      <DependentUpon>TrnPOSRefundForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSSalesInvoicePDFReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSSalesInvoicePDFReportForm.Designer.cs">
+      <DependentUpon>TrnPOSSalesInvoicePDFReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSSalesOrderReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSSalesOrderReportForm.Designer.cs">
+      <DependentUpon>TrnPOSSalesOrderReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSReturnReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSReturnReportForm.Designer.cs">
+      <DependentUpon>TrnPOSReturnReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSSalesOrderReportFormLabelPrinter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSSalesOrderReportFormLabelPrinter.Designer.cs">
+      <DependentUpon>TrnPOSSalesOrderReportFormLabelPrinter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSTenderGiftCertificateInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSTenderGiftCertificateInformation.Designer.cs">
+      <DependentUpon>TrnPOSTenderGiftCertificateInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSTenderCheckInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSTenderCheckInformation.Designer.cs">
+      <DependentUpon>TrnPOSTenderCheckInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSTenderCreditCardInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSTenderCreditCardInformation.Designer.cs">
+      <DependentUpon>TrnPOSTenderCreditCardInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSLockSalesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSLockSalesForm.Designer.cs">
+      <DependentUpon>TrnPOSLockSalesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSTouchActivityDeliver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSTouchActivityDeliver.Designer.cs">
+      <DependentUpon>TrnPOSTouchActivityDeliver.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSReturnPickQuantity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSReturnPickQuantity.Designer.cs">
+      <DependentUpon>TrnPOSReturnPickQuantity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSDownloadItemsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSDownloadItemsForm.Designer.cs">
+      <DependentUpon>TrnPOSDownloadItemsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSDeliveryReceiptReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSDeliveryReceiptReportForm.Designer.cs">
+      <DependentUpon>TrnPOSDeliveryReceiptReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\SysKeyboard\SysNumpadForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\SysKeyboard\SysNumpadForm.Designer.cs">
+      <DependentUpon>SysNumpadForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\SysSettings\SysSettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\SysSettings\SysSettingsForm.Designer.cs">
+      <DependentUpon>SysSettingsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\SysSoftwareForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\SysSoftwareForm.Designer.cs">
+      <DependentUpon>SysSoftwareForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\SysMenu\SysMenuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\SysMenu\SysMenuForm.Designer.cs">
+      <DependentUpon>SysMenuForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\SysSystemTables\SysTerminalDetailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\SysSystemTables\SysTerminalDetailForm.Designer.cs">
+      <DependentUpon>SysTerminalDetailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\SysSystemTables\SysPeriodDetailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\SysSystemTables\SysPeriodDetailForm.Designer.cs">
+      <DependentUpon>SysPeriodDetailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\SysSystemTables\SysSupplierDetailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\SysSystemTables\SysSupplierDetailForm.Designer.cs">
+      <DependentUpon>SysSupplierDetailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\SysSystemTables\SysUnitDetailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\SysSystemTables\SysUnitDetailForm.Designer.cs">
+      <DependentUpon>SysUnitDetailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\SysSystemTables\SysTaxDetailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\SysSystemTables\SysTaxDetailForm.Designer.cs">
+      <DependentUpon>SysTaxDetailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\SysSystemTables\SysPayTypeDetailForm .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\SysSystemTables\SysPayTypeDetailForm .Designer.cs">
+      <DependentUpon>SysPayTypeDetailForm .cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\SysSystemTables\SysAccountDetailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\SysSystemTables\SysAccountDetailForm.Designer.cs">
+      <DependentUpon>SysAccountDetailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\SysSystemTables\SysSystemTablesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\SysSystemTables\SysSystemTablesForm.Designer.cs">
+      <DependentUpon>SysSystemTablesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\SysUtilities\SysUtilitiesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\SysUtilities\SysUtilitiesForm.Designer.cs">
+      <DependentUpon>SysUtilitiesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\SysUtilities\SysBarcodePrintingQuantity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\SysUtilities\SysBarcodePrintingQuantity.Designer.cs">
+      <DependentUpon>SysBarcodePrintingQuantity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnDisbursement\TrnPrintDisbursementForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnDisbursement\TrnPrintDisbursementForm.Designer.cs">
+      <DependentUpon>TrnPrintDisbursementForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnDisbursement\TrnDisbursementDetailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnDisbursement\TrnDisbursementDetailForm.Designer.cs">
+      <DependentUpon>TrnDisbursementDetailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnDisbursement\TrnDisbursementListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnDisbursement\TrnDisbursementListForm.Designer.cs">
+      <DependentUpon>TrnDisbursementListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSDeliveryCustomerInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSDeliveryCustomerInformation.Designer.cs">
+      <DependentUpon>TrnPOSDeliveryCustomerInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSReturn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSReturn.Designer.cs">
+      <DependentUpon>TrnPOSReturn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSTouchActivityForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSTouchActivityForm.Designer.cs">
+      <DependentUpon>TrnPOSTouchActivityForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSTouchActivitySplitMergeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSTouchActivitySplitMergeForm.designer.cs">
+      <DependentUpon>TrnPOSTouchActivitySplitMergeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSTouchActivitySplitMergeTableCodeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSTouchActivitySplitMergeTableCodeForm.designer.cs">
+      <DependentUpon>TrnPOSTouchActivitySplitMergeTableCodeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSTouchChangeTableForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSTouchChangeTableForm.Designer.cs">
+      <DependentUpon>TrnPOSTouchChangeTableForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSTouchDetailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSTouchDetailForm.Designer.cs">
+      <DependentUpon>TrnPOSTouchDetailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSTouchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSTouchForm.Designer.cs">
+      <DependentUpon>TrnPOSTouchForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSBarcodeDetailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSBarcodeDetailForm.Designer.cs">
+      <DependentUpon>TrnPOSBarcodeDetailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSSalesItemDetailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSSalesItemDetailForm.Designer.cs">
+      <DependentUpon>TrnPOSSalesItemDetailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSItemPriceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSItemPriceForm.Designer.cs">
+      <DependentUpon>TrnPOSItemPriceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSSearchItemForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSSearchItemForm.Designer.cs">
+      <DependentUpon>TrnPOSSearchItemForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSTenderFacepayCameraForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSTenderFacepayCameraForm.Designer.cs">
+      <DependentUpon>TrnPOSTenderFacepayCameraForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSTenderEasypayInformationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSTenderEasypayInformationForm.Designer.cs">
+      <DependentUpon>TrnPOSTenderEasypayInformationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSTenderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSTenderForm.Designer.cs">
+      <DependentUpon>TrnPOSTenderForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSDiscountForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSDiscountForm.Designer.cs">
+      <DependentUpon>TrnPOSDiscountForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSTenderOtherInformationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSTenderOtherInformationForm.Designer.cs">
+      <DependentUpon>TrnPOSTenderOtherInformationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSTenderSalesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSTenderSalesForm.Designer.cs">
+      <DependentUpon>TrnPOSTenderSalesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSCancelRemarksForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSCancelRemarksForm.Designer.cs">
+      <DependentUpon>TrnPOSCancelRemarksForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSBarcodeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSBarcodeForm.Designer.cs">
+      <DependentUpon>TrnPOSBarcodeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSReprintForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSReprintForm.Designer.cs">
+      <DependentUpon>TrnPOSReprintForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSTenderExchangeInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSTenderExchangeInformation.Designer.cs">
+      <DependentUpon>TrnPOSTenderExchangeInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSTouchOrderReportFormKitchenPrinter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSTouchOrderReportFormKitchenPrinter.Designer.cs">
+      <DependentUpon>TrnPOSTouchOrderReportFormKitchenPrinter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSTouchPrintOrderDetailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSTouchPrintOrderDetailForm.Designer.cs">
+      <DependentUpon>TrnPOSTouchPrintOrderDetailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSTouchQuickServiceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSTouchQuickServiceForm.Designer.cs">
+      <DependentUpon>TrnPOSTouchQuickServiceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSTouchSalesOrderReceiptReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSTouchSalesOrderReceiptReportForm.Designer.cs">
+      <DependentUpon>TrnPOSTouchSalesOrderReceiptReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPurchaseOrder\TrnPurchaseOrderDetailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPurchaseOrder\TrnPurchaseOrderDetailForm.Designer.cs">
+      <DependentUpon>TrnPurchaseOrderDetailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPurchaseOrder\TrnPurchaseOrderDetailReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPurchaseOrder\TrnPurchaseOrderDetailReportForm.Designer.cs">
+      <DependentUpon>TrnPurchaseOrderDetailReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPurchaseOrder\TrnPurchaseOrderLineItemDetailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPurchaseOrder\TrnPurchaseOrderLineItemDetailForm.Designer.cs">
+      <DependentUpon>TrnPurchaseOrderLineItemDetailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPurchaseOrder\TrnPurchaseOrderListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPurchaseOrder\TrnPurchaseOrderListForm.Designer.cs">
+      <DependentUpon>TrnPurchaseOrderListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPurchaseOrder\TrnPurchaseOrderSearchItemForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPurchaseOrder\TrnPurchaseOrderSearchItemForm.Designer.cs">
+      <DependentUpon>TrnPurchaseOrderSearchItemForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnStockCount\TrnStockCountDetailReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnStockCount\TrnStockCountDetailReportForm.Designer.cs">
+      <DependentUpon>TrnStockCountDetailReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnStockCount\TrnStockCountLineDetailImportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnStockCount\TrnStockCountLineDetailImportForm.Designer.cs">
+      <DependentUpon>TrnStockCountLineDetailImportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnStockIn\TrnStockInDetailReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnStockIn\TrnStockInDetailReportForm.Designer.cs">
+      <DependentUpon>TrnStockInDetailReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnStockIn\TrnStockInDetailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnStockIn\TrnStockInDetailForm.Designer.cs">
+      <DependentUpon>TrnStockInDetailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnStockIn\TrnStockInLineDetailImportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnStockIn\TrnStockInLineDetailImportForm.Designer.cs">
+      <DependentUpon>TrnStockInLineDetailImportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnStockIn\TrnStockInSearchItemForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnStockIn\TrnStockInSearchItemForm.Designer.cs">
+      <DependentUpon>TrnStockInSearchItemForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnStockIn\TrnStockInLineItemDetailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnStockIn\TrnStockInLineItemDetailForm.Designer.cs">
+      <DependentUpon>TrnStockInLineItemDetailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnStockIn\TrnStockInListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnStockIn\TrnStockInListForm.Designer.cs">
+      <DependentUpon>TrnStockInListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnStockCount\TrnStockCountDetailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnStockCount\TrnStockCountDetailForm.Designer.cs">
+      <DependentUpon>TrnStockCountDetailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnStockCount\TrnStockCountSearchItemForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnStockCount\TrnStockCountSearchItemForm.Designer.cs">
+      <DependentUpon>TrnStockCountSearchItemForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnStockCount\TrnStockCountLineItemDetailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnStockCount\TrnStockCountLineItemDetailForm.Designer.cs">
+      <DependentUpon>TrnStockCountLineItemDetailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnStockCount\TrnStockCountListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnStockCount\TrnStockCountListForm.Designer.cs">
+      <DependentUpon>TrnStockCountListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnStockOut\TrnStockOutDetailReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnStockOut\TrnStockOutDetailReportForm.Designer.cs">
+      <DependentUpon>TrnStockOutDetailReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnStockOut\TrnStockOutLineDetailImportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnStockOut\TrnStockOutLineDetailImportForm.Designer.cs">
+      <DependentUpon>TrnStockOutLineDetailImportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnStockOut\TrnStockOutLineItemDetailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnStockOut\TrnStockOutLineItemDetailForm.Designer.cs">
+      <DependentUpon>TrnStockOutLineItemDetailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnStockOut\TrnStockOutSearchItemForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnStockOut\TrnStockOutSearchItemForm.Designer.cs">
+      <DependentUpon>TrnStockOutSearchItemForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnStockOut\TrnStockOutDetailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnStockOut\TrnStockOutDetailForm.Designer.cs">
+      <DependentUpon>TrnStockOutDetailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\TrnStockOut\TrnStockOutListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnStockOut\TrnStockOutListForm.Designer.cs">
+      <DependentUpon>TrnStockOutListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IndexForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IndexForm.Designer.cs">
+      <DependentUpon>IndexForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LiteclerkIntegration\Controllers\LiteclerkMstArticleCustomerController.cs" />
+    <Compile Include="LiteclerkIntegration\Controllers\LiteclerkMstArticleItemController.cs" />
+    <Compile Include="LiteclerkIntegration\Controllers\LiteclerkMstArticleSupplierController.cs" />
+    <Compile Include="LiteclerkIntegration\Controllers\LiteclerkTrnCollectionController.cs" />
+    <Compile Include="LiteclerkIntegration\Controllers\LiteclerkTrnSalesCancelController.cs" />
+    <Compile Include="LiteclerkIntegration\Controllers\LiteclerkTrnSalesReturnController.cs" />
+    <Compile Include="LiteclerkIntegration\Controllers\LiteclerkTrnSalesReturnExchangeController.cs" />
+    <Compile Include="LiteclerkIntegration\Controllers\LiteclerkTrnStockTransferInController.cs" />
+    <Compile Include="LiteclerkIntegration\Controllers\LiteclerkTrnPointOfSaleController.cs" />
+    <Compile Include="LiteclerkIntegration\Controllers\LiteclerkTrnReceivingReceiptController.cs" />
+    <Compile Include="LiteclerkIntegration\Controllers\LiteclerkTrnSalesOrderController.cs" />
+    <Compile Include="LiteclerkIntegration\Controllers\LiteclerkTrnStockInController.cs" />
+    <Compile Include="LiteclerkIntegration\Controllers\LiteclerkTrnStockOutController.cs" />
+    <Compile Include="LiteclerkIntegration\Controllers\LiteclerkTrnStockTransferOutController.cs" />
+    <Compile Include="LiteclerkIntegration\Entities\LiteclerkMstArticle.cs" />
+    <Compile Include="LiteclerkIntegration\Entities\LiteclerkMstArticleCustomer.cs" />
+    <Compile Include="LiteclerkIntegration\Entities\LiteclerkMstArticleItem.cs" />
+    <Compile Include="LiteclerkIntegration\Entities\LiteclerkMstArticleItemPrice.cs" />
+    <Compile Include="LiteclerkIntegration\Entities\LiteclerkMstArticleSupplier.cs" />
+    <Compile Include="LiteclerkIntegration\Entities\LiteclerkMstCompany.cs" />
+    <Compile Include="LiteclerkIntegration\Entities\LiteclerkMstCompanyBranch.cs" />
+    <Compile Include="LiteclerkIntegration\Entities\LiteclerkMstDiscount.cs" />
+    <Compile Include="LiteclerkIntegration\Entities\LiteclerkMstTax.cs" />
+    <Compile Include="LiteclerkIntegration\Entities\LiteclerkMstTerm.cs" />
+    <Compile Include="LiteclerkIntegration\Entities\LiteclerkMstUnit.cs" />
+    <Compile Include="LiteclerkIntegration\Entities\LiteclerkTrnReceivingReceipt.cs" />
+    <Compile Include="LiteclerkIntegration\Entities\LiteclerkTrnReceivingReceiptItem.cs" />
+    <Compile Include="LiteclerkIntegration\Entities\LiteclerkTrnSalesOrder.cs" />
+    <Compile Include="LiteclerkIntegration\Entities\LiteclerkTrnSalesOrderItem.cs" />
+    <Compile Include="LiteclerkIntegration\Entities\LiteclerkTrnStockCount.cs" />
+    <Compile Include="LiteclerkIntegration\Entities\LiteclerkTrnStockCountItem.cs" />
+    <Compile Include="LiteclerkIntegration\Entities\LiteclerkTrnStockIn.cs" />
+    <Compile Include="LiteclerkIntegration\Entities\LiteclerkTrnPointOfSale.cs" />
+    <Compile Include="LiteclerkIntegration\Entities\LiteclerkTrnStockInItem.cs" />
+    <Compile Include="LiteclerkIntegration\Entities\LiteclerkTrnStockOut.cs" />
+    <Compile Include="LiteclerkIntegration\Entities\LiteclerkTrnStockOutItem.cs" />
+    <Compile Include="LiteclerkIntegration\Entities\LiteclerkTrnStockTransfer.cs" />
+    <Compile Include="LiteclerkIntegration\Entities\LiteclerkTrnStockTransferItem.cs" />
+    <Compile Include="Modules\SysAuditTrailModule.cs" />
+    <Compile Include="Modules\SysLicenseModule.cs" />
+    <Compile Include="Modules\SysRLCAuditTrailModule.cs" />
+    <Compile Include="Modules\SysSerialPortModule.cs" />
+    <Compile Include="Modules\SysSFTPModule.cs" />
+    <Compile Include="Modules\SysUserRightsModule.cs" />
+    <Compile Include="Modules\TrnInventoryModule.cs" />
+    <Compile Include="Modules\SysConnectionStringModule.cs" />
+    <Compile Include="Modules\SysCurrentModule.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSOfficialReceiptReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\TrnPOS\TrnPOSOfficialReceiptReportForm.Designer.cs">
+      <DependentUpon>TrnPOSOfficialReceiptReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\RepPOSReport\RepXReadingReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\RepPOSReport\RepXReadingReportForm.Designer.cs">
+      <DependentUpon>RepXReadingReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Software\RepPOSReport\RepZReadingReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Software\RepPOSReport\RepZReadingReportForm.Designer.cs">
+      <DependentUpon>RepZReadingReportForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Forms\License\SysLincense\SysLicenseForm.resx">
+      <DependentUpon>SysLicenseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\80mmReport\ItemSalesByCategory80mmReportForm.resx">
+      <DependentUpon>ItemSalesByCategory80mmReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\80mmReport\RepCollectionDetailReport80mmForm.resx">
+      <DependentUpon>RepCollectionDetailReport80mmForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\80mmReport\RepInventoryReport80mmForm.resx">
+      <DependentUpon>RepInventoryReport80mmForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\80mmReport\RepSalesDetailReport80mmForm.resx">
+      <DependentUpon>RepSalesDetailReport80mmForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\80mmReport\RepSalesStatusReport80mmForm.resx">
+      <DependentUpon>RepSalesStatusReport80mmForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\80mmReport\RepSalesSummaryReport80mmForm.resx">
+      <DependentUpon>RepSalesSummaryReport80mmForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\80mmReport\TopHourlySalesReport80mmForm.resx">
+      <DependentUpon>TopHourlySalesReport80mmForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\MstCustomer\MstCustomerDetailForm.resx">
+      <DependentUpon>MstCustomerDetailForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\MstCustomer\MstCustomerListForm.resx">
+      <DependentUpon>MstCustomerListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\MstDiscounting\MstDiscountingDetailForm.resx">
+      <DependentUpon>MstDiscountingDetailForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\MstItemGroup\MstItemGroupDetailForm.resx">
+      <DependentUpon>MstItemGroupDetailForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\MstItemGroup\MstItemGroupListForm.resx">
+      <DependentUpon>MstItemGroupListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\MstItemGroup\MstItemGroupSearchItemForm.resx">
+      <DependentUpon>MstItemGroupSearchItemForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\MstItem\MstItemDetailForm.resx">
+      <DependentUpon>MstItemDetailForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\MstItem\MstItemComponentDetailForm.resx">
+      <DependentUpon>MstItemComponentDetailForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\MstItem\MstItemPriceDetailForm.resx">
+      <DependentUpon>MstItemPriceDetailForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\MstTableGroup\MstTableGroupDetailForm.resx">
+      <DependentUpon>MstTableGroupDetailForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\MstTableGroup\MstTableGroupListForm.resx">
+      <DependentUpon>MstTableGroupListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\MstTableGroup\MstTableDetailForm.resx">
+      <DependentUpon>MstTableDetailForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\MstUser\MstUserDetailForm.resx">
+      <DependentUpon>MstUserDetailForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\MstUser\MstUserFormDetailForm.resx">
+      <DependentUpon>MstUserFormDetailForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\MstUser\MstUserListForm.resx">
+      <DependentUpon>MstUserListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\MstUser\MstCopyUserRightsForm.resx">
+      <DependentUpon>MstCopyUserRightsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\RepInventoryReport\RepInventoryForm.resx">
+      <DependentUpon>RepInventoryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\RepInventoryReport\RepInventoryItemListReportForm.resx">
+      <DependentUpon>RepInventoryItemListReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\RepInventoryReport\RepItemExpiryReportForm.resx">
+      <DependentUpon>RepItemExpiryReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\RepInventoryReport\RepInventoryReportPDFForm.resx">
+      <DependentUpon>RepInventoryReportPDFForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\RepInventoryReport\RepStockCardForm.resx">
+      <DependentUpon>RepStockCardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\RepInventoryReport\RepInventoryReportForm.resx">
+      <DependentUpon>RepInventoryReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\RepInventoryReport\RepStockCountDetailReportForm.resx">
+      <DependentUpon>RepStockCountDetailReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\RepInventoryReport\RepStockInDetailReportForm.resx">
+      <DependentUpon>RepStockInDetailReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\RepInventoryReport\RepStockOutDetailReportForm.resx">
+      <DependentUpon>RepStockOutDetailReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\RepPOSReport\RepMegaWorldReportForm.resx">
+      <DependentUpon>RepMegaWorldReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\RepPOSReport\RepRobinsonsReportForm.resx">
+      <DependentUpon>RepRobinsonsReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\RepRemittanceReport\RepRemittanceForm.resx">
+      <DependentUpon>RepRemittanceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\RepRemittanceReport\RepRemittanceReportForm.resx">
+      <DependentUpon>RepRemittanceReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\RepRemittanceReport\RepCashInOutSummaryReportForm.resx">
+      <DependentUpon>RepCashInOutSummaryReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\RepSalesReport\RepCollectionDetailReportPDFForm.resx">
+      <DependentUpon>RepCollectionDetailReportPDFForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\RepSalesReport\RepCollectionSummaryReportPDFForm.resx">
+      <DependentUpon>RepCollectionSummaryReportPDFForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\RepSalesReport\RepNetSalesSummaryDailyPDFForm.resx">
+      <DependentUpon>RepNetSalesSummaryDailyPDFForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\RepSalesReport\RepNetSalesSummaryMonthlyPDFForm.resx">
+      <DependentUpon>RepNetSalesSummaryMonthlyPDFForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\RepSalesReport\RepSalesDetailReportPDFForm.resx">
+      <DependentUpon>RepSalesDetailReportPDFForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\RepSalesReport\RepSalesSummaryDetailReportForm.resx">
+      <DependentUpon>RepSalesSummaryDetailReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\RepSalesReport\RepSalesSummaryDetailReportPDFForm.resx">
+      <DependentUpon>RepSalesSummaryDetailReportPDFForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\RepSalesReport\RepSalesSummaryReportPDFForm.resx">
+      <DependentUpon>RepSalesSummaryReportPDFForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\RepSalesReport\RepCollectionDetailReportForm.resx">
+      <DependentUpon>RepCollectionDetailReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\RepSalesReport\RepCollectionSummaryReport.resx">
+      <DependentUpon>RepCollectionSummaryReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\RepSalesReport\RepCostOfSaleReportForm.resx">
+      <DependentUpon>RepCostOfSaleReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\RepSalesReport\RepCustomerListReportForm.resx">
+      <DependentUpon>RepCustomerListReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\RepSalesReport\RepHourlyTopSellingSalesReportForm.resx">
+      <DependentUpon>RepHourlyTopSellingSalesReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\RepSalesReport\RepNetSalesSummaryReportForm.resx">
+      <DependentUpon>RepNetSalesSummaryReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\RepSalesReport\RepNetSalesSummaryReportMonthlyForm.resx">
+      <DependentUpon>RepNetSalesSummaryReportMonthlyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\RepSalesReport\RepSalesReturnDetailReportForm.resx">
+      <DependentUpon>RepSalesReturnDetailReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\RepSalesReport\RepSalesReportForm.resx">
+      <DependentUpon>RepSalesReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\RepSalesReport\RepAccountsReceivableReportForm.resx">
+      <DependentUpon>RepAccountsReceivableReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\RepSalesReport\RepStatementOfAccountForm.resx">
+      <DependentUpon>RepStatementOfAccountForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\RepSalesReport\RepStatementOfAccountPDFForm.resx">
+      <DependentUpon>RepStatementOfAccountPDFForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\RepSalesReport\RepTopSellingItemsReportForm.resx">
+      <DependentUpon>RepTopSellingItemsReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\RepSalesReport\RepSalesDetailReportForm.resx">
+      <DependentUpon>RepSalesDetailReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\RepSalesReport\RepSalesSummaryReportForm.resx">
+      <DependentUpon>RepSalesSummaryReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\RepSalesReport\RepCancelSalesSummaryReportForm.resx">
+      <DependentUpon>RepCancelSalesSummaryReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\RepSalesReport\RepCollectionDetailFacepayReportForm.resx">
+      <DependentUpon>RepCollectionDetailFacepayReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\RepSalesReport\RepUnsoldItemReportForm.resx">
+      <DependentUpon>RepUnsoldItemReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\RepSalesReport\RepSalesSummaryRewardReportForm.resx">
+      <DependentUpon>RepSalesSummaryRewardReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\RepSalesReport\RepAccountsReceivableReportPDFForm.resx">
+      <DependentUpon>RepAccountsReceivableReportPDFForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\SysDispatchStation\SysDispatchStationForm.resx">
+      <DependentUpon>SysDispatchStationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\SysKeyboard\SysKeyboardForm.resx">
+      <DependentUpon>SysKeyboardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\SysKeyboard\SysNumberForm.resx">
+      <DependentUpon>SysNumberForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\SysKitchenDisplay\SysKitchenDisplayForm.resx">
+      <DependentUpon>SysKitchenDisplayForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\SysSettings\SysKitchenPrinterDetailForm.resx">
+      <DependentUpon>SysKitchenPrinterDetailForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnCollection\TrnCollectionDetailForm.resx">
+      <DependentUpon>TrnCollectionDetailForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnCollection\TrnCollectionDetailReportForm.resx">
+      <DependentUpon>TrnCollectionDetailReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnCollection\TrnCollectionLineDetailForm.resx">
+      <DependentUpon>TrnCollectionLineDetailForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnCollection\TrnCollectionListForm.resx">
+      <DependentUpon>TrnCollectionListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnDisbursement\TrnRefundForm.resx">
+      <DependentUpon>TrnRefundForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnPOS\TrnPOSBillOutForm.resx">
+      <DependentUpon>TrnPOSBillOutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnPOS\TrnPOSPartialBillForm.resx">
+      <DependentUpon>TrnPOSPartialBillForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnPOS\TrnPOSQuickServiceActivityForm.resx">
+      <DependentUpon>TrnPOSQuickServiceActivityForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnPOS\TrnPOSQuickServiceDetailForm.resx">
+      <DependentUpon>TrnPOSQuickServiceDetailForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnPOS\TrnPOSQuickServicieActivityDeliverForm.resx">
+      <DependentUpon>TrnPOSQuickServicieActivityDeliverForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnPOS\TrnPOSRefundForm.resx">
+      <DependentUpon>TrnPOSRefundForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnPOS\TrnPOSSalesOrderReportForm.resx">
+      <DependentUpon>TrnPOSSalesOrderReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnPOS\TrnPOSReturnReportForm.resx">
+      <DependentUpon>TrnPOSReturnReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnPOS\TrnPOSSalesOrderReportFormLabelPrinter.resx">
+      <DependentUpon>TrnPOSSalesOrderReportFormLabelPrinter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnPOS\TrnPOSTenderGiftCertificateInformation.resx">
+      <DependentUpon>TrnPOSTenderGiftCertificateInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnPOS\TrnPOSTenderCheckInformation.resx">
+      <DependentUpon>TrnPOSTenderCheckInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnPOS\TrnPOSTenderCreditCardInformation.resx">
+      <DependentUpon>TrnPOSTenderCreditCardInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnPOS\TrnPOSLockSalesForm.resx">
+      <DependentUpon>TrnPOSLockSalesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnPOS\TrnPOSTouchActivityDeliver.resx">
+      <DependentUpon>TrnPOSTouchActivityDeliver.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnPOS\TrnPOSReturnPickQuantity.resx">
+      <DependentUpon>TrnPOSReturnPickQuantity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnPOS\TrnPOSDownloadItemsForm.resx">
+      <DependentUpon>TrnPOSDownloadItemsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnPOS\TrnPOSDeliveryReceiptReportForm.resx">
+      <DependentUpon>TrnPOSDeliveryReceiptReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\SysKeyboard\SysNumpadForm.resx">
+      <DependentUpon>SysNumpadForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\SysSettings\SysSettingsForm.resx">
+      <DependentUpon>SysSettingsForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\SysSystemTables\SysTerminalDetailForm.resx">
+      <DependentUpon>SysTerminalDetailForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\SysSystemTables\SysPeriodDetailForm.resx">
+      <DependentUpon>SysPeriodDetailForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\SysSystemTables\SysSupplierDetailForm.resx">
+      <DependentUpon>SysSupplierDetailForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\SysSystemTables\SysUnitDetailForm.resx">
+      <DependentUpon>SysUnitDetailForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\SysSystemTables\SysTaxDetailForm.resx">
+      <DependentUpon>SysTaxDetailForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\SysSystemTables\SysPayTypeDetailForm .resx">
+      <DependentUpon>SysPayTypeDetailForm .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\SysSystemTables\SysAccountDetailForm.resx">
+      <DependentUpon>SysAccountDetailForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\SysSystemTables\SysSystemTablesForm.resx">
+      <DependentUpon>SysSystemTablesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\SysUtilities\SysUtilitiesForm.resx">
+      <DependentUpon>SysUtilitiesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\SysUtilities\SysBarcodePrintingQuantity.resx">
+      <DependentUpon>SysBarcodePrintingQuantity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnDisbursement\TrnPrintDisbursementForm.resx">
+      <DependentUpon>TrnPrintDisbursementForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnDisbursement\TrnDisbursementDetailForm.resx">
+      <DependentUpon>TrnDisbursementDetailForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnDisbursement\TrnDisbursementListForm.resx">
+      <DependentUpon>TrnDisbursementListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnPOS\TrnPOSDeliveryCustomerInformation.resx">
+      <DependentUpon>TrnPOSDeliveryCustomerInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnPOS\TrnPOSReturn.resx">
+      <DependentUpon>TrnPOSReturn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnPOS\TrnPOSTouchActivityForm.resx">
+      <DependentUpon>TrnPOSTouchActivityForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnPOS\TrnPOSTouchActivitySplitMergeForm.resx">
+      <DependentUpon>TrnPOSTouchActivitySplitMergeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnPOS\TrnPOSTouchActivitySplitMergeTableCodeForm.resx">
+      <DependentUpon>TrnPOSTouchActivitySplitMergeTableCodeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnPOS\TrnPOSTouchChangeTableForm.resx">
+      <DependentUpon>TrnPOSTouchChangeTableForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnPOS\TrnPOSTouchDetailForm.resx">
+      <DependentUpon>TrnPOSTouchDetailForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnPOS\TrnPOSTouchForm.resx">
+      <DependentUpon>TrnPOSTouchForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnPOS\TrnPOSItemPriceForm.resx">
+      <DependentUpon>TrnPOSItemPriceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnPOS\TrnPOSTenderFacepayCameraForm.resx">
+      <DependentUpon>TrnPOSTenderFacepayCameraForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnPOS\TrnPOSTenderEasypayInformationForm.resx">
+      <DependentUpon>TrnPOSTenderEasypayInformationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnPOS\TrnPOSDiscountForm.resx">
+      <DependentUpon>TrnPOSDiscountForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnPOS\TrnPOSTenderOtherInformationForm.resx">
+      <DependentUpon>TrnPOSTenderOtherInformationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnPOS\TrnPOSTenderSalesForm.resx">
+      <DependentUpon>TrnPOSTenderSalesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnPOS\TrnPOSCancelRemarksForm.resx">
+      <DependentUpon>TrnPOSCancelRemarksForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnPOS\TrnPOSReprintForm.resx">
+      <DependentUpon>TrnPOSReprintForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnPOS\TrnPOSTenderExchangeInformation.resx">
+      <DependentUpon>TrnPOSTenderExchangeInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnPOS\TrnPOSTouchOrderReportFormKitchenPrinter.resx">
+      <DependentUpon>TrnPOSTouchOrderReportFormKitchenPrinter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnPOS\TrnPOSTouchPrintOrderDetailForm.resx">
+      <DependentUpon>TrnPOSTouchPrintOrderDetailForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnPOS\TrnPOSTouchQuickServiceForm.resx">
+      <DependentUpon>TrnPOSTouchQuickServiceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnPOS\TrnPOSTouchSalesOrderReceiptReportForm.resx">
+      <DependentUpon>TrnPOSTouchSalesOrderReceiptReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnPurchaseOrder\TrnPurchaseOrderDetailForm.resx">
+      <DependentUpon>TrnPurchaseOrderDetailForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnPurchaseOrder\TrnPurchaseOrderDetailReportForm.resx">
+      <DependentUpon>TrnPurchaseOrderDetailReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnPurchaseOrder\TrnPurchaseOrderLineItemDetailForm.resx">
+      <DependentUpon>TrnPurchaseOrderLineItemDetailForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnPurchaseOrder\TrnPurchaseOrderListForm.resx">
+      <DependentUpon>TrnPurchaseOrderListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnPurchaseOrder\TrnPurchaseOrderSearchItemForm.resx">
+      <DependentUpon>TrnPurchaseOrderSearchItemForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnStockCount\TrnStockCountDetailReportForm.resx">
+      <DependentUpon>TrnStockCountDetailReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnStockCount\TrnStockCountLineDetailImportForm.resx">
+      <DependentUpon>TrnStockCountLineDetailImportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnStockIn\TrnStockInDetailForm.resx">
+      <DependentUpon>TrnStockInDetailForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnStockIn\TrnStockInDetailReportForm.resx">
+      <DependentUpon>TrnStockInDetailReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnStockIn\TrnStockInLineDetailImportForm.resx">
+      <DependentUpon>TrnStockInLineDetailImportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnStockIn\TrnStockInSearchItemForm.resx">
+      <DependentUpon>TrnStockInSearchItemForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnStockIn\TrnStockInLineItemDetailForm.resx">
+      <DependentUpon>TrnStockInLineItemDetailForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnStockIn\TrnStockInListForm.resx">
+      <DependentUpon>TrnStockInListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnStockCount\TrnStockCountDetailForm.resx">
+      <DependentUpon>TrnStockCountDetailForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnStockCount\TrnStockCountSearchItemForm.resx">
+      <DependentUpon>TrnStockCountSearchItemForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnStockCount\TrnStockCountLineItemDetailForm.resx">
+      <DependentUpon>TrnStockCountLineItemDetailForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnStockCount\TrnStockCountListForm.resx">
+      <DependentUpon>TrnStockCountListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnStockOut\TrnStockOutDetailReportForm.resx">
+      <DependentUpon>TrnStockOutDetailReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnStockOut\TrnStockOutLineDetailImportForm.resx">
+      <DependentUpon>TrnStockOutLineDetailImportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnStockOut\TrnStockOutLineItemDetailForm.resx">
+      <DependentUpon>TrnStockOutLineItemDetailForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnStockOut\TrnStockOutSearchItemForm.resx">
+      <DependentUpon>TrnStockOutSearchItemForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnStockOut\TrnStockOutDetailForm.resx">
+      <DependentUpon>TrnStockOutDetailForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnStockOut\TrnStockOutListForm.resx">
+      <DependentUpon>TrnStockOutListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnPOS\TrnPOSOfficialReceiptReportForm.resx">
+      <DependentUpon>TrnPOSOfficialReceiptReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\RepPOSReport\RepXReadingReportForm.resx">
+      <DependentUpon>RepXReadingReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\RepPOSReport\RepZReadingReportForm.resx">
+      <DependentUpon>RepZReadingReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Account\SysLogin\SysLoginForm.resx">
+      <DependentUpon>SysLoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\MstDiscounting\MstDiscountingListForm.resx">
+      <DependentUpon>MstDiscountingListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\MstItem\MstItemListForm.resx">
+      <DependentUpon>MstItemListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\RepPOSReport\RepPOSReportForm.resx">
+      <DependentUpon>RepPOSReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\SysSoftwareForm.resx">
+      <DependentUpon>SysSoftwareForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\SysMenu\SysMenuForm.resx">
+      <DependentUpon>SysMenuForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnPOS\TrnPOSBarcodeDetailForm.resx">
+      <DependentUpon>TrnPOSBarcodeDetailForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnPOS\TrnPOSSalesItemDetailForm.resx">
+      <DependentUpon>TrnPOSSalesItemDetailForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnPOS\TrnPOSSearchItemForm.resx">
+      <DependentUpon>TrnPOSSearchItemForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnPOS\TrnPOSTenderForm.resx">
+      <DependentUpon>TrnPOSTenderForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Software\TrnPOS\TrnPOSBarcodeForm.resx">
+      <DependentUpon>TrnPOSBarcodeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IndexForm.resx">
+      <DependentUpon>IndexForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Data\easyposdb.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>easyposdb.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Data\easyposdb.dbml.layout">
+      <DependentUpon>easyposdb.dbml</DependentUpon>
+    </None>
+    <None Include="libOpenCvSharpExtern.so" />
+    <None Include="OpenCvSharp.Blob.dll.config" />
+    <None Include="OpenCvSharp.CPlusPlus.dll.config" />
+    <None Include="OpenCvSharp.dll.config" />
+    <None Include="OpenCvSharp.MachineLearning.dll.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Settings\SysCurrent.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Settings\SysConnectionString.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="DGVimages\edit.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DGVimages\delete.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="easypos.ico" />
+    <Content Include="easypos1.ico" />
+    <Content Include="easyposicon.ico" />
+    <Content Include="newEasyposIcon.ico" />
+    <Content Include="OpenCvSharpExtern.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\easy logos1024_1.jpg" />
+    <None Include="Resources\Capture.JPG" />
+    <None Include="Resources\easypos.JPG" />
+    <None Include="Resources\easypos1.JPG" />
+    <None Include="Resources\easypos2.JPG" />
+    <Content Include="Resources\Images\Backgrounds\coffee.jpeg" />
+    <Content Include="Resources\Images\Company\easycloud.jpg" />
+    <Content Include="Resources\Images\Customers\sonnets.png" />
+    <Content Include="Resources\Images\Icons\Customer.png" />
+    <None Include="Resources\Images\Icons\DeliveryMan.png" />
+    <Content Include="Resources\Images\Icons\Disbursement.png" />
+    <Content Include="Resources\Images\Icons\Discounting.png" />
+    <None Include="Resources\Images\Icons\easypos.jpg" />
+    <Content Include="Resources\Images\Icons\Inventory.png" />
+    <Content Include="Resources\Images\Icons\Item.png" />
+    <Content Include="Resources\Images\Icons\Kitchen.png" />
+    <Content Include="Resources\Images\Icons\License.png" />
+    <Content Include="Resources\Images\Icons\POS Touch.png" />
+    <Content Include="Resources\Images\Icons\POS.png" />
+    <Content Include="Resources\Images\Icons\PurchaseOrder.png" />
+    <Content Include="Resources\Images\Icons\Reports.png" />
+    <Content Include="Resources\Images\Icons\Dispatch.png" />
+    <Content Include="Resources\Images\Icons\Settings.png" />
+    <Content Include="Resources\Images\Icons\Stock Count.png" />
+    <Content Include="Resources\Images\Icons\Utilities.png" />
+    <Content Include="Resources\Images\Icons\Stock In.png" />
+    <Content Include="Resources\Images\Icons\Stock Out.png" />
+    <Content Include="Resources\Images\Icons\System Tables.png" />
+    <Content Include="Resources\Images\Icons\User.png" />
+    <Content Include="Resources\Images\Logo\easypos cropped.ico" />
+    <Content Include="Resources\Images\Logo\easypos cropped.jpg" />
+    <Content Include="Resources\Images\Logo\newEasyposIcon.ico" />
+    <Content Include="Resources\Images\NewLogo\easypos.ico" />
+    <Content Include="Resources\Images\NewLogo\easypos.png" />
+    <Content Include="Resources\Images\Others\color theme.jpg" />
+    <None Include="Resources\Images\POSTouchIcons\calculator.png" />
+    <Content Include="Resources\Images\POSTouchIcons\cancel.png" />
+    <Content Include="Resources\Images\POSTouchIcons\changeTable.png" />
+    <None Include="Resources\Images\POSTouchIcons\delete.png" />
+    <Content Include="Resources\Images\POSTouchIcons\delivery.png" />
+    <Content Include="Resources\Images\POSTouchIcons\editOrder.png" />
+    <None Include="Resources\Images\POSTouchIcons\itemGroup.png" />
+    <None Include="Resources\Images\POSTouchIcons\keyboard.png" />
+    <Content Include="Resources\Images\POSTouchIcons\print.png" />
+    <Content Include="Resources\Images\POSTouchIcons\printBills.png" />
+    <Content Include="Resources\Images\POSTouchIcons\scanQRCode.png" />
+    <Content Include="Resources\Images\POSTouchIcons\splitMergeBill.png" />
+    <Content Include="Resources\Images\POSTouchIcons\tender.png" />
+    <Content Include="Resources\Images\POSTouchIcons\walkin.png" />
+    <Content Include="Resources\Images\Products\easyapp.jpg" />
+    <Content Include="Resources\Images\Products\easyfis.jpg" />
+    <None Include="Resources\Images\Products\easyfis_logo.jpg" />
+    <Content Include="Resources\Images\Products\easypay.jpg" />
+    <Content Include="Resources\Images\Products\easypay.png" />
+    <Content Include="Resources\Images\Products\easypos.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

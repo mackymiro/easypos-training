@@ -1,0 +1,1353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 29, 87.5" name="easyposdb">
+  <DataContextMoniker Name="/easyposdbDataContext" />
+  <nestedChildShapes>
+    <classShape Id="e3e32a2c-c2e5-41f7-9d84-78150971f65a" absoluteBounds="6.5, 54, 2, 2.5401025390625023">
+      <DataClassMoniker Name="/easyposdbDataContext/IntCloudSetting" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8f815aaa-6002-4809-b7a6-32361d79b237" absoluteBounds="6.515, 54.46, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ad3d8460-8927-4a47-a6a4-ca078b92c9fc" absoluteBounds="21, 58.375, 2, 2.3478011067708309">
+      <DataClassMoniker Name="/easyposdbDataContext/TrnStockOutLine" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4f659d0e-4dec-43fe-a63c-6ee04438d527" absoluteBounds="21.015, 58.835, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fee60349-0c5d-4d12-9641-c863b48b608c" absoluteBounds="6.75, 51.5, 2, 1.7708968098958309">
+      <DataClassMoniker Name="/easyposdbDataContext/MstAccount" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1e5480c9-dac0-4e13-b710-d09829ace84c" absoluteBounds="6.765, 51.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="18e1d6b6-fb81-4a03-8c8a-3a3863fad2e6" absoluteBounds="12.5, 52.5, 2, 5.6169254557291595">
+      <DataClassMoniker Name="/easyposdbDataContext/MstCustomer" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ac477e27-d47f-4cfe-ae45-2ad7d6f588da" absoluteBounds="12.515, 52.96, 1.9700000000000002, 5.0569254557291661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ddc9d49f-6400-4a21-b37a-5cf6bbb40986" absoluteBounds="3.5, 81.875, 2, 5.4246240234375023">
+      <DataClassMoniker Name="/easyposdbDataContext/MstDiscount" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8cb75a38-3c1e-4f2f-b683-99d8f26d9309" absoluteBounds="3.515, 82.335, 1.9700000000000002, 4.8646240234375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7c667220-0028-492b-8567-f41cf3ff5bed" absoluteBounds="6.25, 83.75, 2, 1.5785953776041595">
+      <DataClassMoniker Name="/easyposdbDataContext/MstDiscountItem" />
+      <nestedChildShapes>
+        <elementListCompartment Id="588e62c7-1bc3-4017-a5f6-e56c8a1a2048" absoluteBounds="6.265, 84.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="bf08ce62-cf52-44b3-90d8-268327de169d" absoluteBounds="15.25, 49, 2, 7.1553369140625023">
+      <DataClassMoniker Name="/easyposdbDataContext/MstItem" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d1ebe147-c5c6-44d7-b9d3-8e5a4b202952" absoluteBounds="15.265, 49.46, 1.9700000000000002, 6.5953369140625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b93c3f9b-fd7d-4114-9434-cd32dcdbe961" absoluteBounds="21, 48.375, 2, 2.3478011067708309">
+      <DataClassMoniker Name="/easyposdbDataContext/MstItemComponent" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c248108e-0e17-4c5b-b567-73ff857171cb" absoluteBounds="21.015, 48.835, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b6420c65-762e-47c2-af1e-496839c5f66e" absoluteBounds="3.5, 57.125, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/easyposdbDataContext/MstItemGroup" />
+      <nestedChildShapes>
+        <elementListCompartment Id="400b6f68-baff-4da2-882b-532bf83dd7a5" absoluteBounds="3.515, 57.585, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="62429d93-aa9a-49c4-8544-b1fedc42a40f" absoluteBounds="18, 56.5, 2, 1.5785953776041737">
+      <DataClassMoniker Name="/easyposdbDataContext/MstItemGroupItem" />
+      <nestedChildShapes>
+        <elementListCompartment Id="74f71895-be9c-4388-844e-f14a18895de0" absoluteBounds="18.015, 56.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6bf3c51e-2ffb-4ac6-af2f-f18f0a937033" absoluteBounds="18, 50.75, 2, 1.5785953776041595">
+      <DataClassMoniker Name="/easyposdbDataContext/MstItemInventory" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bb749ad2-e504-4a10-a6e0-a4ed65bd7468" absoluteBounds="18.015, 51.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="68395988-9c54-4684-9c8f-af732f5c5843" absoluteBounds="21, 51.625, 2, 1.9631982421875023">
+      <DataClassMoniker Name="/easyposdbDataContext/MstItemPackage" />
+      <nestedChildShapes>
+        <elementListCompartment Id="633a4d9b-e0df-458a-9862-ddf87f79424b" absoluteBounds="21.015, 52.085, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9c9e5b08-315f-4cd4-be3c-ca4c72394301" absoluteBounds="18, 53.125, 2, 1.7708968098958309">
+      <DataClassMoniker Name="/easyposdbDataContext/MstItemPrice" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e1b297b5-5b0e-43b7-8f2f-b64e40f7c79e" absoluteBounds="18.015, 53.585, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b2030be0-3945-4947-bbee-b0ed8f542877" absoluteBounds="24, 54.625, 2, 1.7708968098958309">
+      <DataClassMoniker Name="/easyposdbDataContext/MstPayType" />
+      <nestedChildShapes>
+        <elementListCompartment Id="30d5805f-06c1-4811-a092-f143d32751b8" absoluteBounds="24.015, 55.085, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c5dcadfa-ecd1-477f-885e-99d91f311a9b" absoluteBounds="9.5, 46, 2, 1.1939925130208309">
+      <DataClassMoniker Name="/easyposdbDataContext/MstPeriod" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ecdaf7e4-fcdd-4793-8f5b-1b91501e0a7d" absoluteBounds="9.515, 46.46, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="68303407-1209-44fe-8fe2-64e5742aa8c2" absoluteBounds="9.5, 48.5, 2, 3.5016097005208309">
+      <DataClassMoniker Name="/easyposdbDataContext/MstSupplier" />
+      <nestedChildShapes>
+        <elementListCompartment Id="685b9c6b-dd4b-43e7-8e91-abde0a0d8b9e" absoluteBounds="9.515, 48.96, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1f6bbb19-1b08-4cf3-a0c7-c91631c493dc" absoluteBounds="6.25, 48.25, 2, 1.7708968098958309">
+      <DataClassMoniker Name="/easyposdbDataContext/MstTable" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c1082782-de61-4706-8627-6cc7497f7f74" absoluteBounds="6.265, 48.71, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c94ff248-2471-4a4b-a1b7-21d0e7ada085" absoluteBounds="3.5, 48, 2, 2.1554996744791595">
+      <DataClassMoniker Name="/easyposdbDataContext/MstTableGroup" />
+      <nestedChildShapes>
+        <elementListCompartment Id="48e103c2-56ad-48c7-89f9-80c5ca7313d3" absoluteBounds="3.515, 48.46, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c14e6085-57bf-4ca5-aec4-03eb7532fc70" absoluteBounds="12.5, 59.625, 2, 1.7708968098958309">
+      <DataClassMoniker Name="/easyposdbDataContext/MstTax" />
+      <nestedChildShapes>
+        <elementListCompartment Id="99b540c3-fc8f-422d-bfe4-e62ae480949c" absoluteBounds="12.515, 60.085, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4fa91170-1831-4b72-9fa5-835f79eae2fb" absoluteBounds="6.75, 45.375, 2, 1.3862939453125023">
+      <DataClassMoniker Name="/easyposdbDataContext/MstTerm" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a4c85d21-045c-4f53-ab77-a6a35ac2b59c" absoluteBounds="6.765, 45.835, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="78b2fe1a-4c47-4bbc-a6e5-f471e2cd646f" absoluteBounds="12.5, 62.75, 2, 1.1939925130208309">
+      <DataClassMoniker Name="/easyposdbDataContext/MstTerminal" />
+      <nestedChildShapes>
+        <elementListCompartment Id="74577f24-e75d-461a-9db1-ffc3e2012c77" absoluteBounds="12.515, 63.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4b3e2d26-bdfe-4e41-a5aa-75cab7a63e93" absoluteBounds="12.5, 44.75, 2, 1.1939925130208309">
+      <DataClassMoniker Name="/easyposdbDataContext/MstUnit" />
+      <nestedChildShapes>
+        <elementListCompartment Id="47181346-b010-45a4-b4bf-1f52e4a02f6d" absoluteBounds="12.515, 45.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7924a0cc-cace-4543-bf07-6ee4886000ab" absoluteBounds="0.75, 53.875, 2, 2.7324039713541737">
+      <DataClassMoniker Name="/easyposdbDataContext/MstUser" />
+      <nestedChildShapes>
+        <elementListCompartment Id="43ddeaf0-c743-4b83-87c3-ff4d08352327" absoluteBounds="0.765, 54.335, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c9e69def-d922-41f8-a442-90eb11e145ce" absoluteBounds="3.5, 61.375, 2, 3.8862125651041737">
+      <DataClassMoniker Name="/easyposdbDataContext/MstUserForm" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1f2b9c6c-d9c3-4624-b9c8-589580edbeaa" absoluteBounds="3.515, 61.835, 1.9700000000000002, 3.3262125651041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1700db3d-48cd-47c6-a826-5a7902d13b7b" absoluteBounds="3.5, 50.875, 2, 2.1554996744791595">
+      <DataClassMoniker Name="/easyposdbDataContext/SysAuditTrail" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c69ddb67-14f6-46b7-89c2-7c77b5746fd5" absoluteBounds="3.515, 51.335, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fb9af828-c32c-4436-a7ee-fa1238f48c20" absoluteBounds="0.75, 0.75, 2, 1.3862939453125">
+      <DataClassMoniker Name="/easyposdbDataContext/SysDeclareRate" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9a3728ae-2a83-4807-beff-be7c6dbf7198" absoluteBounds="0.765, 1.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="39f76cf4-960f-4422-bafd-2c2c8dc3beed" absoluteBounds="0.75, 62.625, 2, 1.3862939453125023">
+      <DataClassMoniker Name="/easyposdbDataContext/SysForm" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c9cd4946-1665-42c9-9dab-cdc25f06016e" absoluteBounds="0.765, 63.085, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="bbebb34a-9a73-4bf2-a4c5-504ae0bb992c" absoluteBounds="3.75, 0.75, 2, 1.9631982421875">
+      <DataClassMoniker Name="/easyposdbDataContext/SysKitchenPrinter" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9b261fe7-8aed-4232-b2bc-a85c1390db80" absoluteBounds="3.765, 1.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="dad2f5bb-59be-4c0e-8a23-024717c19770" absoluteBounds="18, 60.875, 2, 1.3862939453125023">
+      <DataClassMoniker Name="/easyposdbDataContext/SysSalesLocked" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e750c130-f7dd-420f-b1f9-5c1edad45445" absoluteBounds="18.015, 61.335, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="57fc059d-fd9a-4590-9ad1-57aec5890443" absoluteBounds="15.25, 57.625, 2, 5.4246240234375023">
+      <DataClassMoniker Name="/easyposdbDataContext/TrnCollection" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d41d4346-c39a-4976-8904-65aeef3cf4a0" absoluteBounds="15.265, 58.085, 1.9700000000000002, 4.8646240234375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b067b40d-0600-4edc-b5d9-53fe7014ed9e" absoluteBounds="21, 63.25, 2, 4.4631168619791595">
+      <DataClassMoniker Name="/easyposdbDataContext/TrnCollectionLine" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d3b27f78-acde-49d2-a15e-a94f83127890" absoluteBounds="21.015, 63.71, 1.9700000000000002, 3.903116861979167" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e073d1f4-0f5c-4898-83b6-166e4218e035" absoluteBounds="6.5, 57.625, 2, 3.3093082682291737">
+      <DataClassMoniker Name="/easyposdbDataContext/TrnDebitCreditMemo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6a50663f-a425-42d4-ba4b-d0e6f83c1001" absoluteBounds="6.515, 58.085, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3c64c053-d915-49d6-bd68-27b6e0aec34d" absoluteBounds="21, 69.375, 2, 2.1554996744791595">
+      <DataClassMoniker Name="/easyposdbDataContext/TrnDebitCreditMemoLine" />
+      <nestedChildShapes>
+        <elementListCompartment Id="35c21516-0fcd-4fbe-b61b-e1c6646d460f" absoluteBounds="21.015, 69.835, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="01885fc0-4657-41fc-bc44-0798d9ce6f51" absoluteBounds="26.75, 59.75, 2, 7.5399397786458309">
+      <DataClassMoniker Name="/easyposdbDataContext/TrnDisbursement" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2431cd3d-8799-4d72-837b-e9b1e18a7034" absoluteBounds="26.765, 60.21, 1.9700000000000002, 6.979939778645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="abbe4117-6632-4180-aade-7573b3a1d150" absoluteBounds="18, 63.875, 2, 3.1170068359375023">
+      <DataClassMoniker Name="/easyposdbDataContext/TrnJournal" />
+      <nestedChildShapes>
+        <elementListCompartment Id="dd29cd6b-9177-4caf-a550-e1c3a2fc2f7c" absoluteBounds="18.015, 64.335, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3e5743cb-f282-481e-af93-baa0c6a5f71b" absoluteBounds="12.25, 47.5, 2, 4.0785139973958309">
+      <DataClassMoniker Name="/easyposdbDataContext/TrnPurchaseOrder" />
+      <nestedChildShapes>
+        <elementListCompartment Id="42811a4a-8923-447f-82e3-0942c477d811" absoluteBounds="12.265, 47.96, 1.9700000000000002, 3.518513997395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e6d8869b-e33e-48bf-8733-fd378192dab1" absoluteBounds="18, 46.75, 2, 2.3478011067708309">
+      <DataClassMoniker Name="/easyposdbDataContext/TrnPurchaseOrderLine" />
+      <nestedChildShapes>
+        <elementListCompartment Id="767b12ff-7bc7-4e43-8dbc-aa245ff95b34" absoluteBounds="18.015, 47.21, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="644ad115-b6fd-4abb-98df-0ccf9a5bbabf" absoluteBounds="15.25, 64.25, 2, 9.65525553385416">
+      <DataClassMoniker Name="/easyposdbDataContext/TrnSale" />
+      <nestedChildShapes>
+        <elementListCompartment Id="28696a3b-1aa9-4881-9b0b-8814fbb5e15e" absoluteBounds="15.265, 64.71, 1.9700000000000002, 9.0952555338541661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ec390360-0830-4e86-91c4-6b42efaa568b" absoluteBounds="18, 70.5, 2, 3.5016097005208451">
+      <DataClassMoniker Name="/easyposdbDataContext/TrnSalesDraft" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8c97f414-c2e6-4e8b-953a-179f437cfd09" absoluteBounds="18.015, 70.96, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="68712663-eb8f-4241-a99a-c9e24c89ac9f" absoluteBounds="24, 64.125, 2, 6.1938297526041595">
+      <DataClassMoniker Name="/easyposdbDataContext/TrnSalesLine" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1033054c-b7de-4d00-a4c8-b969e38e15c9" absoluteBounds="24.015, 64.585, 1.9700000000000002, 5.6338297526041661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2834428c-2941-491f-85ef-dd4baf289b95" absoluteBounds="9.5, 53.625, 2, 3.3093082682291737">
+      <DataClassMoniker Name="/easyposdbDataContext/TrnStockCount" />
+      <nestedChildShapes>
+        <elementListCompartment Id="42047a4f-6693-480b-852c-22dd258f20b7" absoluteBounds="9.515, 54.085, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d785516a-4a29-4ddb-8b45-b8bb52c2f150" absoluteBounds="21, 54.875, 2, 2.1554996744791595">
+      <DataClassMoniker Name="/easyposdbDataContext/TrnStockCountLine" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e0541792-209d-4e38-b264-8a99d77283d4" absoluteBounds="21.015, 55.335, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ba7a699d-3fe4-44ab-9be4-53109cd41f8c" absoluteBounds="24, 57.5, 2, 4.6554182942708309">
+      <DataClassMoniker Name="/easyposdbDataContext/TrnStockIn" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4d5f4125-0b5f-4ae3-b603-6383c7fa8f66" absoluteBounds="24.015, 57.96, 1.9700000000000002, 4.095418294270833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ae3f4bf6-8538-4fef-8daf-3d0f559df5a9" absoluteBounds="26.75, 54.125, 2, 2.9247054036458309">
+      <DataClassMoniker Name="/easyposdbDataContext/TrnStockInLine" />
+      <nestedChildShapes>
+        <elementListCompartment Id="89ec093f-1648-4995-9e0b-17e9b87310f8" absoluteBounds="26.765, 54.585, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b970b359-9aba-4310-a0cb-1ec55a18f68b" absoluteBounds="9.5, 58.5, 2, 3.6939111328125023">
+      <DataClassMoniker Name="/easyposdbDataContext/TrnStockOut" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8b15dc3a-92d7-4938-b427-4a323880125c" absoluteBounds="9.515, 58.96, 1.9700000000000002, 3.1339111328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(8.75 : 53.1414058686899); (8.85416666666667 : 53.1414058686899 : JumpStart); (9.02083333333333 : 53.1414058686899 : JumpEnd); (9.04166666666667 : 53.1414058686899 : JumpStart); (9.45833333333333 : 53.1414058686899 : JumpEnd); (9.47916666666667 : 53.1414058686899 : JumpStart); (9.64583333333333 : 53.1414058686899 : JumpEnd); (11.59375 : 53.1414058686899); (11.59375 : 59.3044254557292); (11.8541666666667 : 59.3044254557292 : JumpStart); (12.0208333333333 : 59.3044254557292 : JumpEnd); (13.4166666666667 : 59.3044254557292 : JumpStart); (13.5833333333333 : 59.3044254557292 : JumpEnd); (14.65625 : 59.3044254557292); (14.65625 : 57.375); (14.6666666666667 : 57.375 : JumpStart); (15.5364553333333 : 57.375 : JumpEnd); (15.6354146666667 : 57.375 : JumpStart); (15.8020813333333 : 57.375 : JumpEnd); (16.4322926666667 : 57.375 : JumpStart); (16.5989593333333 : 57.375 : JumpEnd); (17.4166666666667 : 57.375 : JumpStart); (17.8020833333333 : 57.375 : JumpEnd); (17.875 : 57.375); (17.875 : 59.0785953776042); (18.0416666666667 : 59.0785953776042 : JumpStart); (18.2083333333333 : 59.0785953776042 : JumpEnd); (20.25 : 59.0785953776042); (20.25 : 57.875); (20.2916666666667 : 57.875 : JumpStart); (21.0208333333333 : 57.875 : JumpEnd); (22 : 57.875); (22 : 58.375)]" fixedFrom="Algorithm" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstAccount/MstAccount_TrnStockOutLine" />
+      <nodes>
+        <classShapeMoniker Id="fee60349-0c5d-4d12-9641-c863b48b608c" />
+        <classShapeMoniker Id="ad3d8460-8927-4a47-a6a4-ca078b92c9fc" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.75 : 52.8854484049479); (8.85416666666667 : 52.8854484049479 : JumpStart); (9.02083333333333 : 52.8854484049479 : JumpEnd); (9.04166666666667 : 52.8854484049479 : JumpStart); (9.45833333333333 : 52.8854484049479 : JumpEnd); (9.47916666666667 : 52.8854484049479 : JumpStart); (9.64583333333333 : 52.8854484049479 : JumpEnd); (11.5729166666667 : 52.8854484049479 : JumpStart); (12.0208333333333 : 52.8854484049479 : JumpEnd); (12.1041666666667 : 52.8854484049479 : JumpStart); (12.2708333333333 : 52.8854484049479 : JumpEnd); (12.2916666666667 : 52.8854484049479 : JumpStart); (12.4895833333333 : 52.8854484049479 : JumpEnd); (12.5 : 52.8854484049479)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstAccount/MstAccount_MstCustomer" />
+      <nodes>
+        <classShapeMoniker Id="fee60349-0c5d-4d12-9641-c863b48b608c" />
+        <classShapeMoniker Id="18e1d6b6-fb81-4a03-8c8a-3a3863fad2e6" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 84.5392976888021); (6.25 : 84.5392976888021)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstDiscount/MstDiscount_MstDiscountItem" />
+      <nodes>
+        <classShapeMoniker Id="ddc9d49f-6400-4a21-b37a-5cf6bbb40986" />
+        <classShapeMoniker Id="7c667220-0028-492b-8567-f41cf3ff5bed" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(17.25 : 52.3101554987981); (18.125 : 56.4964897602163); (18.125 : 59.5489005533854); (21 : 59.5489005533854)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstItem/MstItem_TrnStockOutLine" />
+      <nodes>
+        <classShapeMoniker Id="bf08ce62-cf52-44b3-90d8-268327de169d" />
+        <classShapeMoniker Id="ad3d8460-8927-4a47-a6a4-ca078b92c9fc" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(15.25 : 56.1553369140625); (15.2464255650989 : 56.1589113489636 : JumpStart); (15.1285744349011 : 56.2767624791614 : JumpEnd); (15.1214255650989 : 56.2839113489636 : JumpStart); (15.0035744349011 : 56.4017624791614 : JumpEnd); (14.875 : 56.5303369140625); (14.875 : 84.5392976888021); (8.25 : 84.5392976888021)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/easyposdbDataContext/MstItem/MstItem_MstDiscountItem" />
+      <nodes>
+        <classShapeMoniker Id="bf08ce62-cf52-44b3-90d8-268327de169d" />
+        <classShapeMoniker Id="7c667220-0028-492b-8567-f41cf3ff5bed" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.75 : 52.1622790527344); (8.79166666666667 : 52.1622790527344 : JumpStart); (9.42266398111974 : 52.1622790527344 : JumpEnd); (9.47916666666667 : 52.1622790527344 : JumpStart); (9.64583333333333 : 52.1622790527344 : JumpEnd); (11.7916666666667 : 52.1622790527344 : JumpStart); (12.0208333333333 : 52.1622790527344 : JumpEnd); (12.2916666666667 : 52.1622790527344 : JumpStart); (12.4583333333333 : 52.1622790527344 : JumpEnd); (13.4166666666667 : 52.1622790527344 : JumpStart); (13.5833333333333 : 52.1622790527344 : JumpEnd); (14.2916666666667 : 52.1622790527344 : JumpStart); (14.7083333333333 : 52.1622790527344 : JumpEnd); (14.7291666666667 : 52.1622790527344 : JumpStart); (14.8958333333333 : 52.1622790527344 : JumpEnd); (15.25 : 52.1622790527344)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstAccount/MstAccount_MstItem" />
+      <nodes>
+        <classShapeMoniker Id="fee60349-0c5d-4d12-9641-c863b48b608c" />
+        <classShapeMoniker Id="bf08ce62-cf52-44b3-90d8-268327de169d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.75 : 51.5); (7.75 : 51.25); (8.19791866666667 : 51.25 : JumpStart); (8.36458533333333 : 51.25 : JumpEnd); (8.875 : 51.25); (8.875 : 52.25); (9.07291666666667 : 52.25 : JumpStart); (9.39583333333333 : 52.25 : JumpEnd); (9.47916666666667 : 52.25 : JumpStart); (9.64583333333333 : 52.25 : JumpEnd); (11.6354166666667 : 52.25 : JumpStart); (12.0208333333333 : 52.25 : JumpEnd); (12.2916666666667 : 52.25 : JumpStart); (12.5208333333333 : 52.25 : JumpEnd); (13.4166666666667 : 52.25 : JumpStart); (13.5833333333333 : 52.25 : JumpEnd); (14.5 : 52.25); (14.5 : 51.7792148525391); (14.7291666666667 : 51.7792148525391 : JumpStart); (14.8958333333333 : 51.7792148525391 : JumpEnd); (15.25 : 51.7792148525391)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstAccount/MstAccount_MstItem1" />
+      <nodes>
+        <classShapeMoniker Id="fee60349-0c5d-4d12-9641-c863b48b608c" />
+        <classShapeMoniker Id="bf08ce62-cf52-44b3-90d8-268327de169d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.281252 : 51.5); (8.281252 : 51); (9 : 51); (9 : 52.3125); (9.07291666666667 : 52.3125 : JumpStart); (9.39583333333333 : 52.3125 : JumpEnd); (9.47916666666667 : 52.3125 : JumpStart); (9.64583333333333 : 52.3125 : JumpEnd); (11.6354166666667 : 52.3125 : JumpStart); (12.0208333333333 : 52.3125 : JumpEnd); (12.2916666666667 : 52.3125 : JumpStart); (12.5208333333333 : 52.3125 : JumpEnd); (13.4166666666667 : 52.3125 : JumpStart); (13.5833333333333 : 52.3125 : JumpEnd); (14.5416666666667 : 52.3125 : JumpStart); (14.8958333333333 : 52.3125 : JumpEnd); (15 : 52.3125); (15 : 54.6966295602214); (15.25 : 54.6966295602214)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstAccount/MstAccount_MstItem2" />
+      <nodes>
+        <classShapeMoniker Id="fee60349-0c5d-4d12-9641-c863b48b608c" />
+        <classShapeMoniker Id="bf08ce62-cf52-44b3-90d8-268327de169d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(17.25 : 49.9415511067708); (20.5416666666667 : 49.9415511067708 : JumpStart); (20.7708333333333 : 49.9415511067708 : JumpEnd); (21 : 49.9415511067708)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstItem/MstItem_MstItemComponent" />
+      <nodes>
+        <classShapeMoniker Id="bf08ce62-cf52-44b3-90d8-268327de169d" />
+        <classShapeMoniker Id="b93c3f9b-fd7d-4114-9434-cd32dcdbe961" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(17.25 : 49.4884261067708); (20.5416666666667 : 49.4884261067708 : JumpStart); (20.7708333333333 : 49.4884261067708 : JumpEnd); (21 : 49.4884261067708)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstItem/MstItem_MstItemComponent1" />
+      <nodes>
+        <classShapeMoniker Id="bf08ce62-cf52-44b3-90d8-268327de169d" />
+        <classShapeMoniker Id="b93c3f9b-fd7d-4114-9434-cd32dcdbe961" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(17.25 : 53.6477202899639); (18 : 56.3561051448317); (18 : 56.5)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstItem/MstItem_MstItemGroupItem" />
+      <nodes>
+        <classShapeMoniker Id="bf08ce62-cf52-44b3-90d8-268327de169d" />
+        <classShapeMoniker Id="62429d93-aa9a-49c4-8544-b1fedc42a40f" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.031252 : 57.125); (5.031252 : 56.625); (5.54166666666667 : 56.625 : JumpStart); (5.70833333333333 : 56.625 : JumpEnd); (5.75 : 56.625); (5.75 : 57.2892976888021); (5.79166666666667 : 57.2892976888021 : JumpStart); (6.08333333333333 : 57.2892976888021 : JumpEnd); (6.13541666666667 : 57.2892976888021 : JumpStart); (6.52083333333333 : 57.2892976888021 : JumpEnd); (8.57291616666667 : 57.2892976888021 : JumpStart); (8.83333333333333 : 57.2892976888021 : JumpEnd); (9.07291666666667 : 57.2892976888021 : JumpStart); (9.39583333333333 : 57.2892976888021 : JumpEnd); (9.47916666666667 : 57.2892976888021 : JumpStart); (9.64583333333333 : 57.2892976888021 : JumpEnd); (10.4166666666667 : 57.2892976888021 : JumpStart); (10.5833333333333 : 57.2892976888021 : JumpEnd); (11.5104166666667 : 57.2892976888021 : JumpStart); (12.1145833333333 : 57.2892976888021 : JumpEnd); (12.125 : 57.2892976888021); (12.125 : 58.4294254557292); (12.1510416666667 : 58.4294254557292 : JumpStart); (12.5520833333333 : 58.4294254557292 : JumpEnd); (14.4479166666667 : 58.4294254557292 : JumpStart); (14.7395833333333 : 58.4294254557292 : JumpEnd); (14.75 : 58.4294254557292); (14.75 : 56.8276684570313); (14.7916666666667 : 56.8276684570313 : JumpStart); (14.9583333333333 : 56.8276684570313 : JumpEnd); (14.9791666666667 : 56.8276684570313 : JumpStart); (15.3802083333333 : 56.8276684570313 : JumpEnd); (17.2291666666667 : 56.8276684570313 : JumpStart); (17.8333333333333 : 56.8276684570313 : JumpEnd); (18 : 56.8276684570313)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstItemGroup/MstItemGroup_MstItemGroupItem" />
+      <nodes>
+        <classShapeMoniker Id="b6420c65-762e-47c2-af1e-496839c5f66e" />
+        <classShapeMoniker Id="62429d93-aa9a-49c4-8544-b1fedc42a40f" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(17.25 : 51.5392976888021); (18 : 51.5392976888021)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstItem/MstItem_MstItemInventory" />
+      <nodes>
+        <classShapeMoniker Id="bf08ce62-cf52-44b3-90d8-268327de169d" />
+        <classShapeMoniker Id="6bf3c51e-2ffb-4ac6-af2f-f18f0a937033" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(17.25 : 52.7267976888021); (17.2537504716111 : 52.7267976888021 : JumpStart); (17.4204171382778 : 52.7267976888021 : JumpEnd); (20.4166666666667 : 52.7267976888021 : JumpStart); (20.5833333333333 : 52.7267976888021 : JumpEnd); (20.6041666666667 : 52.7267976888021 : JumpStart); (20.7708333333333 : 52.7267976888021 : JumpEnd); (21 : 52.7267976888021)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstItem/MstItem_MstItemPackage" />
+      <nodes>
+        <classShapeMoniker Id="bf08ce62-cf52-44b3-90d8-268327de169d" />
+        <classShapeMoniker Id="68395988-9c54-4684-9c8f-af732f5c5843" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(17.25 : 52.4964465332031); (20.4166666666667 : 52.4964465332031 : JumpStart); (20.5833333333333 : 52.4964465332031 : JumpEnd); (20.6041666666667 : 52.4964465332031 : JumpStart); (20.7708333333333 : 52.4964465332031 : JumpEnd); (21 : 52.4964465332031)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstItem/MstItem_MstItemPackage1" />
+      <nodes>
+        <classShapeMoniker Id="bf08ce62-cf52-44b3-90d8-268327de169d" />
+        <classShapeMoniker Id="68395988-9c54-4684-9c8f-af732f5c5843" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(17.25 : 54.0104484049479); (17.2671125415389 : 54.0104484049479 : JumpStart); (17.4337792082056 : 54.0104484049479 : JumpEnd); (17.5220506852321 : 54.0104484049479 : JumpStart); (17.6887173518988 : 54.0104484049479 : JumpEnd); (18 : 54.0104484049479)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstItem/MstItem_MstItemPrice" />
+      <nodes>
+        <classShapeMoniker Id="bf08ce62-cf52-44b3-90d8-268327de169d" />
+        <classShapeMoniker Id="9c9e5b08-315f-4cd4-be3c-ca4c72394301" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.75 : 52.9248908178085); (8.85416666666667 : 52.9248908178085 : JumpStart); (9.02083333333333 : 52.9248908178085 : JumpEnd); (9.04166666666667 : 52.9248908178085 : JumpStart); (9.45833333333333 : 52.9248908178085 : JumpEnd); (9.47916666666667 : 52.9248908178085 : JumpStart); (9.64583333333333 : 52.9248908178085 : JumpEnd); (11.5729166666667 : 52.9248908178085 : JumpStart); (12.0208333333333 : 52.9248908178085 : JumpEnd); (12.1041666666667 : 52.9248908178085 : JumpStart); (12.2708333333333 : 52.9248908178085 : JumpEnd); (12.4375 : 52.9248908178085); (12.4375 : 52.09375); (13.4166666666667 : 52.09375 : JumpStart); (13.5833333333333 : 52.09375 : JumpEnd); (14.2916666666667 : 52.09375 : JumpStart); (14.5833333333333 : 52.09375 : JumpEnd); (14.6875 : 52.09375); (14.6875 : 56.4375); (14.7291666666667 : 56.4375 : JumpStart); (15.3802083333333 : 56.4375 : JumpEnd); (17.2604166666667 : 56.4375 : JumpStart); (17.9583333333333 : 56.4375 : JumpEnd); (20.125 : 56.4375); (20.125 : 53.8381982421875); (20.4166666666667 : 53.8381982421875 : JumpStart); (20.5833333333333 : 53.8381982421875 : JumpEnd); (20.6041666666667 : 53.8381982421875 : JumpStart); (20.7708333333333 : 53.8381982421875 : JumpEnd); (20.8541666666667 : 53.8381982421875 : JumpStart); (21.0208333333333 : 53.8381982421875 : JumpEnd); (23.1666666666667 : 53.8381982421875 : JumpStart); (23.3333333333333 : 53.8381982421875 : JumpEnd); (23.7916666666667 : 53.8381982421875 : JumpStart); (23.9583333333333 : 53.8381982421875 : JumpEnd); (25 : 53.8381982421875); (25 : 54.625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstAccount/MstAccount_MstPayType" />
+      <nodes>
+        <classShapeMoniker Id="fee60349-0c5d-4d12-9641-c863b48b608c" />
+        <classShapeMoniker Id="b2030be0-3945-4947-bbee-b0ed8f542877" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(9.5 : 52.0016097005208); (9.37142556509888 : 52.1301841354219 : JumpStart); (9.25357443490112 : 52.2480352656197 : JumpEnd); (9.125 : 52.3766097005208); (9.125 : 55.2700512695313); (9.08333333333333 : 55.2700512695313 : JumpStart); (8.91666666666667 : 55.2700512695313 : JumpEnd); (8.83333333333333 : 55.2700512695313 : JumpStart); (8.57291616666667 : 55.2700512695313 : JumpEnd); (8.5 : 55.2700512695313)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstSupplier/MstSupplier_IntCloudSetting" />
+      <nodes>
+        <classShapeMoniker Id="68303407-1209-44fe-8fe2-64e5742aa8c2" />
+        <classShapeMoniker Id="e3e32a2c-c2e5-41f7-9d84-78150971f65a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11.5 : 51.7580069986979); (11.7916666666667 : 51.7580069986979 : JumpStart); (12.0208333333333 : 51.7580069986979 : JumpEnd); (14.2916666666667 : 51.7580069986979 : JumpStart); (14.4583333333333 : 51.7580069986979 : JumpEnd); (14.7291666666667 : 51.7580069986979 : JumpStart); (14.8958333333333 : 51.7580069986979 : JumpEnd); (15.25 : 51.7580069986979)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstSupplier/MstSupplier_MstItem" />
+      <nodes>
+        <classShapeMoniker Id="68303407-1209-44fe-8fe2-64e5742aa8c2" />
+        <classShapeMoniker Id="bf08ce62-cf52-44b3-90d8-268327de169d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.75 : 51.7195523502604); (8.79166666666667 : 51.7195523502604 : JumpStart); (9.39583333333333 : 51.7195523502604 : JumpEnd); (9.5 : 51.7195523502604)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstAccount/MstAccount_MstSupplier" />
+      <nodes>
+        <classShapeMoniker Id="fee60349-0c5d-4d12-9641-c863b48b608c" />
+        <classShapeMoniker Id="68303407-1209-44fe-8fe2-64e5742aa8c2" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 49.1354484049479); (6.25 : 49.1354484049479)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstTableGroup/MstTableGroup_MstTable" />
+      <nodes>
+        <classShapeMoniker Id="c94ff248-2471-4a4b-a1b7-21d0e7ada085" />
+        <classShapeMoniker Id="1f6bbb19-1b08-4cf3-a0c7-c91631c493dc" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14.5 : 60.1794269243289); (14.7623142644328 : 59.8316992214873 : JumpStart); (15.0345607355672 : 59.4708052372467 : JumpEnd); (15.0435642644328 : 59.4588700250435 : JumpStart); (15.2376857355672 : 59.2015397064817 : JumpEnd); (15.296875 : 59.123077534405); (15.296875 : 52.5464164570312); (15.25 : 52.5464164570312)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstTax/MstTax_MstItem" />
+      <nodes>
+        <classShapeMoniker Id="c14e6085-57bf-4ca5-aec4-03eb7532fc70" />
+        <classShapeMoniker Id="bf08ce62-cf52-44b3-90d8-268327de169d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14.5 : 60.5104484049479); (14.7791989596791 : 59.8699847652126 : JumpStart); (14.9239260403209 : 59.5379905738924 : JumpEnd); (14.9510739596791 : 59.4757150723526 : JumpStart); (15.0176760403209 : 59.322934377787 : JumpEnd); (15.0625 : 59.2201112283153); (15.0625 : 52.5464164570312); (15.25 : 52.5464164570312)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstTax/MstTax_MstItem1" />
+      <nodes>
+        <classShapeMoniker Id="c14e6085-57bf-4ca5-aec4-03eb7532fc70" />
+        <classShapeMoniker Id="bf08ce62-cf52-44b3-90d8-268327de169d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.75 : 52.1570548502604); (8.79166666666667 : 52.1570548502604 : JumpStart); (9.42788818359372 : 52.1570548502604 : JumpEnd); (9.47916666666667 : 52.1570548502604 : JumpStart); (9.64583333333333 : 52.1570548502604 : JumpEnd); (11.71875 : 52.1570548502604); (11.71875 : 58.8669254557292); (11.7604166666667 : 58.8669254557292 : JumpStart); (12.1458333333333 : 58.8669254557292 : JumpEnd); (12.1979166666667 : 58.8669254557292 : JumpStart); (12.4583333333333 : 58.8669254557292 : JumpEnd); (13.5 : 58.8669254557292); (13.5 : 59.625)]" fixedFrom="Algorithm" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstAccount/MstAccount_MstTax" />
+      <nodes>
+        <classShapeMoniker Id="fee60349-0c5d-4d12-9641-c863b48b608c" />
+        <classShapeMoniker Id="c14e6085-57bf-4ca5-aec4-03eb7532fc70" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.75 : 46.0681469726563); (9.25 : 46.0681469726563); (9.25 : 47.4439925130208); (9.47916666666667 : 47.4439925130208 : JumpStart); (9.64583333333333 : 47.4439925130208 : JumpEnd); (11.6473790953025 : 47.4439925130208 : JumpStart); (11.8921155032051 : 47.4439925130208 : JumpEnd); (12 : 47.4439925130208); (12 : 51.8285139973958); (13.5 : 51.8285139973958); (13.5 : 52.5)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstTerm/MstTerm_MstCustomer" />
+      <nodes>
+        <classShapeMoniker Id="4fa91170-1831-4b72-9fa5-835f79eae2fb" />
+        <classShapeMoniker Id="18e1d6b6-fb81-4a03-8c8a-3a3863fad2e6" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.75 : 46.737832586238); (9.375 : 47.362832586238); (9.375 : 49.7500005); (9.5 : 49.7500005)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstTerm/MstTerm_MstSupplier" />
+      <nodes>
+        <classShapeMoniker Id="4fa91170-1831-4b72-9fa5-835f79eae2fb" />
+        <classShapeMoniker Id="68303407-1209-44fe-8fe2-64e5742aa8c2" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14.4641802246094 : 45.9439925130208); (14.6204302246094 : 46.1002425130208); (16.1666666666667 : 46.1002425130208 : JumpStart); (16.3333333333333 : 46.1002425130208 : JumpEnd); (20.6041666666667 : 46.1002425130208 : JumpStart); (20.7708333333333 : 46.1002425130208 : JumpEnd); (20.9375 : 46.1002425130208); (20.9375 : 58.25); (21.7092307692308 : 58.375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUnit/MstUnit_TrnStockOutLine" />
+      <nodes>
+        <classShapeMoniker Id="4b3e2d26-bdfe-4e41-a5aa-75cab7a63e93" />
+        <classShapeMoniker Id="ad3d8460-8927-4a47-a6a4-ca078b92c9fc" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14.5 : 45.3157437565104); (16.25 : 45.3157437565104); (16.25 : 49)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUnit/MstUnit_MstItem" />
+      <nodes>
+        <classShapeMoniker Id="4b3e2d26-bdfe-4e41-a5aa-75cab7a63e93" />
+        <classShapeMoniker Id="bf08ce62-cf52-44b3-90d8-268327de169d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14.5 : 45.6298681347656); (16.1666666666667 : 45.6298681347656 : JumpStart); (16.3333333333333 : 45.6298681347656 : JumpEnd); (22 : 45.6298681347656); (22 : 48.375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUnit/MstUnit_MstItemComponent" />
+      <nodes>
+        <classShapeMoniker Id="4b3e2d26-bdfe-4e41-a5aa-75cab7a63e93" />
+        <classShapeMoniker Id="b93c3f9b-fd7d-4114-9434-cd32dcdbe961" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14.4871416190905 : 45.9439925130208); (14.8933916190905 : 46.3502425130208); (16.1666666666667 : 46.3502425130208 : JumpStart); (16.3333333333333 : 46.3502425130208 : JumpEnd); (20.625 : 46.3502425130208); (20.625 : 51.25); (20.6285744349011 : 51.2535744349011 : JumpStart); (20.7464255650989 : 51.3714255650989 : JumpEnd); (20.8785744349011 : 51.5035744349011 : JumpStart); (20.9964255650989 : 51.6214255650989 : JumpEnd); (21 : 51.625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUnit/MstUnit_MstItemPackage" />
+      <nodes>
+        <classShapeMoniker Id="4b3e2d26-bdfe-4e41-a5aa-75cab7a63e93" />
+        <classShapeMoniker Id="68395988-9c54-4684-9c8f-af732f5c5843" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 55.2700512695313); (5.60416666666667 : 55.2700512695313 : JumpStart); (6.48958333333333 : 55.2700512695313 : JumpEnd); (6.5 : 55.2700512695313)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_IntCloudSetting" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="e3e32a2c-c2e5-41f7-9d84-78150971f65a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.75 : 56.6074039713542); (1.75 : 57.0296541341146); (1.79947966666667 : 57.0296541341146 : JumpStart); (2.76302433333333 : 57.0296541341146 : JumpEnd); (2.89405506663131 : 57.0296541341146 : JumpStart); (3.47047770048245 : 57.0296541341146 : JumpEnd); (3.88541466666667 : 57.0296541341146 : JumpStart); (4.05208133333333 : 57.0296541341146 : JumpEnd); (4.41666666666667 : 57.0296541341146 : JumpStart); (4.58333333333333 : 57.0296541341146 : JumpEnd); (4.94791866666667 : 57.0296541341146 : JumpStart); (5.11458533333333 : 57.0296541341146 : JumpEnd); (5.54166666666667 : 57.0296541341146 : JumpStart); (6.52083333333333 : 57.0296541341146 : JumpEnd); (8.57291616666667 : 57.0296541341146 : JumpStart); (8.83333333333333 : 57.0296541341146 : JumpEnd); (9.07291666666667 : 57.0296541341146 : JumpStart); (9.39583333333333 : 57.0296541341146 : JumpEnd); (9.47916666666667 : 57.0296541341146 : JumpStart); (9.64583333333333 : 57.0296541341146 : JumpEnd); (10.4166666666667 : 57.0296541341146 : JumpStart); (10.5833333333333 : 57.0296541341146 : JumpEnd); (11.5104166666667 : 57.0296541341146 : JumpStart); (11.8020833333333 : 57.0296541341146 : JumpEnd); (11.8541666666667 : 57.0296541341146 : JumpStart); (12.2708333333333 : 57.0296541341146 : JumpEnd); (12.2916666666667 : 57.0296541341146 : JumpStart); (12.4895833333333 : 57.0296541341146 : JumpEnd); (12.5 : 57.0296541341146)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_MstCustomer" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="18e1d6b6-fb81-4a03-8c8a-3a3863fad2e6" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.085935 : 56.6074039713542); (1.085935 : 57.0132312011719); (1.13541466666667 : 57.0132312011719 : JumpStart); (1.56770733333333 : 57.0132312011719 : JumpEnd); (1.79947966666667 : 57.0132312011719 : JumpStart); (2.76302433333333 : 57.0132312011719 : JumpEnd); (2.86678135765496 : 57.0132312011719 : JumpStart); (3.46102234511983 : 57.0132312011719 : JumpEnd); (3.88541466666667 : 57.0132312011719 : JumpStart); (4.05208133333333 : 57.0132312011719 : JumpEnd); (4.41666666666667 : 57.0132312011719 : JumpStart); (4.58333333333333 : 57.0132312011719 : JumpEnd); (4.94791866666667 : 57.0132312011719 : JumpStart); (5.11458533333333 : 57.0132312011719 : JumpEnd); (5.54166666666667 : 57.0132312011719 : JumpStart); (6.52083333333333 : 57.0132312011719 : JumpEnd); (8.57291616666667 : 57.0132312011719 : JumpStart); (8.83333333333333 : 57.0132312011719 : JumpEnd); (9.07291666666667 : 57.0132312011719 : JumpStart); (9.39583333333333 : 57.0132312011719 : JumpEnd); (9.47916666666667 : 57.0132312011719 : JumpStart); (9.64583333333333 : 57.0132312011719 : JumpEnd); (11.5104166666667 : 57.0132312011719 : JumpStart); (11.8020833333333 : 57.0132312011719 : JumpEnd); (11.8541666666667 : 57.0132312011719 : JumpStart); (12.2708333333333 : 57.0132312011719 : JumpEnd); (12.2916666666667 : 57.0132312011719 : JumpStart); (12.4895833333333 : 57.0132312011719 : JumpEnd); (12.5 : 57.0132312011719)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_MstCustomer1" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="18e1d6b6-fb81-4a03-8c8a-3a3863fad2e6" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.35923076923077 : 56.6074039713542); (2.47523676935687 : 56.676331695186 : JumpStart); (2.75133223064313 : 56.8403803796168 : JumpEnd); (3.125 : 57.0624039713542); (3.125 : 84.5873120117188); (3.5 : 84.5873120117188)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_MstDiscount" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="ddc9d49f-6400-4a21-b37a-5cf6bbb40986" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.27615384615385 : 56.6074039713542); (2.47548814068189 : 56.7274336217055 : JumpStart); (2.75108085931811 : 56.8933824752915 : JumpEnd); (3.08486014068189 : 57.0943685150067 : JumpStart); (3.22763985931811 : 57.1803436842356 : JumpEnd); (3.3125 : 57.2314424328926); (3.3125 : 84.5873120117188); (3.5 : 84.5873120117188)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_MstDiscount1" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="ddc9d49f-6400-4a21-b37a-5cf6bbb40986" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.281252 : 53.875); (2.281252 : 53.3958968098958); (2.33073166666667 : 53.3958968098958 : JumpStart); (2.76302433333333 : 53.3958968098958 : JumpEnd); (6.32291666666667 : 53.3958968098958 : JumpStart); (6.48958333333333 : 53.3958968098958 : JumpEnd); (7.58853941666667 : 53.3958968098958 : JumpStart); (7.75520608333333 : 53.3958968098958 : JumpEnd); (8.57291616666667 : 53.3958968098958 : JumpStart); (8.77083533333334 : 53.3958968098958 : JumpEnd); (8.85416666666667 : 53.3958968098958 : JumpStart); (9.02083333333333 : 53.3958968098958 : JumpEnd); (9.04166666666667 : 53.3958968098958 : JumpStart); (9.23958333333333 : 53.3958968098958 : JumpEnd); (9.375 : 53.3958968098958); (9.375 : 52.375); (9.47916666666667 : 52.375 : JumpStart); (9.64583333333333 : 52.375 : JumpEnd); (11.6354166666667 : 52.375 : JumpStart); (12.0208333333333 : 52.375 : JumpEnd); (12.2916666666667 : 52.375 : JumpStart); (12.5208333333333 : 52.375 : JumpEnd); (13.4166666666667 : 52.375 : JumpStart); (13.5833333333333 : 52.375 : JumpEnd); (14.5416666666667 : 52.375 : JumpStart); (14.8958333333333 : 52.375 : JumpEnd); (15.125 : 52.375); (15.125 : 53.2379222063802); (15.25 : 53.2379222063802)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_MstItem" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="bf08ce62-cf52-44b3-90d8-268327de169d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.218748 : 53.875); (1.218748 : 53.5208968098958); (1.26822766666667 : 53.5208968098958 : JumpStart); (1.70052033333333 : 53.5208968098958 : JumpEnd); (1.79947966666667 : 53.5208968098958 : JumpStart); (2.76302433333333 : 53.5208968098958 : JumpEnd); (6.32291666666667 : 53.5208968098958 : JumpStart); (6.48958333333333 : 53.5208968098958 : JumpEnd); (7.58853941666667 : 53.5208968098958 : JumpStart); (7.75520608333333 : 53.5208968098958 : JumpEnd); (8.57291616666667 : 53.5208968098958 : JumpStart); (8.77083533333334 : 53.5208968098958 : JumpEnd); (8.9375 : 53.5208968098958); (8.9375 : 52.25); (9.07291666666667 : 52.25 : JumpStart); (9.39583333333333 : 52.25 : JumpEnd); (9.47916666666667 : 52.25 : JumpStart); (9.64583333333333 : 52.25 : JumpEnd); (11.6354166666667 : 52.25 : JumpStart); (12.0208333333333 : 52.25 : JumpEnd); (12.2916666666667 : 52.25 : JumpStart); (12.5208333333333 : 52.25 : JumpEnd); (13.4166666666667 : 52.25 : JumpStart); (13.5833333333333 : 52.25 : JumpEnd); (14.375 : 52.25); (14.375 : 50.3205074986979); (15.25 : 50.3205074986979)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_MstItem1" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="bf08ce62-cf52-44b3-90d8-268327de169d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 56.3678174394907); (2.92276453246791 : 56.3678174394907 : JumpStart); (3.08943119913457 : 56.3678174394907 : JumpEnd); (3.968748 : 56.3678174394907); (3.968748 : 57.125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_MstItemGroup" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="b6420c65-762e-47c2-af1e-496839c5f66e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 56.3678174394907); (2.92276453246791 : 56.3678174394907 : JumpStart); (3.08943119913457 : 56.3678174394907 : JumpEnd); (4.5 : 56.3678174394907); (4.5 : 57.125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_MstItemGroup1" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="b6420c65-762e-47c2-af1e-496839c5f66e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.882813 : 53.875); (1.882813 : 50.5152498372396); (1.93229266666667 : 50.5152498372396 : JumpStart); (2.09895933333333 : 50.5152498372396 : JumpEnd); (2.33073166666667 : 50.5152498372396 : JumpStart); (2.76302433333333 : 50.5152498372396 : JumpEnd); (6.32291666666667 : 50.5152498372396 : JumpStart); (6.48958333333333 : 50.5152498372396 : JumpEnd); (9.07291666666667 : 50.5152498372396 : JumpStart); (9.39583333333333 : 50.5152498372396 : JumpEnd); (9.5 : 50.5152498372396)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_MstSupplier" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="68303407-1209-44fe-8fe2-64e5742aa8c2" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.148439 : 53.875); (2.148439 : 50.6951274186198); (2.33073166666667 : 50.6951274186198 : JumpStart); (2.76302433333333 : 50.6951274186198 : JumpEnd); (6.32291666666667 : 50.6951274186198 : JumpStart); (6.48958333333333 : 50.6951274186198 : JumpEnd); (9.07291666666667 : 50.6951274186198 : JumpStart); (9.39583333333333 : 50.6951274186198 : JumpEnd); (9.5 : 50.6951274186198)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_MstSupplier1" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="68303407-1209-44fe-8fe2-64e5742aa8c2" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.484374 : 53.875); (1.484374 : 49.0777498372396); (1.53385366666667 : 49.0777498372396 : JumpStart); (1.70052033333333 : 49.0777498372396 : JumpEnd); (1.93229266666667 : 49.0777498372396 : JumpStart); (2.09895933333333 : 49.0777498372396 : JumpEnd); (2.33073166666667 : 49.0777498372396 : JumpStart); (2.49739833333333 : 49.0777498372396 : JumpEnd); (2.59635766666667 : 49.0777498372396 : JumpStart); (2.76302433333333 : 49.0777498372396 : JumpEnd); (3.5 : 49.0777498372396)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_MstTableGroup" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="c94ff248-2471-4a4b-a1b7-21d0e7ada085" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.546878 : 53.875); (2.546878 : 49.6478772558594); (2.59635766666667 : 49.6478772558594 : JumpStart); (2.76302433333333 : 49.6478772558594 : JumpEnd); (3.5 : 49.6478772558594)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_MstTableGroup1" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="c94ff248-2471-4a4b-a1b7-21d0e7ada085" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 55.9230030548878); (3.5 : 57.2256722021234); (3.5 : 63.3181062825521)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_MstUserForm" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="c9e69def-d922-41f8-a442-90eb11e145ce" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(0.953122 : 53.875); (0.953122 : 51.9527498372396); (1.53385366666667 : 51.9527498372396 : JumpStart); (1.70052033333333 : 51.9527498372396 : JumpEnd); (3.5 : 51.9527498372396)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_SysAuditTrail" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="1700db3d-48cd-47c6-a826-5a7902d13b7b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 63.7272001139323); (3.04166666666667 : 63.7272001139323 : JumpStart); (3.48958333333333 : 63.7272001139323 : JumpEnd); (3.5 : 63.7272001139323)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/SysForm/SysForm_MstUserForm" />
+      <nodes>
+        <classShapeMoniker Id="39f76cf4-960f-4422-bafd-2c2c8dc3beed" />
+        <classShapeMoniker Id="c9e69def-d922-41f8-a442-90eb11e145ce" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(0.820309 : 56.6074039713542); (0.820309 : 61.3093082682292); (3.04166666666667 : 61.3093082682292 : JumpStart); (3.58333333333333 : 61.3093082682292 : JumpEnd); (6.32291666666667 : 61.3093082682292 : JumpStart); (6.48958333333333 : 61.3093082682292 : JumpEnd); (7.41666666666667 : 61.3093082682292 : JumpStart); (7.58333333333333 : 61.3093082682292 : JumpEnd); (8.57291616666667 : 61.3093082682292 : JumpStart); (8.83333333333333 : 61.3093082682292 : JumpEnd); (9 : 61.3093082682292); (9 : 62.4439111328125); (9.04166666666667 : 62.4439111328125 : JumpStart); (9.20833333333333 : 62.4439111328125 : JumpEnd); (9.22916666666667 : 62.4439111328125 : JumpStart); (9.39583333333333 : 62.4439111328125 : JumpEnd); (10.4166666666667 : 62.4439111328125 : JumpStart); (10.5833333333333 : 62.4439111328125 : JumpEnd); (11.8541666666667 : 62.4439111328125 : JumpStart); (12.0208333333333 : 62.4439111328125 : JumpEnd); (13.4166666666667 : 62.4439111328125 : JumpStart); (13.5833333333333 : 62.4439111328125 : JumpEnd); (14.5625 : 62.4439111328125); (14.5625 : 63.2996240234375); (14.7916666666667 : 63.2996240234375 : JumpStart); (14.9739583333333 : 63.2996240234375 : JumpEnd); (15.0416666666667 : 63.2996240234375 : JumpStart); (15.2708333333333 : 63.2996240234375 : JumpEnd); (16.0805911816907 : 63.2996240234375 : JumpStart); (16.2472578483574 : 63.2996240234375 : JumpEnd); (16.6548764241787 : 63.2996240234375 : JumpStart); (16.8215430908454 : 63.2996240234375 : JumpEnd); (17.4166666666667 : 63.2996240234375 : JumpStart); (17.8333333333333 : 63.2996240234375 : JumpEnd); (17.875 : 63.2996240234375); (17.875 : 61.5681469726563); (18 : 61.5681469726563)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_SysSalesLocked" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="dad2f5bb-59be-4c0e-8a23-024717c19770" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14.5 : 57.8709627278646); (14.5104166666667 : 57.8709627278646 : JumpStart); (15.2395833333333 : 57.8709627278646 : JumpEnd); (15.25 : 57.8709627278646)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstCustomer/MstCustomer_TrnCollection" />
+      <nodes>
+        <classShapeMoniker Id="18e1d6b6-fb81-4a03-8c8a-3a3863fad2e6" />
+        <classShapeMoniker Id="57fc059d-fd9a-4590-9ad1-57aec5890443" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11.5 : 46.703277570638); (14.2820203809846 : 46.703277570638 : JumpStart); (14.4486870476512 : 46.703277570638 : JumpEnd); (15.1875 : 46.703277570638); (15.1875 : 57.25); (15.2135416666667 : 57.25 : JumpStart); (15.5364553333333 : 57.25 : JumpEnd); (15.6354146666667 : 57.25 : JumpStart); (15.8020813333333 : 57.25 : JumpEnd); (16.515626 : 57.25); (16.515626 : 57.625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstPeriod/MstPeriod_TrnCollection" />
+      <nodes>
+        <classShapeMoniker Id="c5dcadfa-ecd1-477f-885e-99d91f311a9b" />
+        <classShapeMoniker Id="57fc059d-fd9a-4590-9ad1-57aec5890443" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14.5 : 63.7944812011719); (14.7916666666667 : 63.7944812011719 : JumpStart); (14.9739583333333 : 63.7944812011719 : JumpEnd); (15.6236294241787 : 63.7944812011719 : JumpStart); (15.7902960908454 : 63.7944812011719 : JumpEnd); (16.163924515024 : 63.7944812011719); (16.163924515024 : 63.0496240234375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/easyposdbDataContext/MstTerminal/MstTerminal_TrnCollection" />
+      <nodes>
+        <classShapeMoniker Id="78b2fe1a-4c47-4bbc-a6e5-f471e2cd646f" />
+        <classShapeMoniker Id="57fc059d-fd9a-4590-9ad1-57aec5890443" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 55.004979338429); (5.60416666666667 : 55.004979338429 : JumpStart); (5.77083333333333 : 55.004979338429 : JumpEnd); (5.79166666666667 : 55.004979338429 : JumpStart); (6.23958333333333 : 55.004979338429 : JumpEnd); (6.28125 : 55.004979338429); (6.28125 : 57.4343082682292); (6.32291666666667 : 57.4343082682292 : JumpStart); (6.52083333333333 : 57.4343082682292 : JumpEnd); (8.57291616666667 : 57.4343082682292 : JumpStart); (8.83333333333333 : 57.4343082682292 : JumpEnd); (9.07291666666667 : 57.4343082682292 : JumpStart); (9.39583333333333 : 57.4343082682292 : JumpEnd); (9.47916666666667 : 57.4343082682292 : JumpStart); (9.64583333333333 : 57.4343082682292 : JumpEnd); (10.4166666666667 : 57.4343082682292 : JumpStart); (10.5833333333333 : 57.4343082682292 : JumpEnd); (11.5104166666667 : 57.4343082682292 : JumpStart); (12.4270833333333 : 57.4343082682292 : JumpEnd); (12.4375 : 57.4343082682292); (12.4375 : 58.6481754557292); (14.4479166666667 : 58.6481754557292 : JumpStart); (14.7083333333333 : 58.6481754557292 : JumpEnd); (14.71875 : 58.6481754557292); (14.71875 : 57.375); (14.7291666666667 : 57.375 : JumpStart); (15.5364553333333 : 57.375 : JumpEnd); (15.6354146666667 : 57.375 : JumpStart); (15.8020813333333 : 57.375 : JumpEnd); (16.25 : 57.375); (16.25 : 57.625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_TrnCollection" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="57fc059d-fd9a-4590-9ad1-57aec5890443" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 55.6863983889598); (5.54166666666667 : 55.6863983889598 : JumpStart); (5.89583333333333 : 55.6863983889598 : JumpEnd); (5.9375 : 55.6863983889598); (5.9375 : 57.3718082682292); (6.29166666666667 : 57.3718082682292 : JumpStart); (6.52083333333333 : 57.3718082682292 : JumpEnd); (8.57291616666667 : 57.3718082682292 : JumpStart); (8.83333333333333 : 57.3718082682292 : JumpEnd); (9.07291666666667 : 57.3718082682292 : JumpStart); (9.39583333333333 : 57.3718082682292 : JumpEnd); (9.47916666666667 : 57.3718082682292 : JumpStart); (9.64583333333333 : 57.3718082682292 : JumpEnd); (10.4166666666667 : 57.3718082682292 : JumpStart); (10.5833333333333 : 57.3718082682292 : JumpEnd); (11.5104166666667 : 57.3718082682292 : JumpStart); (12.0208333333333 : 57.3718082682292 : JumpEnd); (12.0625 : 57.3718082682292); (12.0625 : 59.1169254557292); (13.4166666666667 : 59.1169254557292 : JumpStart); (13.5833333333333 : 59.1169254557292 : JumpEnd); (14.6875 : 59.1169254557292); (14.6875 : 57.375); (14.6979166666667 : 57.375 : JumpStart); (15.5364553333333 : 57.375 : JumpEnd); (15.6354146666667 : 57.375 : JumpStart); (15.8020813333333 : 57.375 : JumpEnd); (16.4322926666667 : 57.375 : JumpStart); (16.5989593333333 : 57.375 : JumpEnd); (16.914065 : 57.375); (16.914065 : 57.625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_TrnCollection1" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="57fc059d-fd9a-4590-9ad1-57aec5890443" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 56.3678174394907); (2.92276453246791 : 56.3678174394907 : JumpStart); (3.08943119913457 : 56.3678174394907 : JumpEnd); (5.54166666666667 : 56.3678174394907 : JumpStart); (6.30208333333333 : 56.3678174394907 : JumpEnd); (6.3125 : 56.3678174394907); (6.3125 : 57.1218082682292); (6.32291666666667 : 57.1218082682292 : JumpStart); (6.52083333333333 : 57.1218082682292 : JumpEnd); (8.57291616666667 : 57.1218082682292 : JumpStart); (8.83333333333333 : 57.1218082682292 : JumpEnd); (9.07291666666667 : 57.1218082682292 : JumpStart); (9.39583333333333 : 57.1218082682292 : JumpEnd); (9.47916666666667 : 57.1218082682292 : JumpStart); (9.64583333333333 : 57.1218082682292 : JumpEnd); (10.4166666666667 : 57.1218082682292 : JumpStart); (10.5833333333333 : 57.1218082682292 : JumpEnd); (11.5104166666667 : 57.1218082682292 : JumpStart); (12.0208333333333 : 57.1218082682292 : JumpEnd); (12.03125 : 57.1218082682292); (12.03125 : 58.2106754557292); (12.0416666666667 : 58.2106754557292 : JumpStart); (12.5520833333333 : 58.2106754557292 : JumpEnd); (14.4479166666667 : 58.2106754557292 : JumpStart); (14.8020833333333 : 58.2106754557292 : JumpEnd); (14.8125 : 58.2106754557292); (14.8125 : 57.125); (14.9479166666667 : 57.125 : JumpStart); (15.5364553333333 : 57.125 : JumpEnd); (15.718748 : 57.125); (15.718748 : 57.625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_TrnCollection2" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="57fc059d-fd9a-4590-9ad1-57aec5890443" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 54.1532055252654); (6 : 54.1532055252654); (6 : 57.5593082682292); (6.32291666666667 : 57.5593082682292 : JumpStart); (6.48958333333333 : 57.5593082682292 : JumpEnd); (8.57291616666667 : 57.5593082682292 : JumpStart); (8.83333333333333 : 57.5593082682292 : JumpEnd); (9.07291666666667 : 57.5593082682292 : JumpStart); (9.39583333333333 : 57.5593082682292 : JumpEnd); (9.47916666666667 : 57.5593082682292 : JumpStart); (9.64583333333333 : 57.5593082682292 : JumpEnd); (10.4166666666667 : 57.5593082682292 : JumpStart); (10.5833333333333 : 57.5593082682292 : JumpEnd); (11.5104166666667 : 57.5593082682292 : JumpStart); (12.2708333333333 : 57.5593082682292 : JumpEnd); (12.3125 : 57.5593082682292); (12.3125 : 58.6169254557292); (14.4479166666667 : 58.6169254557292 : JumpStart); (15.0052083333333 : 58.6169254557292 : JumpEnd); (15.03125 : 58.6169254557292); (15.03125 : 57); (15.1041666666667 : 57 : JumpStart); (15.3802083333333 : 57 : JumpEnd); (15.453122 : 57); (15.453122 : 57.625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_TrnCollection3" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="57fc059d-fd9a-4590-9ad1-57aec5890443" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 55.5160436263271); (5.625 : 55.5160436263271); (5.625 : 57.1843082682292); (5.66666666666667 : 57.1843082682292 : JumpStart); (6.08333333333333 : 57.1843082682292 : JumpEnd); (6.10416666666667 : 57.1843082682292 : JumpStart); (6.52083333333333 : 57.1843082682292 : JumpEnd); (8.57291616666667 : 57.1843082682292 : JumpStart); (8.83333333333333 : 57.1843082682292 : JumpEnd); (9.07291666666667 : 57.1843082682292 : JumpStart); (9.39583333333333 : 57.1843082682292 : JumpEnd); (9.47916666666667 : 57.1843082682292 : JumpStart); (9.64583333333333 : 57.1843082682292 : JumpEnd); (10.4166666666667 : 57.1843082682292 : JumpStart); (10.5833333333333 : 57.1843082682292 : JumpEnd); (11.5104166666667 : 57.1843082682292 : JumpStart); (11.9895833333333 : 57.1843082682292 : JumpEnd); (12 : 57.1843082682292); (12 : 58.3044254557292); (12.0104166666667 : 58.3044254557292 : JumpStart); (12.5520833333333 : 58.3044254557292 : JumpEnd); (14.4479166666667 : 58.3044254557292 : JumpStart); (15.1145833333333 : 58.3044254557292 : JumpEnd); (15.125 : 58.3044254557292); (15.125 : 57.5); (15.2135416666667 : 57.5 : JumpStart); (15.5364553333333 : 57.5 : JumpEnd); (15.6354146666667 : 57.5 : JumpStart); (15.8020813333333 : 57.5 : JumpEnd); (15.984374 : 57.5); (15.984374 : 57.625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_TrnCollection4" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="57fc059d-fd9a-4590-9ad1-57aec5890443" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.75 : 52.5635226621344); (8.85416666666667 : 52.5635226621344 : JumpStart); (9.02083333333333 : 52.5635226621344 : JumpEnd); (9.04166666666667 : 52.5635226621344 : JumpStart); (9.45833333333333 : 52.5635226621344 : JumpEnd); (9.47916666666667 : 52.5635226621344 : JumpStart); (9.64583333333333 : 52.5635226621344 : JumpEnd); (11.6354166666667 : 52.5635226621344 : JumpStart); (12.0208333333333 : 52.5635226621344 : JumpEnd); (12.1875 : 52.5635226621344); (12.1875 : 58.4919254557292); (12.1979166666667 : 58.4919254557292 : JumpStart); (12.5208333333333 : 58.4919254557292 : JumpEnd); (14.4479166666667 : 58.4919254557292 : JumpStart); (15.1458333333333 : 58.4919254557292 : JumpEnd); (15.1875 : 58.4919254557292); (15.1875 : 63.4246240234375); (16.0805911816907 : 63.4246240234375 : JumpStart); (16.2472578483574 : 63.4246240234375 : JumpEnd); (16.6548764241787 : 63.4246240234375 : JumpStart); (16.8215430908454 : 63.4246240234375 : JumpEnd); (17.5729166666667 : 63.4246240234375 : JumpStart); (17.8958333333333 : 63.4246240234375 : JumpEnd); (19.0104161666667 : 63.4246240234375 : JumpStart); (19.1770828333333 : 63.4246240234375 : JumpEnd); (19.4947934166667 : 63.4246240234375 : JumpStart); (19.6614600833333 : 63.4246240234375 : JumpEnd); (20.1041666666667 : 63.4246240234375 : JumpStart); (20.2708333333333 : 63.4246240234375 : JumpEnd); (20.375 : 63.4246240234375); (20.375 : 60.9728011067708); (22.031252 : 60.9728011067708); (22.031252 : 63.25)]" fixedFrom="Algorithm" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstAccount/MstAccount_TrnCollectionLine" />
+      <nodes>
+        <classShapeMoniker Id="fee60349-0c5d-4d12-9641-c863b48b608c" />
+        <classShapeMoniker Id="b067b40d-0600-4edc-b5d9-53fe7014ed9e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(24 : 56.3958968098958); (23.9339255650989 : 56.4619712447969 : JumpStart); (23.8160744349011 : 56.5798223749947 : JumpEnd); (23.8089255650989 : 56.5869712447969 : JumpStart); (23.6910744349011 : 56.7048223749947 : JumpEnd); (23.625 : 56.7708968098958); (23.625 : 65.4815584309896); (23 : 65.4815584309896)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/easyposdbDataContext/MstPayType/MstPayType_TrnCollectionLine" />
+      <nodes>
+        <classShapeMoniker Id="b2030be0-3945-4947-bbee-b0ed8f542877" />
+        <classShapeMoniker Id="b067b40d-0600-4edc-b5d9-53fe7014ed9e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(17.25 : 63.0157768695913); (17.5 : 63.2657768695913); (17.5 : 62.625); (17.5729166666667 : 62.625 : JumpStart); (17.9583333333333 : 62.625 : JumpEnd); (20.1041666666667 : 62.625 : JumpStart); (20.2708333333333 : 62.625 : JumpEnd); (20.375 : 62.625); (20.5660744349011 : 62.8160744349011 : JumpStart); (20.6839255650989 : 62.9339255650989 : JumpEnd); (20.6910744349011 : 62.9410744349011 : JumpStart); (20.8089255650989 : 63.0589255650989 : JumpEnd); (20.8160744349011 : 63.0660744349011 : JumpStart); (20.9964255650989 : 63.2464255650989 : JumpEnd); (21 : 63.25)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/TrnCollection/TrnCollection_TrnCollectionLine" />
+      <nodes>
+        <classShapeMoniker Id="57fc059d-fd9a-4590-9ad1-57aec5890443" />
+        <classShapeMoniker Id="b067b40d-0600-4edc-b5d9-53fe7014ed9e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(9.5 : 47.1747049416566); (9.37142556509888 : 47.3032793765577 : JumpStart); (9.25357443490112 : 47.4211305067555 : JumpEnd); (9.15625 : 47.5184549416566); (9.15625 : 59.2796541341146); (8.83333333333333 : 59.2796541341146 : JumpStart); (8.57291616666667 : 59.2796541341146 : JumpEnd); (8.5 : 59.2796541341146)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstPeriod/MstPeriod_TrnDebitCreditMemo" />
+      <nodes>
+        <classShapeMoniker Id="c5dcadfa-ecd1-477f-885e-99d91f311a9b" />
+        <classShapeMoniker Id="e073d1f4-0f5c-4898-83b6-166e4218e035" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.148439 : 56.6074039713542); (2.148439 : 60.2606416536458); (2.19791866666667 : 60.2606416536458 : JumpStart); (2.63021133333333 : 60.2606416536458 : JumpEnd); (3.04166666666667 : 60.2606416536458 : JumpStart); (3.58333333333333 : 60.2606416536458 : JumpEnd); (6.32291666666667 : 60.2606416536458 : JumpStart); (6.48958333333333 : 60.2606416536458 : JumpEnd); (6.5 : 60.2606416536458)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_TrnDebitCreditMemo" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="e073d1f4-0f5c-4898-83b6-166e4218e035" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.679691 : 56.6074039713542); (2.679691 : 60.0590203125); (3.04166666666667 : 60.0590203125 : JumpStart); (3.58333333333333 : 60.0590203125 : JumpEnd); (6.32291666666667 : 60.0590203125 : JumpStart); (6.48958333333333 : 60.0590203125 : JumpEnd); (6.5 : 60.0590203125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_TrnDebitCreditMemo1" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="e073d1f4-0f5c-4898-83b6-166e4218e035" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.484374 : 56.6074039713542); (1.484374 : 60.6638843359375); (1.79947966666667 : 60.6638843359375 : JumpStart); (2.09895933333333 : 60.6638843359375 : JumpEnd); (2.19791866666667 : 60.6638843359375 : JumpStart); (2.49739833333333 : 60.6638843359375 : JumpEnd); (3.04166666666667 : 60.6638843359375 : JumpStart); (3.58333333333333 : 60.6638843359375 : JumpEnd); (6.32291666666667 : 60.6638843359375 : JumpStart); (6.48958333333333 : 60.6638843359375 : JumpEnd); (6.5 : 60.6638843359375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_TrnDebitCreditMemo2" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="e073d1f4-0f5c-4898-83b6-166e4218e035" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.546878 : 56.6074039713542); (2.546878 : 60.4622629947917); (3.04166666666667 : 60.4622629947917 : JumpStart); (3.58333333333333 : 60.4622629947917 : JumpEnd); (6.32291666666667 : 60.4622629947917 : JumpStart); (6.48958333333333 : 60.4622629947917 : JumpEnd); (6.5 : 60.4622629947917)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_TrnDebitCreditMemo3" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="e073d1f4-0f5c-4898-83b6-166e4218e035" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.281252 : 56.6074039713542); (2.281252 : 60.8303488020833); (2.33073166666667 : 60.8303488020833 : JumpStart); (2.49739833333333 : 60.8303488020833 : JumpEnd); (3.04166666666667 : 60.8303488020833 : JumpStart); (3.58333333333333 : 60.8303488020833 : JumpEnd); (6.32291666666667 : 60.8303488020833 : JumpStart); (6.48958333333333 : 60.8303488020833 : JumpEnd); (6.5 : 60.8303488020833)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_TrnDebitCreditMemo4" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="e073d1f4-0f5c-4898-83b6-166e4218e035" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.67187275 : 53.2708968098958); (7.67187275 : 53.8125); (8.57291616666667 : 53.8125 : JumpStart); (8.73958283333334 : 53.8125 : JumpEnd); (8.75 : 53.8125); (8.75 : 74.1552555338542); (14.7916666666667 : 74.1552555338542 : JumpStart); (14.9583333333333 : 74.1552555338542 : JumpEnd); (16.1666666666667 : 74.1552555338542 : JumpStart); (16.3333333333333 : 74.1552555338542 : JumpEnd); (20.625 : 74.1552555338542); (20.625 : 70.6715018372396); (21 : 70.6715018372396)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/easyposdbDataContext/MstAccount/MstAccount_TrnDebitCreditMemoLine" />
+      <nodes>
+        <classShapeMoniker Id="fee60349-0c5d-4d12-9641-c863b48b608c" />
+        <classShapeMoniker Id="3c64c053-d915-49d6-bd68-27b6e0aec34d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.5 : 60.1382332011719); (8.57291616666667 : 60.1382332011719 : JumpStart); (8.83333333333333 : 60.1382332011719 : JumpEnd); (9.125 : 60.1382332011719); (9.125 : 62.5689111328125); (9.22916666666667 : 62.5689111328125 : JumpStart); (9.39583333333333 : 62.5689111328125 : JumpEnd); (10.4166666666667 : 62.5689111328125 : JumpStart); (10.5833333333333 : 62.5689111328125 : JumpEnd); (11.8541666666667 : 62.5689111328125 : JumpStart); (12.0208333333333 : 62.5689111328125 : JumpEnd); (13.4166666666667 : 62.5689111328125 : JumpStart); (13.5833333333333 : 62.5689111328125 : JumpEnd); (14.4791666666667 : 62.5689111328125 : JumpStart); (14.7083333333333 : 62.5689111328125 : JumpEnd); (14.75 : 62.5689111328125); (14.75 : 63.1746240234375); (14.7916666666667 : 63.1746240234375 : JumpStart); (15.2708333333333 : 63.1746240234375 : JumpEnd); (16.0805911816907 : 63.1746240234375 : JumpStart); (16.2472578483574 : 63.1746240234375 : JumpEnd); (16.6548764241787 : 63.1746240234375 : JumpStart); (16.8215430908454 : 63.1746240234375 : JumpEnd); (17.2916666666667 : 63.1746240234375 : JumpStart); (17.9583333333333 : 63.1746240234375 : JumpEnd); (19.0104161666667 : 63.1746240234375 : JumpStart); (19.1770828333333 : 63.1746240234375 : JumpEnd); (19.4947934166667 : 63.1746240234375 : JumpStart); (19.6614600833333 : 63.1746240234375 : JumpEnd); (20.1041666666667 : 63.1746240234375 : JumpStart); (20.2708333333333 : 63.1746240234375 : JumpEnd); (20.2916666666667 : 63.1746240234375 : JumpStart); (20.4583333333333 : 63.1746240234375 : JumpEnd); (20.5 : 63.1746240234375); (20.5 : 69); (22 : 69); (22 : 69.375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/TrnDebitCreditMemo/TrnDebitCreditMemo_TrnDebitCreditMemoLine" />
+      <nodes>
+        <classShapeMoniker Id="e073d1f4-0f5c-4898-83b6-166e4218e035" />
+        <classShapeMoniker Id="3c64c053-d915-49d6-bd68-27b6e0aec34d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.75 : 52.0421668694912); (8.79166666666667 : 52.0421668694912 : JumpStart); (9.39583333333333 : 52.0421668694912 : JumpEnd); (9.47916666666667 : 52.0421668694912 : JumpStart); (9.64583333333333 : 52.0421668694912 : JumpEnd); (11.7916666666667 : 52.0421668694912 : JumpStart); (12.0208333333333 : 52.0421668694912 : JumpEnd); (12.375 : 52.0421668694912); (12.375 : 59.1794254557292); (13.4166666666667 : 59.1794254557292 : JumpStart); (13.5833333333333 : 59.1794254557292 : JumpEnd); (14.625 : 59.1794254557292); (14.625 : 57.375); (14.6666666666667 : 57.375 : JumpStart); (15.5364553333333 : 57.375 : JumpEnd); (15.6354146666667 : 57.375 : JumpStart); (15.8020813333333 : 57.375 : JumpEnd); (16.4322926666667 : 57.375 : JumpStart); (16.5989593333333 : 57.375 : JumpEnd); (17.4166666666667 : 57.375 : JumpStart); (17.7395833333333 : 57.375 : JumpEnd); (17.75 : 57.375); (17.75 : 58.5785953776042); (17.7604166666667 : 58.5785953776042 : JumpStart); (17.9583333333333 : 58.5785953776042 : JumpEnd); (18.0416666666667 : 58.5785953776042 : JumpStart); (18.2083333333333 : 58.5785953776042 : JumpEnd); (20.125 : 58.5785953776042); (20.125 : 57.2997054036458); (20.3541666666667 : 57.2997054036458 : JumpStart); (20.5208333333333 : 57.2997054036458 : JumpEnd); (20.8541666666667 : 57.2997054036458 : JumpStart); (21.0208333333333 : 57.2997054036458 : JumpEnd); (23.5416666666667 : 57.2997054036458 : JumpStart); (23.9583333333333 : 57.2997054036458 : JumpEnd); (24.1197886666667 : 57.2997054036458 : JumpStart); (24.2864553333333 : 57.2997054036458 : JumpEnd); (24.3854146666667 : 57.2997054036458 : JumpStart); (24.5520813333333 : 57.2997054036458 : JumpEnd); (24.6510406666667 : 57.2997054036458 : JumpStart); (24.8177073333333 : 57.2997054036458 : JumpEnd); (24.9166666666667 : 57.2997054036458 : JumpStart); (25.0833333333333 : 57.2997054036458 : JumpEnd); (25.4479186666667 : 57.2997054036458 : JumpStart); (25.6145853333333 : 57.2997054036458 : JumpEnd); (26.2916666666667 : 57.2997054036458 : JumpStart); (26.5833333333333 : 57.2997054036458 : JumpEnd); (27.75 : 57.2997054036458); (27.75 : 59.75)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstAccount/MstAccount_TrnDisbursement" />
+      <nodes>
+        <classShapeMoniker Id="fee60349-0c5d-4d12-9641-c863b48b608c" />
+        <classShapeMoniker Id="01885fc0-4657-41fc-bc44-0798d9ce6f51" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(26 : 56.3958968098958); (26.375 : 56.7708968098958); (26.375 : 64.9996393494466); (26.4166666666667 : 64.9996393494466 : JumpStart); (26.5833333333333 : 64.9996393494466 : JumpEnd); (26.75 : 64.9996393494466)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/easyposdbDataContext/MstPayType/MstPayType_TrnDisbursement" />
+      <nodes>
+        <classShapeMoniker Id="b2030be0-3945-4947-bbee-b0ed8f542877" />
+        <classShapeMoniker Id="01885fc0-4657-41fc-bc44-0798d9ce6f51" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11.5 : 46.2252425130208); (14.2820203809846 : 46.2252425130208 : JumpStart); (14.4486870476512 : 46.2252425130208 : JumpEnd); (14.6850582857572 : 46.2252425130208 : JumpStart); (14.8517249524238 : 46.2252425130208 : JumpEnd); (16.1666666666667 : 46.2252425130208 : JumpStart); (16.3333333333333 : 46.2252425130208 : JumpEnd); (20.6041666666667 : 46.2252425130208 : JumpStart); (20.7708333333333 : 46.2252425130208 : JumpEnd); (20.8541666666667 : 46.2252425130208 : JumpStart); (21.0208333333333 : 46.2252425130208 : JumpEnd); (21.9166666666667 : 46.2252425130208 : JumpStart); (22.0833333333333 : 46.2252425130208 : JumpEnd); (23.7916666666667 : 46.2252425130208 : JumpStart); (23.9583333333333 : 46.2252425130208 : JumpEnd); (26.5 : 46.2252425130208); (26.5 : 59.375); (26.8697886666667 : 59.375 : JumpStart); (27.0364553333333 : 59.375 : JumpEnd); (27.1354146666667 : 59.375 : JumpStart); (27.3020813333333 : 59.375 : JumpEnd); (27.4010406666667 : 59.375 : JumpStart); (27.5677073333333 : 59.375 : JumpEnd); (27.75 : 59.375); (27.75 : 59.75)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstPeriod/MstPeriod_TrnDisbursement" />
+      <nodes>
+        <classShapeMoniker Id="c5dcadfa-ecd1-477f-885e-99d91f311a9b" />
+        <classShapeMoniker Id="01885fc0-4657-41fc-bc44-0798d9ce6f51" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(13.5 : 62.75); (13.5 : 62.25); (14.625 : 62.25); (14.625 : 63.5199698893229); (14.7916666666667 : 63.5199698893229 : JumpStart); (14.9739583333333 : 63.5199698893229 : JumpEnd); (15.0416666666667 : 63.5199698893229 : JumpStart); (15.2083333333333 : 63.5199698893229 : JumpEnd); (16.0805911816907 : 63.5199698893229 : JumpStart); (16.2472578483574 : 63.5199698893229 : JumpEnd); (16.6548764241787 : 63.5199698893229 : JumpStart); (16.8215430908454 : 63.5199698893229 : JumpEnd); (17.5416666666667 : 63.5199698893229 : JumpStart); (17.8958333333333 : 63.5199698893229 : JumpEnd); (19.0104161666667 : 63.5199698893229 : JumpStart); (19.1770828333333 : 63.5199698893229 : JumpEnd); (19.4947934166667 : 63.5199698893229 : JumpStart); (19.6614600833333 : 63.5199698893229 : JumpEnd); (20.1041666666667 : 63.5199698893229 : JumpStart); (20.2708333333333 : 63.5199698893229 : JumpEnd); (20.4166666666667 : 63.5199698893229 : JumpStart); (20.5833333333333 : 63.5199698893229 : JumpEnd); (20.625 : 63.5199698893229); (20.625 : 62.5625); (20.7916666666667 : 62.5625 : JumpStart); (21.0208333333333 : 62.5625 : JumpEnd); (21.9479186666667 : 62.5625 : JumpStart); (22.1145853333333 : 62.5625 : JumpEnd); (23.4603541917067 : 62.5625 : JumpStart); (23.9583333333333 : 62.5625 : JumpEnd); (24.1197886666667 : 62.5625 : JumpStart); (24.2864553333333 : 62.5625 : JumpEnd); (24.6270348157051 : 62.5625 : JumpStart); (24.7937014823718 : 62.5625 : JumpEnd); (25.2877516834936 : 62.5625 : JumpStart); (25.4544183501602 : 62.5625 : JumpEnd); (26.2916666666667 : 62.5625 : JumpStart); (26.4583333333333 : 62.5625 : JumpEnd); (26.5 : 62.5625); (26.5 : 61.1671654601237); (26.75 : 61.1671654601237)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/easyposdbDataContext/MstTerminal/MstTerminal_TrnDisbursement" />
+      <nodes>
+        <classShapeMoniker Id="78b2fe1a-4c47-4bbc-a6e5-f471e2cd646f" />
+        <classShapeMoniker Id="01885fc0-4657-41fc-bc44-0798d9ce6f51" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 54.4939150505309); (5.875 : 54.4939150505309); (5.875 : 57.4968082682292); (6.32291666666667 : 57.4968082682292 : JumpStart); (6.52083333333333 : 57.4968082682292 : JumpEnd); (8.57291616666667 : 57.4968082682292 : JumpStart); (8.83333333333333 : 57.4968082682292 : JumpEnd); (9.07291666666667 : 57.4968082682292 : JumpStart); (9.39583333333333 : 57.4968082682292 : JumpEnd); (9.47916666666667 : 57.4968082682292 : JumpStart); (9.64583333333333 : 57.4968082682292 : JumpEnd); (10.4166666666667 : 57.4968082682292 : JumpStart); (10.5833333333333 : 57.4968082682292 : JumpEnd); (11.4375 : 57.4968082682292); (11.4375 : 58.3669254557292); (11.5104166666667 : 58.3669254557292 : JumpStart); (12.5520833333333 : 58.3669254557292 : JumpEnd); (14.4479166666667 : 58.3669254557292 : JumpStart); (14.9583333333333 : 58.3669254557292 : JumpEnd); (15 : 58.3669254557292); (15 : 57.0625); (15.1041666666667 : 57.0625 : JumpStart); (15.3802083333333 : 57.0625 : JumpEnd); (17.2291666666667 : 57.0625 : JumpStart); (17.4270833333333 : 57.0625 : JumpEnd); (17.5 : 57.0625); (17.5 : 58.4535953776042); (17.5729166666667 : 58.4535953776042 : JumpStart); (17.9583333333333 : 58.4535953776042 : JumpEnd); (18.0416666666667 : 58.4535953776042 : JumpStart); (18.2083333333333 : 58.4535953776042 : JumpEnd); (20.0416666666667 : 58.4535953776042 : JumpStart); (20.4583333333333 : 58.4535953776042 : JumpEnd); (20.75 : 58.4535953776042); (20.75 : 57.3622054036458); (20.8541666666667 : 57.3622054036458 : JumpStart); (21.0208333333333 : 57.3622054036458 : JumpEnd); (23.5416666666667 : 57.3622054036458 : JumpStart); (23.9583333333333 : 57.3622054036458 : JumpEnd); (24.1197886666667 : 57.3622054036458 : JumpStart); (24.2864553333333 : 57.3622054036458 : JumpEnd); (24.3854146666667 : 57.3622054036458 : JumpStart); (24.5520813333333 : 57.3622054036458 : JumpEnd); (24.6510406666667 : 57.3622054036458 : JumpStart); (24.8177073333333 : 57.3622054036458 : JumpEnd); (24.9166666666667 : 57.3622054036458 : JumpStart); (25.0833333333333 : 57.3622054036458 : JumpEnd); (25.4479186666667 : 57.3622054036458 : JumpStart); (25.6145853333333 : 57.3622054036458 : JumpEnd); (26.2916666666667 : 57.3622054036458 : JumpStart); (26.5833333333333 : 57.3622054036458 : JumpEnd); (27.218748 : 57.3622054036458); (27.218748 : 59.75)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_TrnDisbursement" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="01885fc0-4657-41fc-bc44-0798d9ce6f51" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 55.8567531515926); (5.54166666666667 : 55.8567531515926 : JumpStart); (6.02083333333333 : 55.8567531515926 : JumpEnd); (6.0625 : 55.8567531515926); (6.0625 : 57.2155582682292); (6.10416666666667 : 57.2155582682292 : JumpStart); (6.52083333333333 : 57.2155582682292 : JumpEnd); (8.57291616666667 : 57.2155582682292 : JumpStart); (8.83333333333333 : 57.2155582682292 : JumpEnd); (9.07291666666667 : 57.2155582682292 : JumpStart); (9.39583333333333 : 57.2155582682292 : JumpEnd); (9.47916666666667 : 57.2155582682292 : JumpStart); (9.64583333333333 : 57.2155582682292 : JumpEnd); (10.4166666666667 : 57.2155582682292 : JumpStart); (10.5833333333333 : 57.2155582682292 : JumpEnd); (11.5104166666667 : 57.2155582682292 : JumpStart); (12.2708333333333 : 57.2155582682292 : JumpEnd); (12.28125 : 57.2155582682292); (12.28125 : 59.0544254557292); (12.2916666666667 : 59.0544254557292 : JumpStart); (12.4583333333333 : 59.0544254557292 : JumpEnd); (13.4166666666667 : 59.0544254557292 : JumpStart); (13.5833333333333 : 59.0544254557292 : JumpEnd); (14.5625 : 59.0544254557292); (14.5625 : 57.3125); (14.6666666666667 : 57.3125 : JumpStart); (15.5364553333333 : 57.3125 : JumpEnd); (15.6354146666667 : 57.3125 : JumpStart); (15.8020813333333 : 57.3125 : JumpEnd); (17.375 : 57.3125); (17.375 : 58.3285953776042); (17.4166666666667 : 58.3285953776042 : JumpStart); (17.9583333333333 : 58.3285953776042 : JumpEnd); (18.0416666666667 : 58.3285953776042 : JumpStart); (18.2083333333333 : 58.3285953776042 : JumpEnd); (20.0416666666667 : 58.3285953776042 : JumpStart); (20.4583333333333 : 58.3285953776042 : JumpEnd); (20.625 : 58.3285953776042); (20.625 : 57.2372054036458); (20.8541666666667 : 57.2372054036458 : JumpStart); (21.0208333333333 : 57.2372054036458 : JumpEnd); (23.5416666666667 : 57.2372054036458 : JumpStart); (23.9583333333333 : 57.2372054036458 : JumpEnd); (24.1197886666667 : 57.2372054036458 : JumpStart); (24.2864553333333 : 57.2372054036458 : JumpEnd); (24.3854146666667 : 57.2372054036458 : JumpStart); (24.5520813333333 : 57.2372054036458 : JumpEnd); (24.6510406666667 : 57.2372054036458 : JumpStart); (24.8177073333333 : 57.2372054036458 : JumpEnd); (24.9166666666667 : 57.2372054036458 : JumpStart); (25.0833333333333 : 57.2372054036458 : JumpEnd); (26.2916666666667 : 57.2372054036458 : JumpStart); (26.6458333333333 : 57.2372054036458 : JumpEnd); (28.281252 : 57.2372054036458); (28.281252 : 59.75)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_TrnDisbursement1" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="01885fc0-4657-41fc-bc44-0798d9ce6f51" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 54.6642698131636); (5.6875 : 54.6642698131636); (5.6875 : 57.1530582682292); (5.72916666666667 : 57.1530582682292 : JumpStart); (6.08333333333333 : 57.1530582682292 : JumpEnd); (6.10416666666667 : 57.1530582682292 : JumpStart); (6.52083333333333 : 57.1530582682292 : JumpEnd); (8.57291616666667 : 57.1530582682292 : JumpStart); (8.83333333333333 : 57.1530582682292 : JumpEnd); (9.07291666666667 : 57.1530582682292 : JumpStart); (9.39583333333333 : 57.1530582682292 : JumpEnd); (9.47916666666667 : 57.1530582682292 : JumpStart); (9.64583333333333 : 57.1530582682292 : JumpEnd); (10.4166666666667 : 57.1530582682292 : JumpStart); (10.5833333333333 : 57.1530582682292 : JumpEnd); (11.5104166666667 : 57.1530582682292 : JumpStart); (12.0208333333333 : 57.1530582682292 : JumpEnd); (12.15625 : 57.1530582682292); (12.15625 : 58.3981754557292); (12.1979166666667 : 58.3981754557292 : JumpStart); (12.5520833333333 : 58.3981754557292 : JumpEnd); (14.4479166666667 : 58.3981754557292 : JumpStart); (15.0677083333333 : 58.3981754557292 : JumpEnd); (15.09375 : 58.3981754557292); (15.09375 : 57.5625); (15.1354166666667 : 57.5625 : JumpStart); (15.3802083333333 : 57.5625 : JumpEnd); (17.2916666666667 : 57.5625 : JumpStart); (17.7395833333333 : 57.5625 : JumpEnd); (17.8125 : 57.5625); (17.8125 : 58.7035953776042); (18.0416666666667 : 58.7035953776042 : JumpStart); (18.2083333333333 : 58.7035953776042 : JumpEnd); (20.1666666666667 : 58.7035953776042 : JumpStart); (20.3333333333333 : 58.7035953776042 : JumpEnd); (20.375 : 58.7035953776042); (20.375 : 57.3934554036458); (20.4166666666667 : 57.3934554036458 : JumpStart); (20.7083333333333 : 57.3934554036458 : JumpEnd); (20.8541666666667 : 57.3934554036458 : JumpStart); (21.0208333333333 : 57.3934554036458 : JumpEnd); (23.5416666666667 : 57.3934554036458 : JumpStart); (23.9583333333333 : 57.3934554036458 : JumpEnd); (24.1197886666667 : 57.3934554036458 : JumpStart); (24.2864553333333 : 57.3934554036458 : JumpEnd); (24.3854146666667 : 57.3934554036458 : JumpStart); (24.5520813333333 : 57.3934554036458 : JumpEnd); (24.6510406666667 : 57.3934554036458 : JumpStart); (24.8177073333333 : 57.3934554036458 : JumpEnd); (24.9166666666667 : 57.3934554036458 : JumpStart); (25.0833333333333 : 57.3934554036458 : JumpEnd); (25.4479186666667 : 57.3934554036458 : JumpStart); (25.6145853333333 : 57.3934554036458 : JumpEnd); (26.2916666666667 : 57.3934554036458 : JumpStart); (26.5833333333333 : 57.3934554036458 : JumpEnd); (26.953122 : 57.3934554036458); (26.953122 : 59.75)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_TrnDisbursement2" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="01885fc0-4657-41fc-bc44-0798d9ce6f51" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 55.1753341010617); (5.60416666666667 : 55.1753341010617 : JumpStart); (5.77083333333333 : 55.1753341010617 : JumpEnd); (5.8125 : 55.1753341010617); (5.8125 : 57.2468082682292); (5.85416666666667 : 57.2468082682292 : JumpStart); (6.08333333333333 : 57.2468082682292 : JumpEnd); (6.10416666666667 : 57.2468082682292 : JumpStart); (6.52083333333333 : 57.2468082682292 : JumpEnd); (8.57291616666667 : 57.2468082682292 : JumpStart); (8.83333333333333 : 57.2468082682292 : JumpEnd); (9.07291666666667 : 57.2468082682292 : JumpStart); (9.39583333333333 : 57.2468082682292 : JumpEnd); (9.47916666666667 : 57.2468082682292 : JumpStart); (9.64583333333333 : 57.2468082682292 : JumpEnd); (10.4166666666667 : 57.2468082682292 : JumpStart); (10.5833333333333 : 57.2468082682292 : JumpEnd); (11.5104166666667 : 57.2468082682292 : JumpStart); (12.2708333333333 : 57.2468082682292 : JumpEnd); (12.34375 : 57.2468082682292); (12.34375 : 58.3356754557292); (12.3541666666667 : 58.3356754557292 : JumpStart); (12.5520833333333 : 58.3356754557292 : JumpEnd); (14.4479166666667 : 58.3356754557292 : JumpStart); (15.1458333333333 : 58.3356754557292 : JumpEnd); (15.15625 : 58.3356754557292); (15.15625 : 57.1875); (15.2135416666667 : 57.1875 : JumpStart); (15.5364553333333 : 57.1875 : JumpEnd); (17.2291666666667 : 57.1875 : JumpStart); (17.8020833333333 : 57.1875 : JumpEnd); (17.9375 : 57.1875); (17.9375 : 58.3910953776042); (18.0416666666667 : 58.3910953776042 : JumpStart); (18.2083333333333 : 58.3910953776042 : JumpEnd); (20.0416666666667 : 58.3910953776042 : JumpStart); (20.4583333333333 : 58.3910953776042 : JumpEnd); (20.875 : 58.3910953776042); (20.875 : 57.3309554036458); (23.5416666666667 : 57.3309554036458 : JumpStart); (23.9583333333333 : 57.3309554036458 : JumpEnd); (24.1197886666667 : 57.3309554036458 : JumpStart); (24.2864553333333 : 57.3309554036458 : JumpEnd); (24.3854146666667 : 57.3309554036458 : JumpStart); (24.5520813333333 : 57.3309554036458 : JumpEnd); (24.6510406666667 : 57.3309554036458 : JumpStart); (24.8177073333333 : 57.3309554036458 : JumpEnd); (24.9166666666667 : 57.3309554036458 : JumpStart); (25.0833333333333 : 57.3309554036458 : JumpEnd); (25.4479186666667 : 57.3309554036458 : JumpStart); (25.6145853333333 : 57.3309554036458 : JumpEnd); (26.2916666666667 : 57.3309554036458 : JumpStart); (26.5833333333333 : 57.3309554036458 : JumpEnd); (27.484374 : 57.3309554036458); (27.484374 : 59.75)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_TrnDisbursement3" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="01885fc0-4657-41fc-bc44-0798d9ce6f51" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 53.9828507626327); (6.25 : 53.9828507626327); (6.25 : 57.0905582682292); (6.26041666666667 : 57.0905582682292 : JumpStart); (6.52083333333333 : 57.0905582682292 : JumpEnd); (8.57291616666667 : 57.0905582682292 : JumpStart); (8.83333333333333 : 57.0905582682292 : JumpEnd); (9.07291666666667 : 57.0905582682292 : JumpStart); (9.39583333333333 : 57.0905582682292 : JumpEnd); (9.47916666666667 : 57.0905582682292 : JumpStart); (9.64583333333333 : 57.0905582682292 : JumpEnd); (10.4166666666667 : 57.0905582682292 : JumpStart); (10.5833333333333 : 57.0905582682292 : JumpEnd); (11.5104166666667 : 57.0905582682292 : JumpStart); (11.8020833333333 : 57.0905582682292 : JumpEnd); (11.90625 : 57.0905582682292); (11.90625 : 58.4606754557292); (11.9791666666667 : 58.4606754557292 : JumpStart); (12.5208333333333 : 58.4606754557292 : JumpEnd); (14.4479166666667 : 58.4606754557292 : JumpStart); (14.8020833333333 : 58.4606754557292 : JumpEnd); (14.84375 : 58.4606754557292); (14.84375 : 57.0625); (14.9791666666667 : 57.0625 : JumpStart); (15.3802083333333 : 57.0625 : JumpEnd); (17.2291666666667 : 57.0625 : JumpStart); (17.8020833333333 : 57.0625 : JumpEnd); (17.96875 : 57.0625); (17.96875 : 58.2660953776042); (18.0416666666667 : 58.2660953776042 : JumpStart); (18.2083333333333 : 58.2660953776042 : JumpEnd); (20.0416666666667 : 58.2660953776042 : JumpStart); (20.4583333333333 : 58.2660953776042 : JumpEnd); (20.5 : 58.2660953776042); (20.5 : 57.2684554036458); (20.8541666666667 : 57.2684554036458 : JumpStart); (21.0208333333333 : 57.2684554036458 : JumpEnd); (23.5416666666667 : 57.2684554036458 : JumpStart); (23.9583333333333 : 57.2684554036458 : JumpEnd); (24.1197886666667 : 57.2684554036458 : JumpStart); (24.2864553333333 : 57.2684554036458 : JumpEnd); (24.3854146666667 : 57.2684554036458 : JumpStart); (24.5520813333333 : 57.2684554036458 : JumpEnd); (24.6510406666667 : 57.2684554036458 : JumpStart); (24.8177073333333 : 57.2684554036458 : JumpEnd); (24.9166666666667 : 57.2684554036458 : JumpStart); (25.0833333333333 : 57.2684554036458 : JumpEnd); (25.4479186666667 : 57.2684554036458 : JumpStart); (25.6145853333333 : 57.2684554036458 : JumpEnd); (26.2916666666667 : 57.2684554036458 : JumpStart); (26.6145833333333 : 57.2684554036458 : JumpEnd); (28.015626 : 57.2684554036458); (28.015626 : 59.75)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_TrnDisbursement4" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="01885fc0-4657-41fc-bc44-0798d9ce6f51" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.687502 : 53.2708968098958); (8.687502 : 64.1394221419271); (9.22916666666667 : 64.1394221419271 : JumpStart); (9.39583333333333 : 64.1394221419271 : JumpEnd); (11.8541666666667 : 64.1394221419271 : JumpStart); (12.0208333333333 : 64.1394221419271 : JumpEnd); (13.4166666666667 : 64.1394221419271 : JumpStart); (13.5833333333333 : 64.1394221419271 : JumpEnd); (14.7916666666667 : 64.1394221419271 : JumpStart); (14.9739583333333 : 64.1394221419271 : JumpEnd); (15.6236294241787 : 64.1394221419271 : JumpStart); (15.7902960908454 : 64.1394221419271 : JumpEnd); (16.6548764241787 : 64.1394221419271 : JumpStart); (16.8215430908454 : 64.1394221419271 : JumpEnd); (17.3080127555088 : 64.1394221419271 : JumpStart); (17.5408332683293 : 64.1394221419271 : JumpEnd); (17.5416666666667 : 64.1394221419271 : JumpStart); (17.7395833333333 : 64.1394221419271 : JumpEnd); (18 : 64.1394221419271)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/easyposdbDataContext/MstAccount/MstAccount_TrnJournal" />
+      <nodes>
+        <classShapeMoniker Id="fee60349-0c5d-4d12-9641-c863b48b608c" />
+        <classShapeMoniker Id="abbe4117-6632-4180-aade-7573b3a1d150" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(17.25 : 63.0496240234375); (17.625 : 63.4246240234375); (17.625 : 65.121663950976); (18 : 65.121663950976)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/easyposdbDataContext/TrnCollection/TrnCollection_TrnJournal" />
+      <nodes>
+        <classShapeMoniker Id="57fc059d-fd9a-4590-9ad1-57aec5890443" />
+        <classShapeMoniker Id="abbe4117-6632-4180-aade-7573b3a1d150" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.5 : 60.9343082682292); (7.5 : 64.0417048274739); (8.60416866666667 : 64.0417048274739 : JumpStart); (8.83333333333333 : 64.0417048274739 : JumpEnd); (9.22916666666667 : 64.0417048274739 : JumpStart); (9.39583333333333 : 64.0417048274739 : JumpEnd); (10.4166666666667 : 64.0417048274739 : JumpStart); (10.5833333333333 : 64.0417048274739 : JumpEnd); (11.8541666666667 : 64.0417048274739 : JumpStart); (12.0208333333333 : 64.0417048274739 : JumpEnd); (13.4166666666667 : 64.0417048274739 : JumpStart); (13.5833333333333 : 64.0417048274739 : JumpEnd); (14.7916666666667 : 64.0417048274739 : JumpStart); (14.9739583333333 : 64.0417048274739 : JumpEnd); (15.6236294241787 : 64.0417048274739 : JumpStart); (15.7902960908454 : 64.0417048274739 : JumpEnd); (16.6548764241787 : 64.0417048274739 : JumpStart); (16.8215430908454 : 64.0417048274739 : JumpEnd); (17.405730069962 : 64.0417048274739 : JumpStart); (17.7395833333333 : 64.0417048274739 : JumpEnd); (18 : 64.0417048274739)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/easyposdbDataContext/TrnDebitCreditMemo/TrnDebitCreditMemo_TrnJournal" />
+      <nodes>
+        <classShapeMoniker Id="e073d1f4-0f5c-4898-83b6-166e4218e035" />
+        <classShapeMoniker Id="abbe4117-6632-4180-aade-7573b3a1d150" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(26.75 : 62.6468349202474); (26.4583333333333 : 62.6468349202474 : JumpStart); (26.2916666666667 : 62.6468349202474 : JumpEnd); (25.4544183501602 : 62.6468349202474 : JumpStart); (25.2877516834936 : 62.6468349202474 : JumpEnd); (24.7937014823718 : 62.6468349202474 : JumpStart); (24.6270348157051 : 62.6468349202474 : JumpEnd); (24.2864553333333 : 62.6468349202474 : JumpStart); (24.1197886666667 : 62.6468349202474 : JumpEnd); (23.9583333333333 : 62.6468349202474 : JumpStart); (23.3760192714593 : 62.6468349202474 : JumpEnd); (23.25 : 62.6468349202474); (23.25 : 63); (22.1145853333333 : 63 : JumpStart); (21.9479186666667 : 63 : JumpEnd); (21.0208333333333 : 63 : JumpStart); (20.4791666666667 : 63 : JumpEnd); (20.4583333333333 : 63 : JumpStart); (20.2916666666667 : 63 : JumpEnd); (20.2708333333333 : 63 : JumpStart); (20.1041666666667 : 63 : JumpEnd); (19.6614600833333 : 63 : JumpStart); (19.4947934166667 : 63 : JumpEnd); (19.0937495 : 63); (19.0937495 : 63.875)]" fixedFrom="Algorithm" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/TrnDisbursement/TrnDisbursement_TrnJournal" />
+      <nodes>
+        <classShapeMoniker Id="01885fc0-4657-41fc-bc44-0798d9ce6f51" />
+        <classShapeMoniker Id="abbe4117-6632-4180-aade-7573b3a1d150" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11.5 : 46.8876838847656); (13.25 : 46.8876838847656); (13.25 : 47.5)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstPeriod/MstPeriod_TrnPurchaseOrder" />
+      <nodes>
+        <classShapeMoniker Id="c5dcadfa-ecd1-477f-885e-99d91f311a9b" />
+        <classShapeMoniker Id="3e5743cb-f282-481e-af93-baa0c6a5f71b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11.5 : 50.0392569986979); (11.7916666666667 : 50.0392569986979 : JumpStart); (12.0833333333333 : 50.0392569986979 : JumpEnd); (12.25 : 50.0392569986979)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstSupplier/MstSupplier_TrnPurchaseOrder" />
+      <nodes>
+        <classShapeMoniker Id="68303407-1209-44fe-8fe2-64e5742aa8c2" />
+        <classShapeMoniker Id="3e5743cb-f282-481e-af93-baa0c6a5f71b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.414065 : 53.875); (2.414065 : 47.71875); (2.59635766666667 : 47.71875 : JumpStart); (2.76302433333333 : 47.71875 : JumpEnd); (9.07291666666667 : 47.71875 : JumpStart); (9.45833333333333 : 47.71875 : JumpEnd); (9.47916666666667 : 47.71875 : JumpStart); (9.64583333333333 : 47.71875 : JumpEnd); (11.7916666666667 : 47.71875 : JumpStart); (12.0833333333333 : 47.71875 : JumpEnd); (12.25 : 47.71875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_TrnPurchaseOrder" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="3e5743cb-f282-481e-af93-baa0c6a5f71b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.351561 : 53.875); (1.351561 : 47.8593775); (2.33073166666667 : 47.8593775 : JumpStart); (2.49739833333333 : 47.8593775 : JumpEnd); (2.59635766666667 : 47.8593775 : JumpStart); (2.76302433333333 : 47.8593775 : JumpEnd); (9.07291666666667 : 47.8593775 : JumpStart); (9.45833333333333 : 47.8593775 : JumpEnd); (9.47916666666667 : 47.8593775 : JumpStart); (9.64583333333333 : 47.8593775 : JumpEnd); (11.7916666666667 : 47.8593775 : JumpStart); (12.0833333333333 : 47.8593775 : JumpEnd); (12.25 : 47.8593775)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_TrnPurchaseOrder1" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="3e5743cb-f282-481e-af93-baa0c6a5f71b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.679691 : 53.875); (2.679691 : 47.5781225); (9.22916666666667 : 47.5781225 : JumpStart); (9.45833333333333 : 47.5781225 : JumpEnd); (9.47916666666667 : 47.5781225 : JumpStart); (9.64583333333333 : 47.5781225 : JumpEnd); (11.9166666666667 : 47.5781225 : JumpStart); (12.0833333333333 : 47.5781225 : JumpEnd); (12.25 : 47.5781225)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_TrnPurchaseOrder2" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="3e5743cb-f282-481e-af93-baa0c6a5f71b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.015626 : 53.875); (2.015626 : 47.89063); (2.33073166666667 : 47.89063 : JumpStart); (2.49739833333333 : 47.89063 : JumpEnd); (2.59635766666667 : 47.89063 : JumpStart); (2.76302433333333 : 47.89063 : JumpEnd); (9.07291666666667 : 47.89063 : JumpStart); (9.45833333333333 : 47.89063 : JumpEnd); (9.47916666666667 : 47.89063 : JumpStart); (9.64583333333333 : 47.89063 : JumpEnd); (11.7916666666667 : 47.89063 : JumpStart); (12.0833333333333 : 47.89063 : JumpEnd); (12.25 : 47.89063)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_TrnPurchaseOrder3" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="3e5743cb-f282-481e-af93-baa0c6a5f71b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.617187 : 53.875); (1.617187 : 47.828125); (2.33073166666667 : 47.828125 : JumpStart); (2.49739833333333 : 47.828125 : JumpEnd); (2.59635766666667 : 47.828125 : JumpStart); (2.76302433333333 : 47.828125 : JumpEnd); (9.07291666666667 : 47.828125 : JumpStart); (9.45833333333333 : 47.828125 : JumpEnd); (9.47916666666667 : 47.828125 : JumpStart); (9.64583333333333 : 47.828125 : JumpEnd); (11.7916666666667 : 47.828125 : JumpStart); (12.0833333333333 : 47.828125 : JumpEnd); (12.25 : 47.828125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_TrnPurchaseOrder4" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="3e5743cb-f282-481e-af93-baa0c6a5f71b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(16.7812525 : 49); (16.7812525 : 47.8437475); (18 : 47.8437475)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstItem/MstItem_TrnPurchaseOrderLine" />
+      <nodes>
+        <classShapeMoniker Id="bf08ce62-cf52-44b3-90d8-268327de169d" />
+        <classShapeMoniker Id="e6d8869b-e33e-48bf-8733-fd378192dab1" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14.3653537143179 : 45.9439925130208); (14.3653537143179 : 47.0969960065104); (15.1041666666667 : 47.0969960065104 : JumpStart); (15.2708333333333 : 47.0969960065104 : JumpEnd); (18 : 47.0969960065104)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUnit/MstUnit_TrnPurchaseOrderLine" />
+      <nodes>
+        <classShapeMoniker Id="4b3e2d26-bdfe-4e41-a5aa-75cab7a63e93" />
+        <classShapeMoniker Id="e6d8869b-e33e-48bf-8733-fd378192dab1" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14.25 : 48.45312375); (15.1041666666667 : 48.45312375 : JumpStart); (15.2708333333333 : 48.45312375 : JumpEnd); (16.1666666666667 : 48.45312375 : JumpStart); (16.3333333333333 : 48.45312375 : JumpEnd); (16.6979191666667 : 48.45312375 : JumpStart); (16.8645858333333 : 48.45312375 : JumpEnd); (18 : 48.45312375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/TrnPurchaseOrder/TrnPurchaseOrder_TrnPurchaseOrderLine" />
+      <nodes>
+        <classShapeMoniker Id="3e5743cb-f282-481e-af93-baa0c6a5f71b" />
+        <classShapeMoniker Id="e6d8869b-e33e-48bf-8733-fd378192dab1" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(17.25 : 64.2807682307692); (17.5660744349011 : 63.9646937958681 : JumpStart); (17.7151755650989 : 63.8155926656704 : JumpEnd); (17.75 : 63.7807682307692); (17.75 : 61.5681469726563); (18 : 61.5681469726563)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/easyposdbDataContext/TrnSale/TrnSale_SysSalesLocked" />
+      <nodes>
+        <classShapeMoniker Id="644ad115-b6fd-4abb-98df-0ccf9a5bbabf" />
+        <classShapeMoniker Id="dad2f5bb-59be-4c0e-8a23-024717c19770" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(16.738209757512 : 64.25); (16.738209757512 : 63.0496240234375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/easyposdbDataContext/TrnSale/TrnSale_TrnCollection" />
+      <nodes>
+        <classShapeMoniker Id="644ad115-b6fd-4abb-98df-0ccf9a5bbabf" />
+        <classShapeMoniker Id="57fc059d-fd9a-4590-9ad1-57aec5890443" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(17.25 : 67.3838118489583); (17.5729166666667 : 67.3838118489583 : JumpStart); (17.7395833333333 : 67.3838118489583 : JumpEnd); (20.4166666666667 : 67.3838118489583 : JumpStart); (20.5833333333333 : 67.3838118489583 : JumpEnd); (21 : 67.3838118489583)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/easyposdbDataContext/TrnSale/TrnSale_TrnCollectionLine" />
+      <nodes>
+        <classShapeMoniker Id="644ad115-b6fd-4abb-98df-0ccf9a5bbabf" />
+        <classShapeMoniker Id="b067b40d-0600-4edc-b5d9-53fe7014ed9e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(17.25 : 69.90625); (17.5729166666667 : 69.90625 : JumpStart); (17.7395833333333 : 69.90625 : JumpEnd); (21 : 69.90625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/easyposdbDataContext/TrnSale/TrnSale_TrnDebitCreditMemoLine" />
+      <nodes>
+        <classShapeMoniker Id="644ad115-b6fd-4abb-98df-0ccf9a5bbabf" />
+        <classShapeMoniker Id="3c64c053-d915-49d6-bd68-27b6e0aec34d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(15.706962757512 : 64.25); (15.706962757512 : 63.6449698893229); (16.0805911816907 : 63.6449698893229 : JumpStart); (16.2472578483574 : 63.6449698893229 : JumpEnd); (16.6548764241787 : 63.6449698893229 : JumpStart); (16.8215430908454 : 63.6449698893229 : JumpEnd); (17.5416666666667 : 63.6449698893229 : JumpStart); (17.8958333333333 : 63.6449698893229 : JumpEnd); (19.0104161666667 : 63.6449698893229 : JumpStart); (19.1770828333333 : 63.6449698893229 : JumpEnd); (19.4947934166667 : 63.6449698893229 : JumpStart); (19.6614600833333 : 63.6449698893229 : JumpEnd); (20.4166666666667 : 63.6449698893229 : JumpStart); (20.5833333333333 : 63.6449698893229 : JumpEnd); (20.6875 : 63.6449698893229); (20.6875 : 63.0625); (20.7291666666667 : 63.0625 : JumpStart); (21.0208333333333 : 63.0625 : JumpEnd); (21.9479186666667 : 63.0625 : JumpStart); (22.1145853333333 : 63.0625 : JumpEnd); (23.5416666666667 : 63.0625 : JumpStart); (23.9583333333333 : 63.0625 : JumpEnd); (24.1197886666667 : 63.0625 : JumpStart); (24.2864553333333 : 63.0625 : JumpEnd); (24.6270348157051 : 63.0625 : JumpStart); (24.7937014823718 : 63.0625 : JumpEnd); (25.2877516834936 : 63.0625 : JumpStart); (25.4544183501602 : 63.0625 : JumpEnd); (25.6334611750801 : 63.0625 : JumpStart); (25.8001278417468 : 63.0625 : JumpEnd); (26.2916666666667 : 63.0625 : JumpStart); (26.4583333333333 : 63.0625 : JumpEnd); (26.5 : 63.0625); (26.5 : 66.1760415640462); (26.75 : 66.1760415640462)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/easyposdbDataContext/TrnSale/TrnSale_TrnDisbursement" />
+      <nodes>
+        <classShapeMoniker Id="644ad115-b6fd-4abb-98df-0ccf9a5bbabf" />
+        <classShapeMoniker Id="01885fc0-4657-41fc-bc44-0798d9ce6f51" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(17.25 : 66.1193353934568); (17.5729166666667 : 66.1193353934568 : JumpStart); (17.7395833333333 : 66.1193353934568 : JumpEnd); (18 : 66.1193353934568)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/easyposdbDataContext/TrnSale/TrnSale_TrnJournal" />
+      <nodes>
+        <classShapeMoniker Id="644ad115-b6fd-4abb-98df-0ccf9a5bbabf" />
+        <classShapeMoniker Id="abbe4117-6632-4180-aade-7573b3a1d150" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14.5 : 58.1000013788061); (14.5035744349011 : 58.1035758137072 : JumpStart); (14.7776755650989 : 58.377676943905 : JumpEnd); (14.890625 : 58.4906263788061); (14.890625 : 69.1886407924966); (15.25 : 69.1886407924966)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/easyposdbDataContext/MstCustomer/MstCustomer_TrnSale" />
+      <nodes>
+        <classShapeMoniker Id="18e1d6b6-fb81-4a03-8c8a-3a3863fad2e6" />
+        <classShapeMoniker Id="644ad115-b6fd-4abb-98df-0ccf9a5bbabf" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11.5 : 47.135210343149); (11.9375 : 47.572710343149); (11.9375 : 72.8468362729228); (14.7916666666667 : 72.8468362729228 : JumpStart); (14.9583333333333 : 72.8468362729228 : JumpEnd); (15.25 : 72.8468362729228)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/easyposdbDataContext/MstPeriod/MstPeriod_TrnSale" />
+      <nodes>
+        <classShapeMoniker Id="c5dcadfa-ecd1-477f-885e-99d91f311a9b" />
+        <classShapeMoniker Id="644ad115-b6fd-4abb-98df-0ccf9a5bbabf" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.40625 : 50.0208968098958); (6.40625 : 65.3233369720263); (8.66666666666667 : 65.3233369720263 : JumpStart); (8.83333333333333 : 65.3233369720263 : JumpEnd); (9.22916666666667 : 65.3233369720263 : JumpStart); (9.39583333333333 : 65.3233369720263 : JumpEnd); (11.8541666666667 : 65.3233369720263 : JumpStart); (12.0208333333333 : 65.3233369720263 : JumpEnd); (13.4166666666667 : 65.3233369720263 : JumpStart); (13.5833333333333 : 65.3233369720263 : JumpEnd); (14.7916666666667 : 65.3233369720263 : JumpStart); (14.9739583333333 : 65.3233369720263 : JumpEnd); (15.25 : 65.3233369720263)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/easyposdbDataContext/MstTable/MstTable_TrnSale" />
+      <nodes>
+        <classShapeMoniker Id="1f6bbb19-1b08-4cf3-a0c7-c91631c493dc" />
+        <classShapeMoniker Id="644ad115-b6fd-4abb-98df-0ccf9a5bbabf" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.75 : 46.6994429077524); (9.19107443490112 : 47.1405173426535 : JumpStart); (9.30892556509888 : 47.2583684728513 : JumpEnd); (9.3125 : 47.2619429077524); (9.3125 : 68.0130128305384); (11.8541666666667 : 68.0130128305384 : JumpStart); (12.0208333333333 : 68.0130128305384 : JumpEnd); (13.4166666666667 : 68.0130128305384 : JumpStart); (13.5833333333333 : 68.0130128305384 : JumpEnd); (14.7916666666667 : 68.0130128305384 : JumpStart); (14.9739583333333 : 68.0130128305384 : JumpEnd); (15.25 : 68.0130128305384)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/easyposdbDataContext/MstTerm/MstTerm_TrnSale" />
+      <nodes>
+        <classShapeMoniker Id="4fa91170-1831-4b72-9fa5-835f79eae2fb" />
+        <classShapeMoniker Id="644ad115-b6fd-4abb-98df-0ccf9a5bbabf" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(13.5 : 63.9439925130208); (13.5 : 71.5800079970969); (14.7916666666667 : 71.5800079970969 : JumpStart); (14.9583333333333 : 71.5800079970969 : JumpEnd); (15.25 : 71.5800079970969)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/easyposdbDataContext/MstTerminal/MstTerminal_TrnSale" />
+      <nodes>
+        <classShapeMoniker Id="78b2fe1a-4c47-4bbc-a6e5-f471e2cd646f" />
+        <classShapeMoniker Id="644ad115-b6fd-4abb-98df-0ccf9a5bbabf" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 56.5381722021234); (3.40625 : 57.1944222021234); (3.40625 : 66.0593982287239); (8.66666666666667 : 66.0593982287239 : JumpStart); (8.83333333333333 : 66.0593982287239 : JumpEnd); (9.22916666666667 : 66.0593982287239 : JumpStart); (9.39583333333333 : 66.0593982287239 : JumpEnd); (11.8541666666667 : 66.0593982287239 : JumpStart); (12.0208333333333 : 66.0593982287239 : JumpEnd); (13.4166666666667 : 66.0593982287239 : JumpStart); (13.5833333333333 : 66.0593982287239 : JumpEnd); (14.7916666666667 : 66.0593982287239 : JumpStart); (14.9739583333333 : 66.0593982287239 : JumpEnd); (15.25 : 66.0593982287239)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_TrnSale" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="644ad115-b6fd-4abb-98df-0ccf9a5bbabf" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 56.5658645098157); (3.34375 : 57.1596145098157); (3.34375 : 66.0593982287239); (8.66666666666667 : 66.0593982287239 : JumpStart); (8.83333333333333 : 66.0593982287239 : JumpEnd); (9.22916666666667 : 66.0593982287239 : JumpStart); (9.39583333333333 : 66.0593982287239 : JumpEnd); (11.8541666666667 : 66.0593982287239 : JumpStart); (12.0208333333333 : 66.0593982287239 : JumpEnd); (13.4166666666667 : 66.0593982287239 : JumpStart); (13.5833333333333 : 66.0593982287239 : JumpEnd); (14.7916666666667 : 66.0593982287239 : JumpStart); (14.9739583333333 : 66.0593982287239 : JumpEnd); (15.25 : 66.0593982287239)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_TrnSale1" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="644ad115-b6fd-4abb-98df-0ccf9a5bbabf" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 56.593556817508); (3.28125 : 57.124806817508); (3.28125 : 66.0593982287239); (8.66666666666667 : 66.0593982287239 : JumpStart); (8.83333333333333 : 66.0593982287239 : JumpEnd); (9.22916666666667 : 66.0593982287239 : JumpStart); (9.39583333333333 : 66.0593982287239 : JumpEnd); (11.8541666666667 : 66.0593982287239 : JumpStart); (12.0208333333333 : 66.0593982287239 : JumpEnd); (13.4166666666667 : 66.0593982287239 : JumpStart); (13.5833333333333 : 66.0593982287239 : JumpEnd); (14.7916666666667 : 66.0593982287239 : JumpStart); (14.9739583333333 : 66.0593982287239 : JumpEnd); (15.25 : 66.0593982287239)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_TrnSale2" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="644ad115-b6fd-4abb-98df-0ccf9a5bbabf" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.67923076923077 : 56.6074039713542); (3.22232443490112 : 57.1504976370245 : JumpStart); (3.34017556509888 : 57.2683487672223 : JumpEnd); (3.375 : 57.3031732021234); (3.375 : 66.0593982287239); (8.66666666666667 : 66.0593982287239 : JumpStart); (8.83333333333333 : 66.0593982287239 : JumpEnd); (9.22916666666667 : 66.0593982287239 : JumpStart); (9.39583333333333 : 66.0593982287239 : JumpEnd); (11.8541666666667 : 66.0593982287239 : JumpStart); (12.0208333333333 : 66.0593982287239 : JumpEnd); (13.4166666666667 : 66.0593982287239 : JumpStart); (13.5833333333333 : 66.0593982287239 : JumpEnd); (14.7916666666667 : 66.0593982287239 : JumpStart); (14.9739583333333 : 66.0593982287239 : JumpEnd); (15.25 : 66.0593982287239)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_TrnSale3" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="644ad115-b6fd-4abb-98df-0ccf9a5bbabf" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.73461538461539 : 56.6074039713542); (3.25 : 57.1227885867388); (3.25 : 66.6371101978213); (8.66666666666667 : 66.6371101978213 : JumpStart); (8.83333333333333 : 66.6371101978213 : JumpEnd); (9.22916666666667 : 66.6371101978213 : JumpStart); (9.39583333333333 : 66.6371101978213 : JumpEnd); (11.8541666666667 : 66.6371101978213 : JumpStart); (12.0208333333333 : 66.6371101978213 : JumpEnd); (13.4166666666667 : 66.6371101978213 : JumpStart); (13.5833333333333 : 66.6371101978213 : JumpEnd); (14.7916666666667 : 66.6371101978213 : JumpStart); (14.9739583333333 : 66.6371101978213 : JumpEnd); (15.25 : 66.6371101978213)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_TrnSale4" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="644ad115-b6fd-4abb-98df-0ccf9a5bbabf" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.73769230769231 : 56.6074039713542); (3.15625 : 57.0259616636619); (3.15625 : 66.6371101978213); (3.22916666666667 : 66.6371101978213 : JumpStart); (3.39583333333333 : 66.6371101978213 : JumpEnd); (8.66666666666667 : 66.6371101978213 : JumpStart); (8.83333333333333 : 66.6371101978213 : JumpEnd); (9.22916666666667 : 66.6371101978213 : JumpStart); (9.39583333333333 : 66.6371101978213 : JumpEnd); (11.8541666666667 : 66.6371101978213 : JumpStart); (12.0208333333333 : 66.6371101978213 : JumpEnd); (13.4166666666667 : 66.6371101978213 : JumpStart); (13.5833333333333 : 66.6371101978213 : JumpEnd); (14.7916666666667 : 66.6371101978213 : JumpStart); (14.9739583333333 : 66.6371101978213 : JumpEnd); (15.25 : 66.6371101978213)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_TrnSale5" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="644ad115-b6fd-4abb-98df-0ccf9a5bbabf" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 86.3453597005208); (16.25 : 86.3453597005208); (16.25 : 73.9052555338542)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/easyposdbDataContext/MstDiscount/MstDiscount_TrnSale" />
+      <nodes>
+        <classShapeMoniker Id="ddc9d49f-6400-4a21-b37a-5cf6bbb40986" />
+        <classShapeMoniker Id="644ad115-b6fd-4abb-98df-0ccf9a5bbabf" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(17.25 : 56.1245666832933); (17.3785744349011 : 56.2531411181944 : JumpStart); (17.4964255650989 : 56.3709922483922 : JumpEnd); (17.5348244349011 : 56.4093911181944 : JumpStart); (17.6526755650989 : 56.5272422483922 : JumpEnd); (17.65625 : 56.5308166832933); (17.65625 : 72.2508048502604); (18 : 72.2508048502604)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/easyposdbDataContext/MstItem/MstItem_TrnSalesDraft" />
+      <nodes>
+        <classShapeMoniker Id="bf08ce62-cf52-44b3-90d8-268327de169d" />
+        <classShapeMoniker Id="ec390360-0830-4e86-91c4-6b42efaa568b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.75 : 52.6890364932016); (8.85416666666667 : 52.6890364932016 : JumpStart); (9.02083333333333 : 52.6890364932016 : JumpEnd); (9.04166666666667 : 52.6890364932016 : JumpStart); (9.45833333333333 : 52.6890364932016 : JumpEnd); (9.47916666666667 : 52.6890364932016 : JumpStart); (9.64583333333333 : 52.6890364932016 : JumpEnd); (11.65625 : 52.6890364932016); (11.65625 : 58.5544254557292); (11.6979166666667 : 58.5544254557292 : JumpStart); (12.5208333333333 : 58.5544254557292 : JumpEnd); (14.4479166666667 : 58.5544254557292 : JumpStart); (15.0989583333333 : 58.5544254557292 : JumpEnd); (15.125 : 58.5544254557292); (15.125 : 63.7058740234375); (16.0805911816907 : 63.7058740234375 : JumpStart); (16.2472578483574 : 63.7058740234375 : JumpEnd); (16.6548764241787 : 63.7058740234375 : JumpStart); (16.8215430908454 : 63.7058740234375 : JumpEnd); (17.5416666666667 : 63.7058740234375 : JumpStart); (17.7395833333333 : 63.7058740234375 : JumpEnd); (19.0104161666667 : 63.7058740234375 : JumpStart); (19.1770828333333 : 63.7058740234375 : JumpEnd); (19.4947934166667 : 63.7058740234375 : JumpStart); (19.6614600833333 : 63.7058740234375 : JumpEnd); (20.1875 : 63.7058740234375); (20.1875 : 62.3429182942708); (20.2916666666667 : 62.3429182942708 : JumpStart); (20.4583333333333 : 62.3429182942708 : JumpEnd); (20.8541666666667 : 62.3429182942708 : JumpStart); (21.0208333333333 : 62.3429182942708 : JumpEnd); (21.9479186666667 : 62.3429182942708 : JumpStart); (22.1145853333333 : 62.3429182942708 : JumpEnd); (23.5416666666667 : 62.3429182942708 : JumpStart); (23.9912169487179 : 62.3429182942708 : JumpEnd); (24.203122 : 62.3429182942708); (24.203122 : 64.125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/easyposdbDataContext/MstAccount/MstAccount_TrnSalesLine" />
+      <nodes>
+        <classShapeMoniker Id="fee60349-0c5d-4d12-9641-c863b48b608c" />
+        <classShapeMoniker Id="68712663-eb8f-4241-a99a-c9e24c89ac9f" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.75 : 52.9152211809458); (8.85416666666667 : 52.9152211809458 : JumpStart); (9.02083333333333 : 52.9152211809458 : JumpEnd); (9.04166666666667 : 52.9152211809458 : JumpStart); (9.45833333333333 : 52.9152211809458 : JumpEnd); (9.47916666666667 : 52.9152211809458 : JumpStart); (9.64583333333333 : 52.9152211809458 : JumpEnd); (11.5729166666667 : 52.9152211809458 : JumpStart); (12.0208333333333 : 52.9152211809458 : JumpEnd); (12.09375 : 52.9152211809458); (12.09375 : 58.6794254557292); (12.1510416666667 : 58.6794254557292 : JumpStart); (12.4583333333333 : 58.6794254557292 : JumpEnd); (14.4479166666667 : 58.6794254557292 : JumpStart); (15.1458333333333 : 58.6794254557292 : JumpEnd); (15.15625 : 58.6794254557292); (15.15625 : 63.2058740234375); (16.0805911816907 : 63.2058740234375 : JumpStart); (16.2472578483574 : 63.2058740234375 : JumpEnd); (16.6548764241787 : 63.2058740234375 : JumpStart); (16.8215430908454 : 63.2058740234375 : JumpEnd); (17.3229166666667 : 63.2058740234375 : JumpStart); (17.5234304871795 : 63.2058740234375 : JumpEnd); (17.5729166666667 : 63.2058740234375 : JumpStart); (17.9583333333333 : 63.2058740234375 : JumpEnd); (19.0104161666667 : 63.2058740234375 : JumpStart); (19.1770828333333 : 63.2058740234375 : JumpEnd); (19.4947934166667 : 63.2058740234375 : JumpStart); (19.6614600833333 : 63.2058740234375 : JumpEnd); (20.1041666666667 : 63.2058740234375 : JumpStart); (20.2708333333333 : 63.2058740234375 : JumpEnd); (20.2916666666667 : 63.2058740234375 : JumpStart); (20.4583333333333 : 63.2058740234375 : JumpEnd); (20.4791666666667 : 63.2058740234375 : JumpStart); (20.7708333333333 : 63.2058740234375 : JumpEnd); (20.8125 : 63.2058740234375); (20.8125 : 63.1554182942708); (20.8220849609375 : 63.1554182942708 : JumpStart); (21.0208333333333 : 63.1554182942708 : JumpEnd); (21.9479186666667 : 63.1554182942708 : JumpStart); (22.1145853333333 : 63.1554182942708 : JumpEnd); (23.5416666666667 : 63.1554182942708 : JumpStart); (23.9583333333333 : 63.1554182942708 : JumpEnd); (24.203122 : 63.1554182942708); (24.203122 : 64.125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/easyposdbDataContext/MstAccount/MstAccount_TrnSalesLine1" />
+      <nodes>
+        <classShapeMoniker Id="fee60349-0c5d-4d12-9641-c863b48b608c" />
+        <classShapeMoniker Id="68712663-eb8f-4241-a99a-c9e24c89ac9f" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.75 : 52.4099685146234); (8.85416666666667 : 52.4099685146234 : JumpStart); (9.02083333333333 : 52.4099685146234 : JumpEnd); (9.07291666666667 : 52.4099685146234 : JumpStart); (9.39583333333333 : 52.4099685146234 : JumpEnd); (9.47916666666667 : 52.4099685146234 : JumpStart); (9.64583333333333 : 52.4099685146234 : JumpEnd); (11.6354166666667 : 52.4099685146234 : JumpStart); (12.0208333333333 : 52.4099685146234 : JumpEnd); (12.40625 : 52.4099685146234); (12.40625 : 58.6794254557292); (14.4479166666667 : 58.6794254557292 : JumpStart); (15.0677083333333 : 58.6794254557292 : JumpEnd); (15.09375 : 58.6794254557292); (15.09375 : 63.2371240234375); (15.1041666666667 : 63.2371240234375 : JumpStart); (15.2708333333333 : 63.2371240234375 : JumpEnd); (16.0805911816907 : 63.2371240234375 : JumpStart); (16.2472578483574 : 63.2371240234375 : JumpEnd); (16.6548764241787 : 63.2371240234375 : JumpStart); (16.8215430908454 : 63.2371240234375 : JumpEnd); (17.3541666666667 : 63.2371240234375 : JumpStart); (17.5208333333333 : 63.2371240234375 : JumpEnd); (17.5729166666667 : 63.2371240234375 : JumpStart); (17.8958333333333 : 63.2371240234375 : JumpEnd); (19.0104161666667 : 63.2371240234375 : JumpStart); (19.1770828333333 : 63.2371240234375 : JumpEnd); (19.4947934166667 : 63.2371240234375 : JumpStart); (19.6614600833333 : 63.2371240234375 : JumpEnd); (20.1041666666667 : 63.2371240234375 : JumpStart); (20.2708333333333 : 63.2371240234375 : JumpEnd); (20.2916666666667 : 63.2371240234375 : JumpStart); (20.4583333333333 : 63.2371240234375 : JumpEnd); (20.4791666666667 : 63.2371240234375 : JumpStart); (20.7083333333333 : 63.2371240234375 : JumpEnd); (20.75 : 63.2371240234375); (20.75 : 62.7179182942708); (20.7916666666667 : 62.7179182942708 : JumpStart); (21.0208333333333 : 62.7179182942708 : JumpEnd); (21.9479186666667 : 62.7179182942708 : JumpStart); (22.1145853333333 : 62.7179182942708 : JumpEnd); (23.3049358974359 : 62.7179182942708 : JumpStart); (23.4885256410256 : 62.7179182942708 : JumpEnd); (23.5416666666667 : 62.7179182942708 : JumpStart); (23.9583333333333 : 62.7179182942708 : JumpEnd); (24.1197886666667 : 62.7179182942708 : JumpStart); (24.2864553333333 : 62.7179182942708 : JumpEnd); (24.7103681490385 : 62.7179182942708); (24.7103681490385 : 64.125)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/easyposdbDataContext/MstAccount/MstAccount_TrnSalesLine2" />
+      <nodes>
+        <classShapeMoniker Id="fee60349-0c5d-4d12-9641-c863b48b608c" />
+        <classShapeMoniker Id="68712663-eb8f-4241-a99a-c9e24c89ac9f" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.75 : 52.7655101049179); (8.85416666666667 : 52.7655101049179 : JumpStart); (9.02083333333333 : 52.7655101049179 : JumpEnd); (9.04166666666667 : 52.7655101049179 : JumpStart); (9.45833333333333 : 52.7655101049179 : JumpEnd); (9.47916666666667 : 52.7655101049179 : JumpStart); (9.64583333333333 : 52.7655101049179 : JumpEnd); (11.6354166666667 : 52.7655101049179 : JumpStart); (12.0208333333333 : 52.7655101049179 : JumpEnd); (12.1041666666667 : 52.7655101049179 : JumpStart); (12.2708333333333 : 52.7655101049179 : JumpEnd); (12.2916666666667 : 52.7655101049179 : JumpStart); (12.4583333333333 : 52.7655101049179 : JumpEnd); (12.46875 : 52.7655101049179); (12.46875 : 58.5231754557292); (14.4479166666667 : 58.5231754557292 : JumpStart); (14.8020833333333 : 58.5231754557292 : JumpEnd); (14.8125 : 58.5231754557292); (14.8125 : 63.3308740234375); (15.0416666666667 : 63.3308740234375 : JumpStart); (15.2708333333333 : 63.3308740234375 : JumpEnd); (16.0805911816907 : 63.3308740234375 : JumpStart); (16.2472578483574 : 63.3308740234375 : JumpEnd); (16.6548764241787 : 63.3308740234375 : JumpStart); (16.8215430908454 : 63.3308740234375 : JumpEnd); (17.4479166666667 : 63.3308740234375 : JumpStart); (17.8958333333333 : 63.3308740234375 : JumpEnd); (19.0104161666667 : 63.3308740234375 : JumpStart); (19.1770828333333 : 63.3308740234375 : JumpEnd); (19.4947934166667 : 63.3308740234375 : JumpStart); (19.6614600833333 : 63.3308740234375 : JumpEnd); (20.1041666666667 : 63.3308740234375 : JumpStart); (20.2708333333333 : 63.3308740234375 : JumpEnd); (20.2916666666667 : 63.3308740234375 : JumpStart); (20.7708333333333 : 63.3308740234375 : JumpEnd); (20.9375 : 63.3308740234375); (20.9375 : 62.2179182942708); (21.9479186666667 : 62.2179182942708 : JumpStart); (22.1145853333333 : 62.2179182942708 : JumpEnd); (23.5416666666667 : 62.2179182942708 : JumpStart); (24.1162169487179 : 62.2179182942708 : JumpEnd); (24.7103681490385 : 62.2179182942708); (24.7103681490385 : 64.125)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/easyposdbDataContext/MstAccount/MstAccount_TrnSalesLine3" />
+      <nodes>
+        <classShapeMoniker Id="fee60349-0c5d-4d12-9641-c863b48b608c" />
+        <classShapeMoniker Id="68712663-eb8f-4241-a99a-c9e24c89ac9f" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 82.78125); (14.7916666666667 : 82.78125 : JumpStart); (14.9583333333333 : 82.78125 : JumpEnd); (16.1666666666667 : 82.78125 : JumpStart); (16.3333333333333 : 82.78125 : JumpEnd); (25 : 82.78125); (25 : 70.3188297526042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/easyposdbDataContext/MstDiscount/MstDiscount_TrnSalesLine" />
+      <nodes>
+        <classShapeMoniker Id="ddc9d49f-6400-4a21-b37a-5cf6bbb40986" />
+        <classShapeMoniker Id="68712663-eb8f-4241-a99a-c9e24c89ac9f" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(17.25 : 55.3856980242889); (17.647943652986 : 55.3856980242889 : JumpStart); (17.9761629646425 : 55.3856980242889 : JumpEnd); (20.0416666666667 : 55.3856980242889 : JumpStart); (20.2083333333333 : 55.3856980242889 : JumpEnd); (20.2916666666667 : 55.3856980242889 : JumpStart); (20.4583333333333 : 55.3856980242889 : JumpEnd); (20.5 : 55.3856980242889); (20.5 : 54.375); (20.6041666666667 : 54.375 : JumpStart); (20.7708333333333 : 54.375 : JumpEnd); (20.7916666666667 : 54.375 : JumpStart); (21.0208333333333 : 54.375 : JumpEnd); (23.1666666666667 : 54.375 : JumpStart); (23.3333333333333 : 54.375 : JumpEnd); (23.75 : 54.375); (23.75 : 63.75); (23.7916666666667 : 63.75 : JumpStart); (23.9583333333333 : 63.75 : JumpEnd); (24.1197886666667 : 63.75 : JumpStart); (24.2864553333333 : 63.75 : JumpEnd); (24.6270348157051 : 63.75 : JumpStart); (24.7937014823718 : 63.75 : JumpEnd); (25.0775546490385 : 63.75); (25.0775546490385 : 64.125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/easyposdbDataContext/MstItem/MstItem_TrnSalesLine" />
+      <nodes>
+        <classShapeMoniker Id="bf08ce62-cf52-44b3-90d8-268327de169d" />
+        <classShapeMoniker Id="68712663-eb8f-4241-a99a-c9e24c89ac9f" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14.5 : 60.5104484049479); (14.7291666666667 : 60.5104484049479 : JumpStart); (14.9739583333333 : 60.5104484049479 : JumpEnd); (15 : 60.5104484049479); (15 : 63.2683740234375); (15.0416666666667 : 63.2683740234375 : JumpStart); (15.2708333333333 : 63.2683740234375 : JumpEnd); (16.0805911816907 : 63.2683740234375 : JumpStart); (16.2472578483574 : 63.2683740234375 : JumpEnd); (16.6548764241787 : 63.2683740234375 : JumpStart); (16.8215430908454 : 63.2683740234375 : JumpEnd); (17.3854166666667 : 63.2683740234375 : JumpStart); (17.5520833333333 : 63.2683740234375 : JumpEnd); (17.5729166666667 : 63.2683740234375 : JumpStart); (17.8958333333333 : 63.2683740234375 : JumpEnd); (19.0104161666667 : 63.2683740234375 : JumpStart); (19.1770828333333 : 63.2683740234375 : JumpEnd); (19.4947934166667 : 63.2683740234375 : JumpStart); (19.6614600833333 : 63.2683740234375 : JumpEnd); (20.1041666666667 : 63.2683740234375 : JumpStart); (20.2708333333333 : 63.2683740234375 : JumpEnd); (20.2916666666667 : 63.2683740234375 : JumpStart); (20.7708333333333 : 63.2683740234375 : JumpEnd); (20.875 : 63.2683740234375); (20.875 : 62.2804182942708); (21.9479186666667 : 62.2804182942708 : JumpStart); (22.1145853333333 : 62.2804182942708 : JumpEnd); (23.5416666666667 : 62.2804182942708 : JumpStart); (24.0537169487179 : 62.2804182942708 : JumpEnd); (24.8061499647436 : 62.2804182942708 : JumpStart); (24.9728166314102 : 62.2804182942708 : JumpEnd); (25.3710850168269 : 62.2804182942708); (25.3710850168269 : 64.125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/easyposdbDataContext/MstTax/MstTax_TrnSalesLine" />
+      <nodes>
+        <classShapeMoniker Id="c14e6085-57bf-4ca5-aec4-03eb7532fc70" />
+        <classShapeMoniker Id="68712663-eb8f-4241-a99a-c9e24c89ac9f" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14.5 : 45.9439925130208); (14.5625 : 46.0064925130208); (16.1666666666667 : 46.0064925130208 : JumpStart); (16.3333333333333 : 46.0064925130208 : JumpEnd); (21.9166666666667 : 46.0064925130208 : JumpStart); (22.0833333333333 : 46.0064925130208 : JumpEnd); (23.875 : 46.0064925130208); (23.875 : 63.9984625384615); (24.0015374615385 : 64.125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUnit/MstUnit_TrnSalesLine" />
+      <nodes>
+        <classShapeMoniker Id="4b3e2d26-bdfe-4e41-a5aa-75cab7a63e93" />
+        <classShapeMoniker Id="68712663-eb8f-4241-a99a-c9e24c89ac9f" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 56.3678174394907); (2.92276453246791 : 56.3678174394907 : JumpStart); (3.08943119913457 : 56.3678174394907 : JumpEnd); (5.54166666666667 : 56.3678174394907 : JumpStart); (6.14583333333333 : 56.3678174394907 : JumpEnd); (6.1875 : 56.3678174394907); (6.1875 : 57.3405582682292); (6.19791666666667 : 57.3405582682292 : JumpStart); (6.52083333333333 : 57.3405582682292 : JumpEnd); (8.57291616666667 : 57.3405582682292 : JumpStart); (8.83333333333333 : 57.3405582682292 : JumpEnd); (9.07291666666667 : 57.3405582682292 : JumpStart); (9.39583333333333 : 57.3405582682292 : JumpEnd); (9.47916666666667 : 57.3405582682292 : JumpStart); (9.64583333333333 : 57.3405582682292 : JumpEnd); (10.4166666666667 : 57.3405582682292 : JumpStart); (10.5833333333333 : 57.3405582682292 : JumpEnd); (11.5104166666667 : 57.3405582682292 : JumpStart); (11.8020833333333 : 57.3405582682292 : JumpEnd); (11.8125 : 57.3405582682292); (11.8125 : 58.1794254557292); (11.8229166666667 : 58.1794254557292 : JumpStart); (12.5520833333333 : 58.1794254557292 : JumpEnd); (14.4479166666667 : 58.1794254557292 : JumpStart); (14.9583333333333 : 58.1794254557292 : JumpEnd); (14.984375 : 58.1794254557292); (14.984375 : 63.3621240234375); (15.0416666666667 : 63.3621240234375 : JumpStart); (15.2083333333333 : 63.3621240234375 : JumpEnd); (16.0805911816907 : 63.3621240234375 : JumpStart); (16.2472578483574 : 63.3621240234375 : JumpEnd); (16.6548764241787 : 63.3621240234375 : JumpStart); (16.8215430908454 : 63.3621240234375 : JumpEnd); (17.4791666666667 : 63.3621240234375 : JumpStart); (17.8958333333333 : 63.3621240234375 : JumpEnd); (19.0104161666667 : 63.3621240234375 : JumpStart); (19.1770828333333 : 63.3621240234375 : JumpEnd); (19.4947934166667 : 63.3621240234375 : JumpStart); (19.6614600833333 : 63.3621240234375 : JumpEnd); (20.1041666666667 : 63.3621240234375 : JumpStart); (20.2708333333333 : 63.3621240234375 : JumpEnd); (20.5625 : 63.3621240234375); (20.5625 : 62.7804182942708); (20.7916666666667 : 62.7804182942708 : JumpStart); (21.0208333333333 : 62.7804182942708 : JumpEnd); (21.9479186666667 : 62.7804182942708 : JumpStart); (22.1145853333333 : 62.7804182942708 : JumpEnd); (23.1666666666667 : 62.7804182942708 : JumpStart); (23.4260256410256 : 62.7804182942708 : JumpEnd); (23.5416666666667 : 62.7804182942708 : JumpStart); (23.9583333333333 : 62.7804182942708 : JumpEnd); (24.1197886666667 : 62.7804182942708 : JumpStart); (24.2864553333333 : 62.7804182942708 : JumpEnd); (24.6270348157051 : 62.7804182942708 : JumpStart); (24.7937014823718 : 62.7804182942708 : JumpEnd); (25.2877516834936 : 62.7804182942708 : JumpStart); (25.4544183501602 : 62.7804182942708 : JumpEnd); (25.7167945084135 : 62.7804182942708); (25.7167945084135 : 64.125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_TrnSalesLine" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="68712663-eb8f-4241-a99a-c9e24c89ac9f" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(17.25 : 68.3253084309896); (17.5729166666667 : 68.3253084309896 : JumpStart); (17.7395833333333 : 68.3253084309896 : JumpEnd); (20.4166666666667 : 68.3253084309896 : JumpStart); (20.5833333333333 : 68.3253084309896 : JumpEnd); (24 : 68.3253084309896)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/easyposdbDataContext/TrnSale/TrnSale_TrnSalesLine" />
+      <nodes>
+        <classShapeMoniker Id="644ad115-b6fd-4abb-98df-0ccf9a5bbabf" />
+        <classShapeMoniker Id="68712663-eb8f-4241-a99a-c9e24c89ac9f" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11.4807124286358 : 47.1939925130208); (11.875 : 47.588280084385); (11.875 : 53.25); (11.7776755650989 : 53.3473244349011 : JumpStart); (11.5348244349011 : 53.5901755650989 : JumpEnd); (11.5 : 53.625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstPeriod/MstPeriod_TrnStockCount" />
+      <nodes>
+        <classShapeMoniker Id="c5dcadfa-ecd1-477f-885e-99d91f311a9b" />
+        <classShapeMoniker Id="2834428c-2941-491f-85ef-dd4baf289b95" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 53.90625); (6.32291666666667 : 53.90625 : JumpStart); (6.48958333333333 : 53.90625 : JumpEnd); (8.57291616666667 : 53.90625 : JumpStart); (9.39583333333333 : 53.90625 : JumpEnd); (9.5 : 53.90625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_TrnStockCount" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="2834428c-2941-491f-85ef-dd4baf289b95" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.617187 : 56.6074039713542); (1.617187 : 56.9046541341146); (1.66666666666667 : 56.9046541341146 : JumpStart); (3.19981526532452 : 56.9046541341146 : JumpEnd); (3.23184341241402 : 56.9046541341146 : JumpStart); (3.39851007908069 : 56.9046541341146 : JumpEnd); (3.88541466666667 : 56.9046541341146 : JumpStart); (4.05208133333333 : 56.9046541341146 : JumpEnd); (4.41666666666667 : 56.9046541341146 : JumpStart); (4.58333333333333 : 56.9046541341146 : JumpEnd); (4.94791866666667 : 56.9046541341146 : JumpStart); (5.11458533333333 : 56.9046541341146 : JumpEnd); (5.54166666666667 : 56.9046541341146 : JumpStart); (6.52083333333333 : 56.9046541341146 : JumpEnd); (8.57291616666667 : 56.9046541341146 : JumpStart); (8.83333333333333 : 56.9046541341146 : JumpEnd); (9.07291666666667 : 56.9046541341146 : JumpStart); (9.39583333333333 : 56.9046541341146 : JumpEnd); (9.5 : 56.9046541341146)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_TrnStockCount1" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="2834428c-2941-491f-85ef-dd4baf289b95" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.75 : 53.875); (1.75 : 53.625); (1.79947966666667 : 53.625 : JumpStart); (2.76302433333333 : 53.625 : JumpEnd); (6.32291666666667 : 53.625 : JumpStart); (6.48958333333333 : 53.625 : JumpEnd); (7.58853941666667 : 53.625 : JumpStart); (7.75520608333333 : 53.625 : JumpEnd); (8.57291616666667 : 53.625 : JumpStart); (8.77083533333334 : 53.625 : JumpEnd); (9 : 53.625); (9 : 56.0561002018229); (9.07291666666667 : 56.0561002018229 : JumpStart); (9.39583333333333 : 56.0561002018229 : JumpEnd); (9.5 : 56.0561002018229)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_TrnStockCount2" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="2834428c-2941-491f-85ef-dd4baf289b95" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.281252 : 53.875); (2.281252 : 53.75); (2.33073166666667 : 53.75 : JumpStart); (2.76302433333333 : 53.75 : JumpEnd); (6.32291666666667 : 53.75 : JumpStart); (6.48958333333333 : 53.75 : JumpEnd); (8.57291616666667 : 53.75 : JumpStart); (8.77083533333334 : 53.75 : JumpEnd); (8.875 : 53.75); (8.875 : 54.6194031347656); (8.91666666666667 : 54.6194031347656 : JumpStart); (9.39583333333333 : 54.6194031347656 : JumpEnd); (9.5 : 54.6194031347656)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_TrnStockCount3" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="2834428c-2941-491f-85ef-dd4baf289b95" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(0.953122 : 56.6074039713542); (0.953122 : 56.7901025390625); (1.00260166666667 : 56.7901025390625 : JumpStart); (2.76302433333333 : 56.7901025390625 : JumpEnd); (2.77859600360576 : 56.7901025390625 : JumpStart); (3.08526367027242 : 56.7901025390625 : JumpEnd); (3.16589136582461 : 56.7901025390625 : JumpStart); (3.33255803249127 : 56.7901025390625 : JumpEnd); (3.88541466666667 : 56.7901025390625 : JumpStart); (4.05208133333333 : 56.7901025390625 : JumpEnd); (4.41666666666667 : 56.7901025390625 : JumpStart); (4.58333333333333 : 56.7901025390625 : JumpEnd); (4.94791866666667 : 56.7901025390625 : JumpStart); (5.11458533333333 : 56.7901025390625 : JumpEnd); (5.54166666666667 : 56.7901025390625 : JumpStart); (6.52083333333333 : 56.7901025390625 : JumpEnd); (8.57291616666667 : 56.7901025390625 : JumpStart); (8.83333333333333 : 56.7901025390625 : JumpEnd); (8.875 : 56.7901025390625); (8.875 : 55.6318232356771); (8.91666666666667 : 55.6318232356771 : JumpStart); (9.39583333333333 : 55.6318232356771 : JumpEnd); (9.5 : 55.6318232356771)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_TrnStockCount4" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="2834428c-2941-491f-85ef-dd4baf289b95" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(17.25 : 55.8347993110978); (17.6354166666667 : 55.8347993110978 : JumpStart); (18.0700311561005 : 55.8347993110978 : JumpEnd); (20.0416666666667 : 55.8347993110978 : JumpStart); (20.2083333333333 : 55.8347993110978 : JumpEnd); (20.2916666666667 : 55.8347993110978 : JumpStart); (20.4583333333333 : 55.8347993110978 : JumpEnd); (20.6354166666667 : 55.8347993110978 : JumpStart); (20.9583333333333 : 55.8347993110978 : JumpEnd); (21 : 55.8347993110978)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstItem/MstItem_TrnStockCountLine" />
+      <nodes>
+        <classShapeMoniker Id="bf08ce62-cf52-44b3-90d8-268327de169d" />
+        <classShapeMoniker Id="d785516a-4a29-4ddb-8b45-b8bb52c2f150" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14.5 : 45.9338884994491); (16.1666666666667 : 45.9338884994491 : JumpStart); (16.3333333333333 : 45.9338884994491 : JumpEnd); (20.6875 : 45.9338884994491); (20.6875 : 54.5625); (20.8160744349011 : 54.6910744349011 : JumpStart); (20.9964255650989 : 54.8714255650989 : JumpEnd); (21 : 54.875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUnit/MstUnit_TrnStockCountLine" />
+      <nodes>
+        <classShapeMoniker Id="4b3e2d26-bdfe-4e41-a5aa-75cab7a63e93" />
+        <classShapeMoniker Id="d785516a-4a29-4ddb-8b45-b8bb52c2f150" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(10.5 : 56.9343082682292); (10.5 : 58.1481754557292); (11.3541666666667 : 58.1481754557292 : JumpStart); (12.5520833333333 : 58.1481754557292 : JumpEnd); (14.4479166666667 : 58.1481754557292 : JumpStart); (14.7708333333333 : 58.1481754557292 : JumpEnd); (14.78125 : 58.1481754557292); (14.78125 : 56.9375); (14.7916666666667 : 56.9375 : JumpStart); (14.9583333333333 : 56.9375 : JumpEnd); (14.9791666666667 : 56.9375 : JumpStart); (15.3802083333333 : 56.9375 : JumpEnd); (17.2291666666667 : 56.9375 : JumpStart); (17.7395833333333 : 56.9375 : JumpEnd); (17.75 : 56.9375); (17.75 : 55.8129992386819); (17.7662709690684 : 55.8129992386819 : JumpStart); (18.0654746486233 : 55.8129992386819 : JumpEnd); (20.0416666666667 : 55.8129992386819 : JumpStart); (20.2083333333333 : 55.8129992386819 : JumpEnd); (20.2916666666667 : 55.8129992386819 : JumpStart); (20.4583333333333 : 55.8129992386819 : JumpEnd); (20.6354166666667 : 55.8129992386819 : JumpStart); (20.9583333333333 : 55.8129992386819 : JumpEnd); (21 : 55.8129992386819)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/TrnStockCount/TrnStockCount_TrnStockCountLine" />
+      <nodes>
+        <classShapeMoniker Id="2834428c-2941-491f-85ef-dd4baf289b95" />
+        <classShapeMoniker Id="d785516a-4a29-4ddb-8b45-b8bb52c2f150" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(24.0953836153846 : 62.1554182942708); (23.9339255650989 : 62.3168763445566 : JumpStart); (23.8160744349011 : 62.4347274747543 : JumpEnd); (23.8089255650989 : 62.4418763445566 : JumpStart); (23.6910744349011 : 62.5597274747543 : JumpEnd); (23.6875 : 62.5633019096555); (23.6875 : 64.3345272154948); (23 : 64.3345272154948)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/easyposdbDataContext/TrnStockIn/TrnStockIn_TrnCollectionLine" />
+      <nodes>
+        <classShapeMoniker Id="ba7a699d-3fe4-44ab-9be4-53109cd41f8c" />
+        <classShapeMoniker Id="b067b40d-0600-4edc-b5d9-53fe7014ed9e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(26 : 60.6143664723307); (26.2916666666667 : 60.6143664723307 : JumpStart); (26.4583333333333 : 60.6143664723307 : JumpEnd); (26.75 : 60.6143664723307)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/TrnStockIn/TrnStockIn_TrnDisbursement" />
+      <nodes>
+        <classShapeMoniker Id="ba7a699d-3fe4-44ab-9be4-53109cd41f8c" />
+        <classShapeMoniker Id="01885fc0-4657-41fc-bc44-0798d9ce6f51" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(24 : 62.1061875250401); (23.9339255650989 : 62.1722619599412 : JumpStart); (23.8160744349011 : 62.290113090139 : JumpEnd); (23.8089255650989 : 62.2972619599412 : JumpStart); (23.6910744349011 : 62.4151130901389 : JumpEnd); (23.6839255650989 : 62.4222619599412 : JumpStart); (23.5660744349011 : 62.5401130901389 : JumpEnd); (23.2632692307692 : 62.8429182942708); (22.1145853333333 : 62.8429182942708 : JumpStart); (21.9479186666667 : 62.8429182942708 : JumpEnd); (21.0208333333333 : 62.8429182942708 : JumpStart); (20.5095849609375 : 62.8429182942708 : JumpEnd); (20.4583333333333 : 62.8429182942708 : JumpStart); (20.2916666666667 : 62.8429182942708 : JumpEnd); (20.2708333333333 : 62.8429182942708 : JumpStart); (20.1041666666667 : 62.8429182942708 : JumpEnd); (19.57812675 : 62.8429182942708); (19.57812675 : 63.875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/TrnStockIn/TrnStockIn_TrnJournal" />
+      <nodes>
+        <classShapeMoniker Id="ba7a699d-3fe4-44ab-9be4-53109cd41f8c" />
+        <classShapeMoniker Id="abbe4117-6632-4180-aade-7573b3a1d150" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11.5 : 46.5188712565104); (14.2820203809846 : 46.5188712565104 : JumpStart); (14.4486870476512 : 46.5188712565104 : JumpEnd); (16.1666666666667 : 46.5188712565104 : JumpStart); (16.3333333333333 : 46.5188712565104 : JumpEnd); (20.5416666666667 : 46.5188712565104 : JumpStart); (20.7708333333333 : 46.5188712565104 : JumpEnd); (20.8541666666667 : 46.5188712565104 : JumpStart); (21.0208333333333 : 46.5188712565104 : JumpEnd); (21.9166666666667 : 46.5188712565104 : JumpStart); (22.0833333333333 : 46.5188712565104 : JumpEnd); (23.25 : 46.5188712565104); (23.25 : 56.875); (23.5416666666667 : 56.875 : JumpStart); (23.9583333333333 : 56.875 : JumpEnd); (24.3854146666667 : 56.875 : JumpStart); (24.5520813333333 : 56.875 : JumpEnd); (25 : 56.875); (25 : 57.5)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstPeriod/MstPeriod_TrnStockIn" />
+      <nodes>
+        <classShapeMoniker Id="c5dcadfa-ecd1-477f-885e-99d91f311a9b" />
+        <classShapeMoniker Id="ba7a699d-3fe4-44ab-9be4-53109cd41f8c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11.5 : 50.8986319986979); (11.7916666666667 : 50.8986319986979 : JumpStart); (12.0833333333333 : 50.8986319986979 : JumpEnd); (12.125 : 50.8986319986979); (12.125 : 51.6410139973958); (14.2916666666667 : 51.6410139973958 : JumpStart); (14.4583333333333 : 51.6410139973958 : JumpEnd); (14.8125 : 51.6410139973958); (14.8125 : 56.6553369140625); (14.9791666666667 : 56.6553369140625 : JumpStart); (15.3802083333333 : 56.6553369140625 : JumpEnd); (17.375 : 56.6553369140625); (17.375 : 56.3125); (17.5104166666667 : 56.3125 : JumpStart); (17.9583333333333 : 56.3125 : JumpEnd); (18.0032103394515 : 56.3125 : JumpStart); (18.1698770061181 : 56.3125 : JumpEnd); (20.0416666666667 : 56.3125 : JumpStart); (20.2083333333333 : 56.3125 : JumpEnd); (20.375 : 56.3125); (20.375 : 54.625); (20.4166666666667 : 54.625 : JumpStart); (20.5833333333333 : 54.625 : JumpEnd); (20.6666666666667 : 54.625 : JumpStart); (21.0208333333333 : 54.625 : JumpEnd); (23.1666666666667 : 54.625 : JumpStart); (23.3333333333333 : 54.625 : JumpEnd); (23.375 : 54.625); (23.375 : 56.75); (23.6666666666667 : 56.75 : JumpStart); (23.9583333333333 : 56.75 : JumpEnd); (24.468748 : 56.75); (24.468748 : 57.5)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstSupplier/MstSupplier_TrnStockIn" />
+      <nodes>
+        <classShapeMoniker Id="68303407-1209-44fe-8fe2-64e5742aa8c2" />
+        <classShapeMoniker Id="ba7a699d-3fe4-44ab-9be4-53109cd41f8c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 56.0271079142253); (5.54166666666667 : 56.0271079142253 : JumpStart); (6.33333333333333 : 56.0271079142253 : JumpEnd); (6.34375 : 56.0271079142253); (6.34375 : 57.4343082682292); (6.35416666666667 : 57.4343082682292 : JumpStart); (6.52083333333333 : 57.4343082682292 : JumpEnd); (8.57291616666667 : 57.4343082682292 : JumpStart); (8.83333333333333 : 57.4343082682292 : JumpEnd); (9.07291666666667 : 57.4343082682292 : JumpStart); (9.39583333333333 : 57.4343082682292 : JumpEnd); (9.47916666666667 : 57.4343082682292 : JumpStart); (9.64583333333333 : 57.4343082682292 : JumpEnd); (10.4166666666667 : 57.4343082682292 : JumpStart); (10.5833333333333 : 57.4343082682292 : JumpEnd); (11.5104166666667 : 57.4343082682292 : JumpStart); (11.9270833333333 : 57.4343082682292 : JumpEnd); (11.96875 : 57.4343082682292); (11.96875 : 58.5856754557292); (11.9791666666667 : 58.5856754557292 : JumpStart); (12.4895833333333 : 58.5856754557292 : JumpEnd); (14.59375 : 58.5856754557292); (14.59375 : 57.375); (14.6666666666667 : 57.375 : JumpStart); (15.5364553333333 : 57.375 : JumpEnd); (15.6354146666667 : 57.375 : JumpStart); (15.8020813333333 : 57.375 : JumpEnd); (16.4322926666667 : 57.375 : JumpStart); (16.5989593333333 : 57.375 : JumpEnd); (17.3125 : 57.375); (17.3125 : 56.375); (17.3541666666667 : 56.375 : JumpStart); (17.9583333333333 : 56.375 : JumpEnd); (18.0162736775858 : 56.375 : JumpStart); (18.1829403442524 : 56.375 : JumpEnd); (20.2291666666667 : 56.375 : JumpStart); (20.5208333333333 : 56.375 : JumpEnd); (20.5625 : 56.375); (20.5625 : 57.125); (20.8541666666667 : 57.125 : JumpStart); (21.0208333333333 : 57.125 : JumpEnd); (23.5416666666667 : 57.125 : JumpStart); (23.9583333333333 : 57.125 : JumpEnd); (24.3854146666667 : 57.125 : JumpStart); (24.5520813333333 : 57.125 : JumpEnd); (25 : 57.125); (25 : 57.5)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_TrnStockIn" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="ba7a699d-3fe4-44ab-9be4-53109cd41f8c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 54.8346245757963); (5.60416666666667 : 54.8346245757963 : JumpStart); (5.77083333333333 : 54.8346245757963 : JumpEnd); (5.79166666666667 : 54.8346245757963 : JumpStart); (6.08333333333333 : 54.8346245757963 : JumpEnd); (6.15625 : 54.8346245757963); (6.15625 : 56.9655582682292); (6.16666666666667 : 56.9655582682292 : JumpStart); (6.52083333333333 : 56.9655582682292 : JumpEnd); (8.57291616666667 : 56.9655582682292 : JumpStart); (8.83333333333333 : 56.9655582682292 : JumpEnd); (9.07291666666667 : 56.9655582682292 : JumpStart); (9.39583333333333 : 56.9655582682292 : JumpEnd); (9.47916666666667 : 56.9655582682292 : JumpStart); (9.64583333333333 : 56.9655582682292 : JumpEnd); (11.5104166666667 : 56.9655582682292 : JumpStart); (11.8020833333333 : 56.9655582682292 : JumpEnd); (11.84375 : 56.9655582682292); (11.84375 : 58.9606754557292); (11.8541666666667 : 58.9606754557292 : JumpStart); (12.1458333333333 : 58.9606754557292 : JumpEnd); (12.1979166666667 : 58.9606754557292 : JumpStart); (12.4583333333333 : 58.9606754557292 : JumpEnd); (13.4166666666667 : 58.9606754557292 : JumpStart); (13.5833333333333 : 58.9606754557292 : JumpEnd); (14.53125 : 58.9606754557292); (14.53125 : 57.375); (14.6666666666667 : 57.375 : JumpStart); (15.5364553333333 : 57.375 : JumpEnd); (15.6354146666667 : 57.375 : JumpStart); (15.8020813333333 : 57.375 : JumpEnd); (16.4322926666667 : 57.375 : JumpStart); (16.5989593333333 : 57.375 : JumpEnd); (17.4375 : 57.375); (17.4375 : 56.21875); (17.5104166666667 : 56.21875 : JumpStart); (18.1502819989167 : 56.21875 : JumpEnd); (20.0416666666667 : 56.21875 : JumpStart); (20.2083333333333 : 56.21875 : JumpEnd); (20.4375 : 56.21875); (20.4375 : 57.4375); (20.5416666666667 : 57.4375 : JumpStart); (20.7083333333333 : 57.4375 : JumpEnd); (20.7916666666667 : 57.4375 : JumpStart); (21.0208333333333 : 57.4375 : JumpEnd); (23.5416666666667 : 57.4375 : JumpStart); (23.9583333333333 : 57.4375 : JumpEnd); (24.468748 : 57.4375); (24.468748 : 57.5)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_TrnStockIn1" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="ba7a699d-3fe4-44ab-9be4-53109cd41f8c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 54.3235602878981); (5.91666666666667 : 54.3235602878981 : JumpStart); (6.08333333333333 : 54.3235602878981 : JumpEnd); (6.16666666666667 : 54.3235602878981 : JumpStart); (6.33333333333333 : 54.3235602878981 : JumpEnd); (6.375 : 54.3235602878981); (6.375 : 57.4655582682292); (8.57291616666667 : 57.4655582682292 : JumpStart); (8.83333333333333 : 57.4655582682292 : JumpEnd); (9.07291666666667 : 57.4655582682292 : JumpStart); (9.39583333333333 : 57.4655582682292 : JumpEnd); (9.47916666666667 : 57.4655582682292 : JumpStart); (9.64583333333333 : 57.4655582682292 : JumpEnd); (10.4166666666667 : 57.4655582682292 : JumpStart); (10.5833333333333 : 57.4655582682292 : JumpEnd); (11.5104166666667 : 57.4655582682292 : JumpStart); (11.8020833333333 : 57.4655582682292 : JumpEnd); (11.875 : 57.4655582682292); (11.875 : 58.7106754557292); (11.9791666666667 : 58.7106754557292 : JumpStart); (12.1458333333333 : 58.7106754557292 : JumpEnd); (12.1510416666667 : 58.7106754557292 : JumpStart); (12.4583333333333 : 58.7106754557292 : JumpEnd); (14.4479166666667 : 58.7106754557292 : JumpStart); (14.9739583333333 : 58.7106754557292 : JumpEnd); (15.015625 : 58.7106754557292); (15.015625 : 57.40625); (15.0729166666667 : 57.40625 : JumpStart); (15.5364553333333 : 57.40625 : JumpEnd); (15.6354146666667 : 57.40625 : JumpStart); (15.8020813333333 : 57.40625 : JumpEnd); (16.4322926666667 : 57.40625 : JumpStart); (16.5989593333333 : 57.40625 : JumpEnd); (17.34375 : 57.40625); (17.34375 : 56.25); (17.5104166666667 : 56.25 : JumpStart); (18.1568136679839 : 56.25 : JumpEnd); (20.0416666666667 : 56.25 : JumpStart); (20.2083333333333 : 56.25 : JumpEnd); (20.3125 : 56.25); (20.3125 : 57.15625); (20.3541666666667 : 57.15625 : JumpStart); (20.5208333333333 : 57.15625 : JumpEnd); (20.8541666666667 : 57.15625 : JumpStart); (21.0208333333333 : 57.15625 : JumpEnd); (23.5416666666667 : 57.15625 : JumpStart); (23.9583333333333 : 57.15625 : JumpEnd); (24.3854146666667 : 57.15625 : JumpStart); (24.5520813333333 : 57.15625 : JumpEnd); (24.6510406666667 : 57.15625 : JumpStart); (24.8177073333333 : 57.15625 : JumpEnd); (24.9166666666667 : 57.15625 : JumpStart); (25.0833333333333 : 57.15625 : JumpEnd); (25.531252 : 57.15625); (25.531252 : 57.5)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_TrnStockIn2" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="ba7a699d-3fe4-44ab-9be4-53109cd41f8c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 56.197462676858); (2.82468431597881 : 56.197462676858 : JumpStart); (2.99135098264548 : 56.197462676858 : JumpEnd); (5.54166666666667 : 56.197462676858 : JumpStart); (6.14583333333333 : 56.197462676858 : JumpEnd); (6.21875 : 56.197462676858); (6.21875 : 57.4030582682292); (6.32291666666667 : 57.4030582682292 : JumpStart); (6.52083333333333 : 57.4030582682292 : JumpEnd); (8.57291616666667 : 57.4030582682292 : JumpStart); (8.83333333333333 : 57.4030582682292 : JumpEnd); (9.07291666666667 : 57.4030582682292 : JumpStart); (9.39583333333333 : 57.4030582682292 : JumpEnd); (9.47916666666667 : 57.4030582682292 : JumpStart); (9.64583333333333 : 57.4030582682292 : JumpEnd); (10.4166666666667 : 57.4030582682292 : JumpStart); (10.5833333333333 : 57.4030582682292 : JumpEnd); (11.5104166666667 : 57.4030582682292 : JumpStart); (11.7395833333333 : 57.4030582682292 : JumpEnd); (11.78125 : 57.4030582682292); (11.78125 : 58.7731754557292); (11.8541666666667 : 58.7731754557292 : JumpStart); (12.1458333333333 : 58.7731754557292 : JumpEnd); (12.1979166666667 : 58.7731754557292 : JumpStart); (12.4583333333333 : 58.7731754557292 : JumpEnd); (14.4479166666667 : 58.7731754557292 : JumpStart); (14.8958333333333 : 58.7731754557292 : JumpEnd); (14.921875 : 58.7731754557292); (14.921875 : 57.34375); (14.9479166666667 : 57.34375 : JumpStart); (15.5364553333333 : 57.34375 : JumpEnd); (15.6354146666667 : 57.34375 : JumpStart); (15.8020813333333 : 57.34375 : JumpEnd); (16.4322926666667 : 57.34375 : JumpStart); (16.5989593333333 : 57.34375 : JumpEnd); (17.4166666666667 : 57.34375 : JumpStart); (17.5833333333333 : 57.34375 : JumpEnd); (17.59375 : 57.34375); (17.59375 : 56); (17.6354166666667 : 56 : JumpStart); (18.1045603154468 : 56 : JumpEnd); (20.0416666666667 : 56 : JumpStart); (20.2083333333333 : 56 : JumpEnd); (20.2916666666667 : 56 : JumpStart); (20.4583333333333 : 56 : JumpEnd); (20.78125 : 56); (20.78125 : 57.09375); (20.8541666666667 : 57.09375 : JumpStart); (21.0208333333333 : 57.09375 : JumpEnd); (23.5416666666667 : 57.09375 : JumpStart); (23.9583333333333 : 57.09375 : JumpEnd); (24.203122 : 57.09375); (24.203122 : 57.5)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_TrnStockIn3" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="ba7a699d-3fe4-44ab-9be4-53109cd41f8c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 55.3456888636944); (5.60416666666667 : 55.3456888636944 : JumpStart); (6.36458333333333 : 55.3456888636944 : JumpEnd); (6.4375 : 55.3456888636944); (6.4375 : 57.5905582682292); (8.57291616666667 : 57.5905582682292 : JumpStart); (8.83333333333333 : 57.5905582682292 : JumpEnd); (9.07291666666667 : 57.5905582682292 : JumpStart); (9.39583333333333 : 57.5905582682292 : JumpEnd); (9.47916666666667 : 57.5905582682292 : JumpStart); (9.64583333333333 : 57.5905582682292 : JumpEnd); (10.4166666666667 : 57.5905582682292 : JumpStart); (10.5833333333333 : 57.5905582682292 : JumpEnd); (11.3541666666667 : 57.5905582682292 : JumpStart); (12.2083333333333 : 57.5905582682292 : JumpEnd); (12.234375 : 57.5905582682292); (12.234375 : 58.8356754557292); (12.2916666666667 : 58.8356754557292 : JumpStart); (12.4583333333333 : 58.8356754557292 : JumpEnd); (14.4479166666667 : 58.8356754557292 : JumpStart); (15.2083333333333 : 58.8356754557292 : JumpEnd); (15.21875 : 58.8356754557292); (15.21875 : 57.46875); (15.3697886666667 : 57.46875 : JumpStart); (15.5364553333333 : 57.46875 : JumpEnd); (15.6354146666667 : 57.46875 : JumpStart); (15.8020813333333 : 57.46875 : JumpEnd); (16.1666666666667 : 57.46875 : JumpStart); (16.3333333333333 : 57.46875 : JumpEnd); (16.4322926666667 : 57.46875 : JumpStart); (16.5989593333333 : 57.46875 : JumpEnd); (16.8307316666667 : 57.46875 : JumpStart); (16.9973983333333 : 57.46875 : JumpEnd); (17.2916666666667 : 57.46875 : JumpStart); (17.5833333333333 : 57.46875 : JumpEnd); (17.71875 : 57.46875); (17.71875 : 55.6875); (17.7315179948586 : 55.6875 : JumpStart); (18.0392436247754 : 55.6875 : JumpEnd); (20.0416666666667 : 55.6875 : JumpStart); (20.2083333333333 : 55.6875 : JumpEnd); (20.2916666666667 : 55.6875 : JumpStart); (20.4583333333333 : 55.6875 : JumpEnd); (20.71875 : 55.6875); (20.71875 : 57.0625); (20.8541666666667 : 57.0625 : JumpStart); (21.0208333333333 : 57.0625 : JumpEnd); (23.5416666666667 : 57.0625 : JumpStart); (23.9583333333333 : 57.0625 : JumpEnd); (24.3854146666667 : 57.0625 : JumpStart); (24.5520813333333 : 57.0625 : JumpEnd); (24.734374 : 57.0625); (24.734374 : 57.5)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_TrnStockIn4" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="ba7a699d-3fe4-44ab-9be4-53109cd41f8c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(17.25 : 62.4366682942708); (17.5729166666667 : 62.4366682942708 : JumpStart); (17.9583333333333 : 62.4366682942708 : JumpEnd); (20.1041666666667 : 62.4366682942708 : JumpStart); (20.2708333333333 : 62.4366682942708 : JumpEnd); (20.2916666666667 : 62.4366682942708 : JumpStart); (20.4583333333333 : 62.4366682942708 : JumpEnd); (20.7916666666667 : 62.4366682942708 : JumpStart); (21.0208333333333 : 62.4366682942708 : JumpEnd); (21.9479186666667 : 62.4366682942708 : JumpStart); (22.1145853333333 : 62.4366682942708 : JumpEnd); (23.5416666666667 : 62.4366682942708 : JumpStart); (23.9583333333333 : 62.4366682942708 : JumpEnd); (24.1197886666667 : 62.4366682942708 : JumpStart); (24.2864553333333 : 62.4366682942708 : JumpEnd); (24.6270348157051 : 62.4366682942708 : JumpStart); (24.7937014823718 : 62.4366682942708 : JumpEnd); (24.8894832980769 : 62.4366682942708); (24.8894832980769 : 62.1554182942708)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/TrnCollection/TrnCollection_TrnStockIn" />
+      <nodes>
+        <classShapeMoniker Id="57fc059d-fd9a-4590-9ad1-57aec5890443" />
+        <classShapeMoniker Id="ba7a699d-3fe4-44ab-9be4-53109cd41f8c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(17.25 : 64.3469220769231); (17.5660744349011 : 64.030847642022 : JumpStart); (17.7151755650989 : 63.8817465118242 : JumpEnd); (17.8125 : 63.7844220769231); (17.8125 : 62.9054182942708); (20.1041666666667 : 62.9054182942708 : JumpStart); (20.2708333333333 : 62.9054182942708 : JumpEnd); (20.2916666666667 : 62.9054182942708 : JumpStart); (20.4583333333333 : 62.9054182942708 : JumpEnd); (20.4791666666667 : 62.9054182942708 : JumpStart); (21.0208333333333 : 62.9054182942708 : JumpEnd); (21.9479186666667 : 62.9054182942708 : JumpStart); (22.1145853333333 : 62.9054182942708 : JumpEnd); (23.2176923076923 : 62.9054182942708); (23.5660744349011 : 62.557036167062 : JumpStart); (23.6839255650989 : 62.4391850368643 : JumpEnd); (23.6910744349011 : 62.432036167062 : JumpStart); (23.8089255650989 : 62.3141850368643 : JumpEnd); (23.8160744349011 : 62.307036167062 : JumpStart); (23.9339255650989 : 62.1891850368643 : JumpEnd); (24 : 62.1231106019631)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/TrnSale/TrnSale_TrnStockIn" />
+      <nodes>
+        <classShapeMoniker Id="644ad115-b6fd-4abb-98df-0ccf9a5bbabf" />
+        <classShapeMoniker Id="ba7a699d-3fe4-44ab-9be4-53109cd41f8c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.75 : 51.9440864307893); (8.79166666666667 : 51.9440864307893 : JumpStart); (9.39583333333333 : 51.9440864307893 : JumpEnd); (9.47916666666667 : 51.9440864307893 : JumpStart); (9.64583333333333 : 51.9440864307893 : JumpEnd); (11.7916666666667 : 51.9440864307893 : JumpStart); (12.0208333333333 : 51.9440864307893 : JumpEnd); (12.5 : 51.9440864307893); (12.5 : 52); (13.4166666666667 : 52 : JumpStart); (13.5833333333333 : 52 : JumpEnd); (14.2916666666667 : 52 : JumpStart); (14.5833333333333 : 52 : JumpEnd); (14.625 : 52); (14.625 : 56.5303369140625); (14.7291666666667 : 56.5303369140625 : JumpStart); (14.8958333333333 : 56.5303369140625 : JumpEnd); (14.9791666666667 : 56.5303369140625 : JumpStart); (15.3802083333333 : 56.5303369140625 : JumpEnd); (17.2291666666667 : 56.5303369140625 : JumpStart); (17.8333333333333 : 56.5303369140625 : JumpEnd); (17.875 : 56.5303369140625); (17.875 : 56.125); (17.9640203250487 : 56.125 : JumpStart); (18.1306869917153 : 56.125 : JumpEnd); (20.0416666666667 : 56.125 : JumpStart); (20.2083333333333 : 56.125 : JumpEnd); (20.2916666666667 : 56.125 : JumpStart); (20.4583333333333 : 56.125 : JumpEnd); (20.6354166666667 : 56.125 : JumpStart); (20.8645833333333 : 56.125 : JumpEnd); (20.875 : 56.125); (20.875 : 53.8381982421875); (23.1666666666667 : 53.8381982421875 : JumpStart); (23.3333333333333 : 53.8381982421875 : JumpEnd); (23.7916666666667 : 53.8381982421875 : JumpStart); (23.9583333333333 : 53.8381982421875 : JumpEnd); (26.4166666666667 : 53.8381982421875 : JumpStart); (26.5833333333333 : 53.8381982421875 : JumpEnd); (27.75 : 53.8381982421875); (27.75 : 54.125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstAccount/MstAccount_TrnStockInLine" />
+      <nodes>
+        <classShapeMoniker Id="fee60349-0c5d-4d12-9641-c863b48b608c" />
+        <classShapeMoniker Id="ae3f4bf6-8538-4fef-8daf-3d0f559df5a9" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(17.25 : 49.9239005533854); (20.5 : 49.9239005533854); (20.5 : 53.9631982421875); (20.6041666666667 : 53.9631982421875 : JumpStart); (20.7708333333333 : 53.9631982421875 : JumpEnd); (20.7916666666667 : 53.9631982421875 : JumpStart); (21.0208333333333 : 53.9631982421875 : JumpEnd); (23.1666666666667 : 53.9631982421875 : JumpStart); (23.3333333333333 : 53.9631982421875 : JumpEnd); (23.7916666666667 : 53.9631982421875 : JumpStart); (23.9583333333333 : 53.9631982421875 : JumpEnd); (24.9166666666667 : 53.9631982421875 : JumpStart); (25.0833333333333 : 53.9631982421875 : JumpEnd); (26.4166666666667 : 53.9631982421875 : JumpStart); (26.5833333333333 : 53.9631982421875 : JumpEnd); (27.218748 : 53.9631982421875); (27.218748 : 54.125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstItem/MstItem_TrnStockInLine" />
+      <nodes>
+        <classShapeMoniker Id="bf08ce62-cf52-44b3-90d8-268327de169d" />
+        <classShapeMoniker Id="ae3f4bf6-8538-4fef-8daf-3d0f559df5a9" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14.5 : 45.0016193782552); (28.2812525 : 45.0016193782552); (28.2812525 : 54.125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUnit/MstUnit_TrnStockInLine" />
+      <nodes>
+        <classShapeMoniker Id="4b3e2d26-bdfe-4e41-a5aa-75cab7a63e93" />
+        <classShapeMoniker Id="ae3f4bf6-8538-4fef-8daf-3d0f559df5a9" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(26 : 57.5615374615385); (26.1875 : 57.3740374615385); (26.1875 : 57.6122054036458); (26.3160744349011 : 57.4836309687447 : JumpStart); (26.4339255650989 : 57.3657798385469 : JumpEnd); (26.4410744349011 : 57.3586309687447 : JumpStart); (26.5589255650989 : 57.2407798385469 : JumpEnd); (26.75 : 57.0497054036458)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/TrnStockIn/TrnStockIn_TrnStockInLine" />
+      <nodes>
+        <classShapeMoniker Id="ba7a699d-3fe4-44ab-9be4-53109cd41f8c" />
+        <classShapeMoniker Id="ae3f4bf6-8538-4fef-8daf-3d0f559df5a9" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(10.5 : 58.5); (10.5 : 58.25); (11.3541666666667 : 58.25 : JumpStart); (12.5520833333333 : 58.25 : JumpEnd); (14.4479166666667 : 58.25 : JumpStart); (14.9270833333333 : 58.25 : JumpEnd); (14.953125 : 58.25); (14.953125 : 57.28125); (14.9791666666667 : 57.28125 : JumpStart); (15.5364553333333 : 57.28125 : JumpEnd); (15.6354146666667 : 57.28125 : JumpStart); (15.8020813333333 : 57.28125 : JumpEnd); (17.2291666666667 : 57.28125 : JumpStart); (17.8020833333333 : 57.28125 : JumpEnd); (17.84375 : 57.28125); (17.84375 : 60.1671028300781); (21 : 60.1671028300781)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/TrnStockOut/TrnStockOut_TrnStockOutLine" />
+      <nodes>
+        <classShapeMoniker Id="b970b359-9aba-4310-a0cb-1ec55a18f68b" />
+        <classShapeMoniker Id="ad3d8460-8927-4a47-a6a4-ca078b92c9fc" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(10.5 : 62.1939111328125); (10.5 : 64.1634610709635); (11.8541666666667 : 64.1634610709635 : JumpStart); (12.0208333333333 : 64.1634610709635 : JumpEnd); (13.4166666666667 : 64.1634610709635 : JumpStart); (13.5833333333333 : 64.1634610709635 : JumpEnd); (14.7916666666667 : 64.1634610709635 : JumpStart); (14.9739583333333 : 64.1634610709635 : JumpEnd); (15.6236294241787 : 64.1634610709635 : JumpStart); (15.7902960908454 : 64.1634610709635 : JumpEnd); (16.6548764241787 : 64.1634610709635 : JumpStart); (16.8215430908454 : 64.1634610709635 : JumpEnd); (17.2839738264724 : 64.1634610709635 : JumpStart); (17.5167943392929 : 64.1634610709635 : JumpEnd); (17.5416666666667 : 64.1634610709635 : JumpStart); (17.7395833333333 : 64.1634610709635 : JumpEnd); (18 : 64.1634610709635)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/easyposdbDataContext/TrnStockOut/TrnStockOut_TrnJournal" />
+      <nodes>
+        <classShapeMoniker Id="b970b359-9aba-4310-a0cb-1ec55a18f68b" />
+        <classShapeMoniker Id="abbe4117-6632-4180-aade-7573b3a1d150" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.6562495 : 53.2708968098958); (8.6562495 : 61.6891097005208); (8.66666666666667 : 61.6891097005208 : JumpStart); (8.83333333333333 : 61.6891097005208 : JumpEnd); (8.91666666666667 : 61.6891097005208 : JumpStart); (9.20833333333333 : 61.6891097005208 : JumpEnd); (9.22916666666667 : 61.6891097005208 : JumpStart); (9.39583333333333 : 61.6891097005208 : JumpEnd); (9.5 : 61.6891097005208)]" fixedFrom="Algorithm" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstAccount/MstAccount_TrnStockOut" />
+      <nodes>
+        <classShapeMoniker Id="fee60349-0c5d-4d12-9641-c863b48b608c" />
+        <classShapeMoniker Id="b970b359-9aba-4310-a0cb-1ec55a18f68b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(9.5587801698718 : 47.1939925130208); (9.5625 : 47.3152726828926); (9.5625 : 58.4375); (10.3338461538462 : 58.5)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstPeriod/MstPeriod_TrnStockOut" />
+      <nodes>
+        <classShapeMoniker Id="c5dcadfa-ecd1-477f-885e-99d91f311a9b" />
+        <classShapeMoniker Id="b970b359-9aba-4310-a0cb-1ec55a18f68b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.882813 : 56.6074039713542); (1.882813 : 61.0905582682292); (1.93229266666667 : 61.0905582682292 : JumpStart); (2.09895933333333 : 61.0905582682292 : JumpEnd); (2.33073166666667 : 61.0905582682292 : JumpStart); (2.49739833333333 : 61.0905582682292 : JumpEnd); (3.04166666666667 : 61.0905582682292 : JumpStart); (3.58333333333333 : 61.0905582682292 : JumpEnd); (6.32291666666667 : 61.0905582682292 : JumpStart); (6.48958333333333 : 61.0905582682292 : JumpEnd); (7.41666666666667 : 61.0905582682292 : JumpStart); (7.58333333333333 : 61.0905582682292 : JumpEnd); (8.57291616666667 : 61.0905582682292 : JumpStart); (8.83333333333333 : 61.0905582682292 : JumpEnd); (9.04166666666667 : 61.0905582682292 : JumpStart); (9.20833333333333 : 61.0905582682292 : JumpEnd); (9.22916666666667 : 61.0905582682292 : JumpStart); (9.39583333333333 : 61.0905582682292 : JumpEnd); (9.5 : 61.0905582682292)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_TrnStockOut" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="b970b359-9aba-4310-a0cb-1ec55a18f68b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.015626 : 56.6074039713542); (2.015626 : 61.2484041341146); (3.04166666666667 : 61.2484041341146 : JumpStart); (3.58333333333333 : 61.2484041341146 : JumpEnd); (6.32291666666667 : 61.2484041341146 : JumpStart); (6.48958333333333 : 61.2484041341146 : JumpEnd); (7.41666666666667 : 61.2484041341146 : JumpStart); (7.58333333333333 : 61.2484041341146 : JumpEnd); (8.57291616666667 : 61.2484041341146 : JumpStart); (8.83333333333333 : 61.2484041341146 : JumpEnd); (9.04166666666667 : 61.2484041341146 : JumpStart); (9.20833333333333 : 61.2484041341146 : JumpEnd); (9.22916666666667 : 61.2484041341146 : JumpStart); (9.39583333333333 : 61.2484041341146 : JumpEnd); (9.5 : 61.2484041341146)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_TrnStockOut1" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="b970b359-9aba-4310-a0cb-1ec55a18f68b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.351561 : 56.6074039713542); (1.351561 : 61.0593057682292); (1.93229266666667 : 61.0593057682292 : JumpStart); (2.09895933333333 : 61.0593057682292 : JumpEnd); (2.33073166666667 : 61.0593057682292 : JumpStart); (2.49739833333333 : 61.0593057682292 : JumpEnd); (3.04166666666667 : 61.0593057682292 : JumpStart); (3.58333333333333 : 61.0593057682292 : JumpEnd); (6.32291666666667 : 61.0593057682292 : JumpStart); (6.48958333333333 : 61.0593057682292 : JumpEnd); (7.41666666666667 : 61.0593057682292 : JumpStart); (7.58333333333333 : 61.0593057682292 : JumpEnd); (8.57291616666667 : 61.0593057682292 : JumpStart); (8.83333333333333 : 61.0593057682292 : JumpEnd); (9.04166666666667 : 61.0593057682292 : JumpStart); (9.20833333333333 : 61.0593057682292 : JumpEnd); (9.22916666666667 : 61.0593057682292 : JumpStart); (9.39583333333333 : 61.0593057682292 : JumpEnd); (9.5 : 61.0593057682292)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_TrnStockOut2" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="b970b359-9aba-4310-a0cb-1ec55a18f68b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.218748 : 56.6074039713542); (1.218748 : 61.1218107682292); (1.93229266666667 : 61.1218107682292 : JumpStart); (2.09895933333333 : 61.1218107682292 : JumpEnd); (2.33073166666667 : 61.1218107682292 : JumpStart); (2.49739833333333 : 61.1218107682292 : JumpEnd); (3.04166666666667 : 61.1218107682292 : JumpStart); (3.58333333333333 : 61.1218107682292 : JumpEnd); (6.32291666666667 : 61.1218107682292 : JumpStart); (6.48958333333333 : 61.1218107682292 : JumpEnd); (7.41666666666667 : 61.1218107682292 : JumpStart); (7.58333333333333 : 61.1218107682292 : JumpEnd); (8.57291616666667 : 61.1218107682292 : JumpStart); (8.83333333333333 : 61.1218107682292 : JumpEnd); (9.04166666666667 : 61.1218107682292 : JumpStart); (9.20833333333333 : 61.1218107682292 : JumpEnd); (9.22916666666667 : 61.1218107682292 : JumpStart); (9.39583333333333 : 61.1218107682292 : JumpEnd); (9.5 : 61.1218107682292)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_TrnStockOut3" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="b970b359-9aba-4310-a0cb-1ec55a18f68b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.414065 : 56.6074039713542); (2.414065 : 61.2171516341146); (3.04166666666667 : 61.2171516341146 : JumpStart); (3.58333333333333 : 61.2171516341146 : JumpEnd); (6.32291666666667 : 61.2171516341146 : JumpStart); (6.48958333333333 : 61.2171516341146 : JumpEnd); (7.41666666666667 : 61.2171516341146 : JumpStart); (7.58333333333333 : 61.2171516341146 : JumpEnd); (8.57291616666667 : 61.2171516341146 : JumpStart); (8.83333333333333 : 61.2171516341146 : JumpEnd); (9.04166666666667 : 61.2171516341146 : JumpStart); (9.20833333333333 : 61.2171516341146 : JumpEnd); (9.22916666666667 : 61.2171516341146 : JumpStart); (9.39583333333333 : 61.2171516341146 : JumpEnd); (9.5 : 61.2171516341146)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_TrnStockOut4" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="b970b359-9aba-4310-a0cb-1ec55a18f68b" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="501755a8-c23c-4422-bd27-e1f50375fd30" absoluteBounds="6.875, 2.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/easyposdbDataContext/SysRLCAuditTrail" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c354fabb-480b-40f0-8999-ef6f81af9d07" absoluteBounds="6.89, 3.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(0.8203085 : 53.875); (0.8203085 : 3.53929768880208); (6.875 : 3.53929768880208)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/easyposdbDataContext/MstUser/MstUser_SysRLCAuditTrail" />
+      <nodes>
+        <classShapeMoniker Id="7924a0cc-cace-4543-bf07-6ee4886000ab" />
+        <classShapeMoniker Id="501755a8-c23c-4422-bd27-e1f50375fd30" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
